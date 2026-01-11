@@ -21,6 +21,12 @@ check_dbs/
 │
 ├── isbn_analysis_results/
 │
+├── final_tables/
+│
+├── meta_tables/
+│   ├── BOOK_AUTHORS
+│   └── BOOK_TOPIC
+│
 ├── merged_csv/
 │
 ├── scripts/ (general scripts used for checking the old dbs)
