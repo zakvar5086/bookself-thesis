@@ -1,2 +1,3 @@
 setup_venv.sh
 requirments.txt
+__pycache__/

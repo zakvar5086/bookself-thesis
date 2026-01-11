@@ -1,0 +1,2 @@
+source_db1_topics,source_db2_topics,source_db1_book_topics,source_db2_book_topics,skipped_incomplete_db1,skipped_incomplete_db2,enriched_db1_rows,enriched_db2_rows,unique_topics,id_mappings
+467,335,5502,4336,34,21,5468,4315,475,802
