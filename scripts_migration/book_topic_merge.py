@@ -1,345 +1,131 @@
-"""
-Book Topic Migration Script
-
-This script merges BookTopic data from two old databases:
-1. Loads Topic.csv (TopicID, Topic) from both databases
-2. Loads BookTopic.csv (BookTopicID, TopicID, BookID) from both databases  
-3. Enriches BookTopic with actual topic names
-4. Deduplicates topic names across both databases
-5. Generates new UUIDs for the unified BOOK_TOPIC table
-6. Creates mapping files for future reference
-
-Output:
-- BOOK_TOPIC.csv: New unified topic table with UUIDs
-- topic_id_mapping.csv: Maps old TopicIDs to new UUIDs (for updating references)
-- book_topic_enriched_db1.csv: BookTopic from db1 with topic names added
-- book_topic_enriched_db2.csv: BookTopic from db2 with topic names added
-"""
-
 import sys
 import uuid
+import pandas as pd
 from pathlib import Path
 
-import pandas as pd
-
-# Add parent directory to path for database_utils imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from database_utils import load_csv, normalize_value
 from database_utils.config import get_path
-from database_utils.reporting import (
-    print_section,
-    print_subsection,
-    print_success,
-    print_warning,
-    print_error,
-)
 
+def load_db_data(db_path):
+    """Simple loader that handles missing files gracefully."""
+    topics = pd.read_csv(db_path / "Topic.csv", dtype=str) if (db_path / "Topic.csv").exists() else pd.DataFrame(columns=["TopicID", "Topic"])
+    links = pd.read_csv(db_path / "BookTopic.csv", dtype=str) if (db_path / "BookTopic.csv").exists() else pd.DataFrame(columns=["BookTopicID", "TopicID", "BookID"])
+    return topics, links
 
-def load_topic_table(db_path: Path) -> pd.DataFrame:
-    """Load Topic.csv from a database directory."""
-    topic_file = db_path / "Topic.csv"
-    if not topic_file.exists():
-        print_error(f"Topic.csv not found in {db_path}")
-        return pd.DataFrame(columns=["TopicID", "Topic"])
-    
-    df = load_csv(topic_file, normalize=False)
-    if df is None:
-        return pd.DataFrame(columns=["TopicID", "Topic"])
-    
-    print(f"   Loaded {len(df)} topics from {db_path.name}")
-    return df
+def normalize(series):
+    return series.astype(str).str.strip().str.lower()
 
-
-def load_book_topic_table(db_path: Path) -> pd.DataFrame:
-    """Load BookTopic.csv from a database directory."""
-    book_topic_file = db_path / "BookTopic.csv"
-    if not book_topic_file.exists():
-        print_error(f"BookTopic.csv not found in {db_path}")
-        return pd.DataFrame(columns=["BookTopicID", "TopicID", "BookID"])
-    
-    df = load_csv(book_topic_file, normalize=False)
-    if df is None:
-        return pd.DataFrame(columns=["BookTopicID", "TopicID", "BookID"])
-    
-    print(f"   Loaded {len(df)} book-topic links from {db_path.name}")
-    return df
-
-
-def create_topic_id_map(topic_df: pd.DataFrame) -> dict:
-    """Create a mapping from TopicID to Topic name."""
-    return dict(zip(topic_df["TopicID"].astype(str), topic_df["Topic"]))
-
-
-def enrich_book_topics(
-    book_topic_df: pd.DataFrame, 
-    topic_map: dict,
-    db_name: str
-) -> tuple[pd.DataFrame, int]:
-    """
-    Add topic names to BookTopic dataframe.
-    Skips incomplete entries (missing TopicID).
-    
-    Returns:
-        Tuple of (enriched_df, skipped_count)
-    """
-    df = book_topic_df.copy()
-    
-    # Identify incomplete entries (missing TopicID)
-    incomplete_mask = df["TopicID"].isna() | (df["TopicID"].astype(str).str.strip() == "") | (df["TopicID"].astype(str) == "nan")
-    incomplete_count = incomplete_mask.sum()
-    
-    if incomplete_count > 0:
-        print_warning(f"{incomplete_count} incomplete entries (missing TopicID) skipped in {db_name}")
-    
-    # Filter out incomplete entries
-    df = df[~incomplete_mask].copy()
-    
-    # Map topic names
-    df["TopicID_str"] = df["TopicID"].astype(str)
-    df["TopicName"] = df["TopicID_str"].map(topic_map)
-    
-    # Check for unmapped topics (TopicID exists but not in Topic table - this is a data issue)
-    unmapped = df[df["TopicName"].isna()]
-    if len(unmapped) > 0:
-        print_warning(f"{len(unmapped)} entries have TopicIDs not found in Topic table in {db_name}")
-        print(f"   Unknown TopicIDs: {unmapped['TopicID'].unique().tolist()[:10]}...")
-    
-    df = df.drop(columns=["TopicID_str"])
-    return df, incomplete_count
-
-
-def normalize_topic_name(name: str) -> str:
-    """Normalize topic name for deduplication comparison."""
-    if pd.isna(name) or name is None:
-        return ""
-    return str(name).strip().lower()
-
-
-def merge_and_deduplicate_topics(
-    topics_db1: pd.DataFrame,
-    topics_db2: pd.DataFrame
-) -> pd.DataFrame:
-    """
-    Merge topics from both databases and deduplicate by normalized name.
-    Keeps the first occurrence's original casing.
-    """
-    all_topics = []
-    seen_normalized = set()
-    
-    # Process db1 topics first
-    for _, row in topics_db1.iterrows():
-        topic = row["Topic"]
-        normalized = normalize_topic_name(topic)
-        if normalized and normalized not in seen_normalized:
-            seen_normalized.add(normalized)
-            all_topics.append({
-                "original_topic": topic,
-                "normalized_topic": normalized,
-                "source": "db1",
-                "original_topic_id": row["TopicID"]
-            })
-    
-    # Process db2 topics
-    for _, row in topics_db2.iterrows():
-        topic = row["Topic"]
-        normalized = normalize_topic_name(topic)
-        if normalized and normalized not in seen_normalized:
-            seen_normalized.add(normalized)
-            all_topics.append({
-                "original_topic": topic,
-                "normalized_topic": normalized,
-                "source": "db2",
-                "original_topic_id": row["TopicID"]
-            })
-    
-    return pd.DataFrame(all_topics)
-
-
-def generate_new_book_topic_table(merged_topics: pd.DataFrame) -> pd.DataFrame:
-    """
-    Generate the new BOOK_TOPIC table with UUIDs.
-    
-    Schema:
-        book_topic_id: uuid
-        topic_name: text
-    """
-    new_table = pd.DataFrame({
-        "book_topic_id": [str(uuid.uuid4()) for _ in range(len(merged_topics))],
-        "topic_name": merged_topics["original_topic"].values
-    })
-    return new_table
-
-
-def create_topic_id_mapping(
-    topics_db1: pd.DataFrame,
-    topics_db2: pd.DataFrame,
-    new_book_topic: pd.DataFrame,
-    merged_topics: pd.DataFrame
-) -> pd.DataFrame:
-    """
-    Create a mapping from old TopicIDs to new book_topic_ids.
-    This helps update references in other tables during migration.
-    """
-    # Create normalized -> new_uuid mapping
-    normalized_to_uuid = {}
-    for idx, row in merged_topics.iterrows():
-        normalized_to_uuid[row["normalized_topic"]] = new_book_topic.loc[idx, "book_topic_id"]
-    
-    mappings = []
-    
-    # Map db1 TopicIDs
-    for _, row in topics_db1.iterrows():
-        normalized = normalize_topic_name(row["Topic"])
-        new_uuid = normalized_to_uuid.get(normalized, "")
-        mappings.append({
-            "source_db": "db1",
-            "old_topic_id": row["TopicID"],
-            "old_topic_name": row["Topic"],
-            "new_book_topic_id": new_uuid
-        })
-    
-    # Map db2 TopicIDs
-    for _, row in topics_db2.iterrows():
-        normalized = normalize_topic_name(row["Topic"])
-        new_uuid = normalized_to_uuid.get(normalized, "")
-        mappings.append({
-            "source_db": "db2",
-            "old_topic_id": row["TopicID"],
-            "old_topic_name": row["Topic"],
-            "new_book_topic_id": new_uuid
-        })
-    
-    return pd.DataFrame(mappings)
-
+def is_valid_id(val):
+    """Check if a value is a valid, non-empty ID."""
+    if pd.isna(val):
+        return False
+    s = str(val).strip()
+    return s != '' and s.lower() != 'nan'
 
 def main():
-    print_section("BOOK TOPIC MIGRATION")
+    out_dir = Path("migration_output")
+    out_dir.mkdir(exist_ok=True)
     
-    # Get paths from config
-    db1_path = get_path("db1")
-    db2_path = get_path("db2")
-    output_path = Path("migration_output")
-    output_path.mkdir(exist_ok=True)
+    # 1. Load Data
+    print("Loading data...")
+    t1, bt1 = load_db_data(get_path("db1"))
+    t2, bt2 = load_db_data(get_path("db2"))
     
-    print(f"\nSource DB1: {db1_path}")
-    print(f"Source DB2: {db2_path}")
-    print(f"Output: {output_path}")
+    # Track original counts before filtering
+    orig_bt1_count = len(bt1)
+    orig_bt2_count = len(bt2)
     
-    # Step 1: Load Topic tables
-    print_subsection("Step 1: Loading Topic Tables")
-    topics_db1 = load_topic_table(db1_path)
-    topics_db2 = load_topic_table(db2_path)
+    # 2. Filter incomplete BookTopic entries (missing TopicID)
+    valid_mask_1 = bt1['TopicID'].apply(is_valid_id)
+    valid_mask_2 = bt2['TopicID'].apply(is_valid_id)
     
-    if topics_db1.empty and topics_db2.empty:
-        print_error("No topic data found in either database!")
-        return
+    skipped_db1 = (~valid_mask_1).sum()
+    skipped_db2 = (~valid_mask_2).sum()
     
-    # Step 2: Load BookTopic tables
-    print_subsection("Step 2: Loading BookTopic Tables")
-    book_topics_db1 = load_book_topic_table(db1_path)
-    book_topics_db2 = load_book_topic_table(db2_path)
+    if skipped_db1 > 0:
+        print(f"  Skipping {skipped_db1} incomplete entries in DB1 (missing TopicID)")
+    if skipped_db2 > 0:
+        print(f"  Skipping {skipped_db2} incomplete entries in DB2 (missing TopicID)")
     
-    # Step 3: Create topic ID -> name mappings
-    print_subsection("Step 3: Creating Topic Mappings")
-    topic_map_db1 = create_topic_id_map(topics_db1)
-    topic_map_db2 = create_topic_id_map(topics_db2)
-    print(f"   DB1 has {len(topic_map_db1)} unique topic mappings")
-    print(f"   DB2 has {len(topic_map_db2)} unique topic mappings")
+    bt1 = bt1[valid_mask_1].copy()
+    bt2 = bt2[valid_mask_2].copy()
     
-    # Step 4: Enrich BookTopic tables with topic names
-    print_subsection("Step 4: Enriching BookTopic Tables")
-    enriched_db1, skipped_db1 = enrich_book_topics(book_topics_db1, topic_map_db1, "db1")
-    enriched_db2, skipped_db2 = enrich_book_topics(book_topics_db2, topic_map_db2, "db2")
+    # 3. Merge and Deduplicate Topics
+    t1['src'], t2['src'] = 'db1', 'db2'
+    all_topics = pd.concat([t1, t2], ignore_index=True)
     
-    # Save enriched BookTopic tables
-    enriched_db1_path = output_path / "book_topic_enriched_db1.csv"
-    enriched_db2_path = output_path / "book_topic_enriched_db2.csv"
-    enriched_db1.to_csv(enriched_db1_path, index=False)
-    enriched_db2.to_csv(enriched_db2_path, index=False)
-    print_success(f"Saved enriched db1 BookTopic to {enriched_db1_path} ({len(enriched_db1)} rows)")
-    print_success(f"Saved enriched db2 BookTopic to {enriched_db2_path} ({len(enriched_db2)} rows)")
+    # Filter out empty/NaN topics
+    all_topics = all_topics[all_topics['Topic'].notna() & (all_topics['Topic'].str.strip() != '')].copy()
     
-    # Step 5: Merge and deduplicate topics
-    print_subsection("Step 5: Merging and Deduplicating Topics")
-    merged_topics = merge_and_deduplicate_topics(topics_db1, topics_db2)
-    print(f"   Total topics from db1: {len(topics_db1)}")
-    print(f"   Total topics from db2: {len(topics_db2)}")
-    print(f"   Unique topics after deduplication: {len(merged_topics)}")
+    # Deduplicate based on normalized name (db1 takes precedence)
+    all_topics['norm_name'] = normalize(all_topics['Topic'])
+    unique_topics = all_topics.drop_duplicates(subset='norm_name').copy()
     
-    # Show some examples of deduplication
-    db1_only = merged_topics[merged_topics["source"] == "db1"]
-    db2_only = merged_topics[merged_topics["source"] == "db2"]
-    print(f"   Topics unique to db1: {len(db1_only)}")
-    print(f"   Topics unique to db2 (not in db1): {len(db2_only)}")
+    # Generate new UUIDs
+    unique_topics['new_id'] = [str(uuid.uuid4()) for _ in range(len(unique_topics))]
     
-    # Step 6: Generate new BOOK_TOPIC table with UUIDs
-    print_subsection("Step 6: Generating New BOOK_TOPIC Table")
-    new_book_topic = generate_new_book_topic_table(merged_topics)
+    # 4. Create ID Mapping (Old ID -> New UUID)
+    norm_to_uuid = dict(zip(unique_topics['norm_name'], unique_topics['new_id']))
     
-    book_topic_path = output_path / "BOOK_TOPIC.csv"
-    new_book_topic.to_csv(book_topic_path, index=False)
-    print_success(f"Saved new BOOK_TOPIC table to {book_topic_path}")
-    print(f"   New table has {len(new_book_topic)} topics")
+    mapping_rows = []
+    for df, db_name in [(t1, 'db1'), (t2, 'db2')]:
+        df = df.copy()
+        df['norm'] = normalize(df['Topic'])
+        df['new_id'] = df['norm'].map(norm_to_uuid)
+        
+        subset = df[['TopicID', 'Topic', 'new_id']].copy()
+        subset['source_db'] = db_name
+        subset.rename(columns={'TopicID': 'old_topic_id', 'Topic': 'old_topic_name', 'new_id': 'new_book_topic_id'}, inplace=True)
+        mapping_rows.append(subset)
     
-    # Step 7: Create ID mapping for reference
-    print_subsection("Step 7: Creating ID Mapping")
-    id_mapping = create_topic_id_mapping(
-        topics_db1, topics_db2, new_book_topic, merged_topics
-    )
+    id_mapping = pd.concat(mapping_rows, ignore_index=True)
     
-    mapping_path = output_path / "topic_id_mapping.csv"
-    id_mapping.to_csv(mapping_path, index=False)
-    print_success(f"Saved ID mapping to {mapping_path}")
-    print(f"   Mapping has {len(id_mapping)} entries")
+    # 5. Enrich BookTopic (Link tables)
+    map_db1 = dict(zip(t1['TopicID'], t1['Topic']))
+    map_db2 = dict(zip(t2['TopicID'], t2['Topic']))
     
-    # Step 8: Save migration metadata for validation
-    print_subsection("Step 8: Saving Migration Metadata")
-    metadata = {
-        "source_db1_topics": len(topics_db1),
-        "source_db2_topics": len(topics_db2),
-        "source_db1_book_topics": len(book_topics_db1),
-        "source_db2_book_topics": len(book_topics_db2),
-        "skipped_incomplete_db1": skipped_db1,
-        "skipped_incomplete_db2": skipped_db2,
-        "enriched_db1_rows": len(enriched_db1),
-        "enriched_db2_rows": len(enriched_db2),
-        "unique_topics": len(new_book_topic),
-        "id_mappings": len(id_mapping),
+    bt1['TopicName'] = bt1['TopicID'].map(map_db1)
+    bt2['TopicName'] = bt2['TopicID'].map(map_db2)
+    
+    # Warn about unmapped TopicIDs (exist in BookTopic but not in Topic table)
+    unmapped_1 = bt1['TopicName'].isna().sum()
+    unmapped_2 = bt2['TopicName'].isna().sum()
+    if unmapped_1 > 0:
+        print(f"  Warning: {unmapped_1} DB1 entries have TopicIDs not in Topic table")
+    if unmapped_2 > 0:
+        print(f"  Warning: {unmapped_2} DB2 entries have TopicIDs not in Topic table")
+    
+    # 6. Save Outputs
+    print(f"Saving {len(unique_topics)} unique topics...")
+    
+    final_topics = unique_topics[['new_id', 'Topic']].rename(columns={'new_id': 'book_topic_id', 'Topic': 'topic_name'})
+    final_topics.to_csv(out_dir / "BOOK_TOPIC.csv", index=False)
+    
+    id_mapping.to_csv(out_dir / "topic_id_mapping.csv", index=False)
+    
+    bt1.to_csv(out_dir / "book_topic_enriched_db1.csv", index=False)
+    bt2.to_csv(out_dir / "book_topic_enriched_db2.csv", index=False)
+    
+    # Metadata for validation
+    meta = {
+        'source_db1_topics': len(t1),
+        'source_db2_topics': len(t2),
+        'source_db1_book_topics': orig_bt1_count,
+        'source_db2_book_topics': orig_bt2_count,
+        'skipped_incomplete_db1': skipped_db1,
+        'skipped_incomplete_db2': skipped_db2,
+        'enriched_db1_rows': len(bt1),
+        'enriched_db2_rows': len(bt2),
+        'unique_topics': len(unique_topics),
+        'id_mappings': len(id_mapping),
     }
-    metadata_df = pd.DataFrame([metadata])
-    metadata_path = output_path / "book_topic_migration_metadata.csv"
-    metadata_df.to_csv(metadata_path, index=False)
-    print_success(f"Saved migration metadata to {metadata_path}")
+    pd.DataFrame([meta]).to_csv(out_dir / "book_topic_migration_metadata.csv", index=False)
     
-    # Summary
-    print_section("MIGRATION SUMMARY")
-    
-    total_skipped = skipped_db1 + skipped_db2
-    if total_skipped > 0:
-        print(f"""
-Incomplete Entries Skipped:
-  - DB1: {skipped_db1} entries with missing TopicID
-  - DB2: {skipped_db2} entries with missing TopicID
-  - Total skipped: {total_skipped}
-""")
-    
-    print(f"""
-Output Files:
-  1. BOOK_TOPIC.csv - New unified topic table ({len(new_book_topic)} topics)
-     Columns: book_topic_id (UUID), topic_name
-
-  2. topic_id_mapping.csv - Old ID to new UUID mapping ({len(id_mapping)} entries)
-     Use this to update BookTopic.TopicID references to new UUIDs
-
-  3. book_topic_enriched_db1.csv - DB1 BookTopic with topic names ({len(enriched_db1)} rows)
-  4. book_topic_enriched_db2.csv - DB2 BookTopic with topic names ({len(enriched_db2)} rows)
-     These show which books are linked to which topics
-
-Next Steps:
-  - Use topic_id_mapping.csv to update book references during Books migration
-  - The enriched files can help verify the migration is correct
-""")
+    print("Migration complete.")
+    print(f"  - {len(unique_topics)} unique topics")
+    print(f"  - {len(id_mapping)} ID mappings")
+    print(f"  - {len(bt1)} enriched DB1 links")
+    print(f"  - {len(bt2)} enriched DB2 links")
 
 if __name__ == "__main__":
     main()

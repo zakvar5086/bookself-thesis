@@ -1,0 +1,2 @@
+source_db1_authors,source_db2_authors,source_db1_book_authors,source_db2_book_authors,skipped_incomplete_db1,skipped_incomplete_db2,orphaned_db1,orphaned_db2,enriched_db1_rows,enriched_db2_rows,unique_authors,id_mappings
+4048,3575,6256,5499,56,52,1,2,6199,5445,4051,7623
