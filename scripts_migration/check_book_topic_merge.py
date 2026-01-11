@@ -1,26 +1,33 @@
+"""
+Validate the book topic migration output for data integrity.
+
+Usage:
+    python -m scripts_migration.check_book_topic_merge
+
+Requires:
+  - config.json with paths.db1 and paths.db2
+  - migration_output/ directory with merge results
+"""
+
 import sys
+import json
 import pandas as pd
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
-from database_utils.config import get_path
+def load_config():
+    with open("config.json") as f:
+        return json.load(f)
 
-def check(condition, msg):
-    if condition:
-        print(f"[PASS] {msg}")
-    else:
-        print(f"[FAIL] {msg}")
-        return False
-    return True
-
-def warn(msg):
-    print(f"[WARN] {msg}")
+def get_path(key):
+    return Path(load_config()["paths"][key])
 
 def main():
-    print("--- Validating Book Topic Migration ---")
+    print("=" * 60)
+    print("VALIDATING BOOK TOPIC MIGRATION")
+    print("=" * 60)
+    
     out_dir = Path("migration_output")
     
-    # Load Artifacts
     try:
         new_topics = pd.read_csv(out_dir / "BOOK_TOPIC.csv", dtype=str)
         mapping = pd.read_csv(out_dir / "topic_id_mapping.csv", dtype=str)
@@ -28,17 +35,15 @@ def main():
         enriched_db2 = pd.read_csv(out_dir / "book_topic_enriched_db2.csv", dtype=str)
         meta = pd.read_csv(out_dir / "book_topic_migration_metadata.csv").iloc[0]
         
-        # Load Raw Sources for verification
         src1 = pd.read_csv(get_path("db1") / "Topic.csv", dtype=str)
         src2 = pd.read_csv(get_path("db2") / "Topic.csv", dtype=str)
     except FileNotFoundError as e:
-        print(f"Critical Error: Missing file {e}")
+        print(f"[FAIL] Missing file: {e}")
         sys.exit(1)
 
-    passed = 0
-    failed = 0
+    passed, failed = 0, 0
 
-    # 1. Check Topic Preservation
+    # Check 1: Topic Preservation
     print("\n[Check 1: Topic Preservation]")
     s1_topics = set(src1['Topic'].dropna().str.strip().str.lower())
     s2_topics = set(src2['Topic'].dropna().str.strip().str.lower())
@@ -46,17 +51,18 @@ def main():
     new_topics_set = set(new_topics['topic_name'].dropna().str.strip().str.lower())
     
     missing = all_source_topics - new_topics_set
-    if check(len(missing) == 0, f"All unique source topics preserved. (Source: {len(all_source_topics)}, New: {len(new_topics_set)})"):
+    if len(missing) == 0:
+        print(f"[PASS] All unique topics preserved (Source: {len(all_source_topics)}, New: {len(new_topics_set)})")
         passed += 1
     else:
+        print(f"[FAIL] Missing {len(missing)} topics: {list(missing)[:5]}")
         failed += 1
-        print(f"   Missing: {list(missing)[:5]}...")
     
     extra = new_topics_set - all_source_topics
     if extra:
-        warn(f"{len(extra)} unexpected topics in output")
+        print(f"[WARN] {len(extra)} unexpected topics in output")
 
-    # 2. Check Mapping Completeness
+    # Check 2: Mapping Completeness
     print("\n[Check 2: Mapping Completeness]")
     mapped_ids_1 = set(mapping[mapping['source_db'] == 'db1']['old_topic_id'].astype(str))
     mapped_ids_2 = set(mapping[mapping['source_db'] == 'db2']['old_topic_id'].astype(str))
@@ -64,17 +70,21 @@ def main():
     src1_ids = set(src1['TopicID'].astype(str))
     src2_ids = set(src2['TopicID'].astype(str))
     
-    if check(src1_ids.issubset(mapped_ids_1), f"All DB1 TopicIDs mapped ({len(src1_ids)} IDs)"):
+    if src1_ids.issubset(mapped_ids_1):
+        print(f"[PASS] All DB1 TopicIDs mapped ({len(src1_ids)} IDs)")
         passed += 1
     else:
+        print(f"[FAIL] Missing DB1 TopicIDs")
         failed += 1
     
-    if check(src2_ids.issubset(mapped_ids_2), f"All DB2 TopicIDs mapped ({len(src2_ids)} IDs)"):
+    if src2_ids.issubset(mapped_ids_2):
+        print(f"[PASS] All DB2 TopicIDs mapped ({len(src2_ids)} IDs)")
         passed += 1
     else:
+        print(f"[FAIL] Missing DB2 TopicIDs")
         failed += 1
 
-    # 3. Check UUID Validity
+    # Check 3: UUID Validity
     print("\n[Check 3: UUID Validity]")
     valid_uuids = set(new_topics['book_topic_id'])
     mapped_uuids = set(mapping['new_book_topic_id'].dropna())
@@ -82,90 +92,97 @@ def main():
     mapped_uuids.discard('nan')
     
     invalid = mapped_uuids - valid_uuids
-    if check(len(invalid) == 0, f"All {len(mapped_uuids)} mapped UUIDs exist in BOOK_TOPIC table"):
+    if len(invalid) == 0:
+        print(f"[PASS] All {len(mapped_uuids)} mapped UUIDs exist in BOOK_TOPIC")
         passed += 1
     else:
+        print(f"[FAIL] {len(invalid)} invalid UUIDs: {list(invalid)[:5]}")
         failed += 1
-        print(f"   Invalid: {list(invalid)[:5]}...")
 
-    # 4. Duplicate Checks
+    # Check 4: No Duplicates
     print("\n[Check 4: No Duplicates]")
-    dupe_uuid = new_topics['book_topic_id'].duplicated().any()
-    if check(not dupe_uuid, "No duplicate UUIDs in new table"):
+    if not new_topics['book_topic_id'].duplicated().any():
+        print("[PASS] No duplicate UUIDs")
         passed += 1
     else:
+        print("[FAIL] Duplicate UUIDs found")
         failed += 1
     
-    dupe_names = new_topics['topic_name'].str.strip().str.lower().duplicated().any()
-    if check(not dupe_names, "No duplicate topic names in new table"):
+    if not new_topics['topic_name'].str.strip().str.lower().duplicated().any():
+        print("[PASS] No duplicate topic names")
         passed += 1
     else:
+        print("[FAIL] Duplicate topic names found")
         failed += 1
 
-    # 5. Enriched Files Completeness
+    # Check 5: Enriched Files
     print("\n[Check 5: Enriched Files Have TopicNames]")
     db1_missing = enriched_db1['TopicName'].isna() | (enriched_db1['TopicName'] == '')
     db2_missing = enriched_db2['TopicName'].isna() | (enriched_db2['TopicName'] == '')
     
-    if check(db1_missing.sum() == 0, f"All enriched_db1 rows have TopicNames ({len(enriched_db1)} rows)"):
+    if db1_missing.sum() == 0:
+        print(f"[PASS] All enriched_db1 rows have TopicNames ({len(enriched_db1)} rows)")
         passed += 1
     else:
+        print(f"[FAIL] {db1_missing.sum()} rows missing TopicName")
         failed += 1
-        print(f"   {db1_missing.sum()} rows missing TopicName")
     
-    if check(db2_missing.sum() == 0, f"All enriched_db2 rows have TopicNames ({len(enriched_db2)} rows)"):
+    if db2_missing.sum() == 0:
+        print(f"[PASS] All enriched_db2 rows have TopicNames ({len(enriched_db2)} rows)")
         passed += 1
     else:
+        print(f"[FAIL] {db2_missing.sum()} rows missing TopicName")
         failed += 1
-        print(f"   {db2_missing.sum()} rows missing TopicName")
 
-    # 6. Row Count Verification
+    # Check 6: Row Count Verification
     print("\n[Check 6: Row Count Sanity]")
     skipped_db1 = int(meta['skipped_incomplete_db1'])
     skipped_db2 = int(meta['skipped_incomplete_db2'])
     src_db1_count = int(meta['source_db1_book_topics'])
     src_db2_count = int(meta['source_db2_book_topics'])
     
-    # Expected: enriched rows + skipped = source total
     expected_db1 = src_db1_count - skipped_db1
     expected_db2 = src_db2_count - skipped_db2
     
-    if check(len(enriched_db1) == expected_db1, f"DB1 row count: {len(enriched_db1)} enriched + {skipped_db1} skipped = {src_db1_count} source"):
+    if len(enriched_db1) == expected_db1:
+        print(f"[PASS] DB1: {len(enriched_db1)} enriched + {skipped_db1} skipped = {src_db1_count}")
         passed += 1
     else:
+        print(f"[FAIL] DB1: got {len(enriched_db1)}, expected {expected_db1}")
         failed += 1
-        print(f"   Got {len(enriched_db1)}, expected {expected_db1}")
     
-    if check(len(enriched_db2) == expected_db2, f"DB2 row count: {len(enriched_db2)} enriched + {skipped_db2} skipped = {src_db2_count} source"):
+    if len(enriched_db2) == expected_db2:
+        print(f"[PASS] DB2: {len(enriched_db2)} enriched + {skipped_db2} skipped = {src_db2_count}")
         passed += 1
     else:
+        print(f"[FAIL] DB2: got {len(enriched_db2)}, expected {expected_db2}")
         failed += 1
-        print(f"   Got {len(enriched_db2)}, expected {expected_db2}")
     
-    # Topic table count check
-    if check(len(new_topics) == len(all_source_topics), f"BOOK_TOPIC count matches unique topics ({len(new_topics)})"):
+    if len(new_topics) == len(all_source_topics):
+        print(f"[PASS] BOOK_TOPIC count matches unique topics ({len(new_topics)})")
         passed += 1
     else:
+        print(f"[FAIL] BOOK_TOPIC count mismatch")
         failed += 1
 
-    # 7. Skipped Entries
+    # Check 7: Skipped Summary
     print("\n[Check 7: Skipped Entry Summary]")
     total_skipped = skipped_db1 + skipped_db2
     if total_skipped > 0:
-        warn(f"{total_skipped} incomplete entries skipped (DB1: {skipped_db1}, DB2: {skipped_db2})")
+        print(f"[WARN] {total_skipped} incomplete entries skipped (DB1: {skipped_db1}, DB2: {skipped_db2})")
     else:
-        print(f"[INFO] No incomplete entries were skipped")
+        print("[INFO] No incomplete entries skipped")
 
-    # Summary
-    print("\n--- Validation Summary ---")
-    print(f"Passed: {passed}")
-    print(f"Failed: {failed}")
+    # Final Summary
+    print("\n" + "=" * 60)
+    print(f"SUMMARY: {passed} passed, {failed} failed")
+    print("=" * 60)
     
     if failed == 0:
-        print("\nALL CHECKS PASSED - No data loss detected!")
+        print("[PASS] ALL CHECKS PASSED")
         return True
     else:
-        print("\nVALIDATION FAILED - Review errors above")
+        print("[FAIL] VALIDATION FAILED")
         return False
 
 if __name__ == "__main__":

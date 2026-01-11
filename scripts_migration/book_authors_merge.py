@@ -1,13 +1,23 @@
-import sys
+"""
+Merge Authors tables from db1 and db2, deduplicate by name, and generate UUID mappings.
+
+Usage:
+    python -m scripts_migration.book_authors_merge
+"""
+
+import json
 import uuid
 import pandas as pd
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
-from database_utils.config import get_path
+def load_config():
+    with open("config.json") as f:
+        return json.load(f)
+
+def get_path(key):
+    return Path(load_config()["paths"][key])
 
 def load_db_data(db_path):
-    """Loads Authors and BookAuthors, handling missing files gracefully."""
     a_path = db_path / "Authors.csv"
     authors = pd.read_csv(a_path, dtype=str) if a_path.exists() else pd.DataFrame(columns=["AuthorID", "FirstName", "MiddleName", "LastName"])
     
@@ -17,11 +27,9 @@ def load_db_data(db_path):
     return authors, links
 
 def clean_str(series):
-    """Standardizes string columns to prevent NaN issues."""
     return series.fillna('').astype(str).str.strip()
 
 def process_names(df):
-    """Adds combined first_name and normalized key columns vectorized."""
     f = clean_str(df.get('FirstName', pd.Series(dtype=str)))
     m = clean_str(df.get('MiddleName', pd.Series(dtype=str)))
     l = clean_str(df.get('LastName', pd.Series(dtype=str)))
@@ -34,7 +42,6 @@ def process_names(df):
     return df
 
 def is_valid_id(val):
-    """Check if a value is a valid, non-empty ID."""
     if pd.isna(val):
         return False
     s = str(val).strip()
@@ -44,15 +51,18 @@ def main():
     out_dir = Path("migration_output")
     out_dir.mkdir(exist_ok=True)
     
-    print("Loading data...")
+    print("=" * 60)
+    print("BOOK AUTHORS MERGE")
+    print("=" * 60)
+    
+    print("\n[INFO] Loading data...")
     a1, ba1 = load_db_data(get_path("db1"))
     a2, ba2 = load_db_data(get_path("db2"))
     
-    # Track original counts before filtering
     orig_ba1_count = len(ba1)
     orig_ba2_count = len(ba2)
     
-    # Filter incomplete BookAuthors entries (missing AuthorID)
+    # Filter incomplete BookAuthors entries
     valid_mask_1 = ba1['AuthorID'].apply(is_valid_id)
     valid_mask_2 = ba2['AuthorID'].apply(is_valid_id)
     
@@ -60,32 +70,32 @@ def main():
     skipped_db2 = (~valid_mask_2).sum()
     
     if skipped_db1 > 0:
-        print(f"  Skipping {skipped_db1} incomplete entries in DB1 (missing AuthorID)")
+        print(f"[WARN] Skipping {skipped_db1} incomplete entries in DB1 (missing AuthorID)")
     if skipped_db2 > 0:
-        print(f"  Skipping {skipped_db2} incomplete entries in DB2 (missing AuthorID)")
+        print(f"[WARN] Skipping {skipped_db2} incomplete entries in DB2 (missing AuthorID)")
     
     ba1 = ba1[valid_mask_1].copy()
     ba2 = ba2[valid_mask_2].copy()
     
-    # 1. Pre-process Authors (Combine Names & Create Keys)
+    # Pre-process Authors
     a1['source_db'] = 'db1'
     a2['source_db'] = 'db2'
     
     a1 = process_names(a1)
     a2 = process_names(a2)
     
-    # Filter out empty entries (key == "|")
+    # Filter empty entries
     a1 = a1[a1['key'] != '|']
     a2 = a2[a2['key'] != '|']
     
-    # 2. Merge and Deduplicate
+    # Merge and deduplicate
     all_authors = pd.concat([a1, a2], ignore_index=True)
     unique_authors = all_authors.drop_duplicates(subset='key').copy()
     unique_authors['book_author_id'] = [str(uuid.uuid4()) for _ in range(len(unique_authors))]
     
-    print(f"Merged {len(all_authors)} total source authors into {len(unique_authors)} unique authors.")
+    print(f"[INFO] Merged {len(all_authors)} authors -> {len(unique_authors)} unique")
 
-    # 3. Create ID Mapping
+    # Create ID mapping
     key_to_uuid = unique_authors[['key', 'book_author_id']].set_index('key')
     
     mapping = all_authors[['source_db', 'AuthorID', 'FirstName', 'MiddleName', 'LastName', 'key']].copy()
@@ -108,30 +118,28 @@ def main():
     ba2_enriched = ba2.merge(map_db2[['old_first_name', 'old_last_name', 'new_book_author_id']], 
                              left_on='AuthorID', right_index=True, how='left')
     
-    # Filter out orphaned BookAuthors (AuthorID not in Authors table)
+    # Filter orphaned entries
     orphaned_db1 = ba1_enriched['new_book_author_id'].isna().sum()
     orphaned_db2 = ba2_enriched['new_book_author_id'].isna().sum()
     if orphaned_db1 > 0:
-        print(f"  Filtering {orphaned_db1} DB1 entries with AuthorIDs not in Authors table")
+        print(f"[WARN] Filtering {orphaned_db1} DB1 entries with AuthorIDs not in Authors table")
         ba1_enriched = ba1_enriched[ba1_enriched['new_book_author_id'].notna()].copy()
     if orphaned_db2 > 0:
-        print(f"  Filtering {orphaned_db2} DB2 entries with AuthorIDs not in Authors table")
+        print(f"[WARN] Filtering {orphaned_db2} DB2 entries with AuthorIDs not in Authors table")
         ba2_enriched = ba2_enriched[ba2_enriched['new_book_author_id'].notna()].copy()
 
-    # 5. Save Outputs
-    print("Saving files...")
+    # Save outputs
+    print("\n[INFO] Saving files...")
     
     final_table = unique_authors[['book_author_id', 'final_first_name', 'final_last_name']].rename(
         columns={'final_first_name': 'first_name', 'final_last_name': 'last_name'}
     )
     final_table.to_csv(out_dir / "BOOK_AUTHORS.csv", index=False)
-    
     mapping.drop(columns=['key']).to_csv(out_dir / "author_id_mapping.csv", index=False)
-    
     ba1_enriched.to_csv(out_dir / "book_authors_enriched_db1.csv", index=False)
     ba2_enriched.to_csv(out_dir / "book_authors_enriched_db2.csv", index=False)
     
-    # Metadata for validation
+    # Metadata
     meta = {
         'source_db1_authors': len(a1),
         'source_db2_authors': len(a2),
@@ -148,7 +156,7 @@ def main():
     }
     pd.DataFrame([meta]).to_csv(out_dir / "book_authors_migration_metadata.csv", index=False)
     
-    print("Migration complete.")
+    print(f"\n[PASS] Migration complete")
     print(f"  - {len(unique_authors)} unique authors")
     print(f"  - {len(mapping)} ID mappings")
     print(f"  - {len(ba1_enriched)} enriched DB1 links")

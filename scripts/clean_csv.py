@@ -1,90 +1,67 @@
 """
-Clean CSV files by removing metadata lines from the beginning and end.
+Clean CSV files by removing metadata lines from beginning and end
 
-This script removes Access export metadata that appears at the start
-and end of CSV files exported from Microsoft Access databases.
+Usage:
+    python -m scripts.clean_csv
+
+Requires config.json with:
+  - paths.db1, paths.db2
+  - clean_csv.remove_first_lines, clean_csv.remove_last_lines
 """
+
+import json
 from pathlib import Path
-from database_utils.config import get_path, get_config_value
-from database_utils.reporting import print_section, print_success, print_error
 
+def load_config():
+    with open("config.json") as f:
+        return json.load(f)
 
-def clean_csv_file(file: Path, first: int, last: int) -> bool:
-    """
-    Remove first N and last M lines from a CSV file.
-    
-    Args:
-        file: Path to CSV file
-        first: Number of lines to remove from start
-        last: Number of lines to remove from end
-        
-    Returns:
-        True if successful, False otherwise
-    """
+def clean_file(file: Path, first: int, last: int) -> bool:
     try:
-        # Read all lines from file
         lines = file.read_text(encoding="utf-8", errors="ignore").splitlines()
-
-        # Check if file has enough lines
+        
         if len(lines) <= first + last:
-            print_error(f"Too few lines ({len(lines)}), skipping", file.name)
+            print(f"[WARN] {file.name}: too few lines ({len(lines)}), skipping")
             return False
 
-        # Extract the middle portion (remove first and last)
         cleaned = lines[first:len(lines)-last]
-
-        # Write cleaned content back to file
         file.write_text("\n".join(cleaned), encoding="utf-8")
-        print_success(f"Cleaned {file.name}")
+        print(f"[PASS] {file.name}")
         return True
-        
     except Exception as e:
-        print_error(str(e), file.name)
+        print(f"[FAIL] {file.name}: {e}")
         return False
 
-
-def clean_folder(folder: Path, first: int, last: int) -> None:
-    """
-    Clean all CSV files in a folder.
-    
-    Args:
-        folder: Directory containing CSV files
-        first: Number of lines to remove from start of each file
-        last: Number of lines to remove from end of each file
-    """
+def clean_folder(folder: Path, first: int, last: int):
     csv_files = list(folder.glob("*.csv"))
     
     if not csv_files:
-        print_error(f"No CSV files found in {folder}")
+        print(f"[WARN] No CSV files in {folder}")
         return
     
-    # Process each CSV file
-    success_count = 0
-    for file in csv_files:
-        if clean_csv_file(file, first, last):
-            success_count += 1
-    
-    print(f"\nCleaned {success_count}/{len(csv_files)} files successfully")
-
+    success = sum(1 for f in csv_files if clean_file(f, first, last))
+    print(f"\nCleaned {success}/{len(csv_files)} files")
 
 def main():
-    """Main entry point for cleaning CSV files."""
-    # Load configuration
-    folder1 = get_path("db1")
-    folder2 = get_path("db2")
-    first = get_config_value("clean_csv", "remove_first_lines")
-    last = get_config_value("clean_csv", "remove_last_lines")
+    cfg = load_config()
+    
+    folder1 = Path(cfg["paths"]["db1"])
+    folder2 = Path(cfg["paths"]["db2"])
+    first = cfg.get("clean_csv", {}).get("remove_first_lines", 0)
+    last = cfg.get("clean_csv", {}).get("remove_last_lines", 0)
 
-    print_section("Cleaning CSV Files")
-    print(f"Configuration: remove first {first} lines, last {last} lines\n")
+    print("=" * 60)
+    print("CLEANING CSV FILES")
+    print("=" * 60)
+    print(f"Config: remove first {first} lines, last {last} lines\n")
 
-    # Clean both database folders
     print(f"Cleaning: {folder1}")
     clean_folder(folder1, first, last)
 
     print(f"\nCleaning: {folder2}")
     clean_folder(folder2, first, last)
 
+    print("\n[PASS] Done")
 
 if __name__ == "__main__":
     main()
