@@ -1,0 +1,11 @@
+CoverType,CoverTypeID
+paperback,1
+διαφάνεια,2
+without cover,3
+spiral,4
+ντοσιέ,5
+hardbound,6
+hardbound/cd-rom set,7
+paperback/cd-rom set,8
+paperback/spiral,9
+hardcover,10

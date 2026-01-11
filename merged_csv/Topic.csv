@@ -1,0 +1,496 @@
+Topic,TopicID
+equipment,1
+cd-roms,2
+communications,3
+information systems,5
+catalogs,6
+human factors,7
+ergonomics course,8
+general purpose,9
+human-computer interaction,10
+technical aids,12
+h/d documentation,13
+disability,14
+user interfaces,15
+cec programs,16
+occupational therapy,18
+sociology,19
+sun systems,20
+assistive technology,21
+educational technology,22
+computer graphics,23
+knowledge-based systems,24
+robotics,25
+computer science,26
+ibm pc,27
+programming language c,28
+expert systems,29
+innovation,30
+object-oriented programming,31
+speech recognition,33
+software engineering,34
+neural computing,36
+tide cost,37
+natural language,38
+microsoft office,39
+computational linguistics,40
+multimedia systems,41
+artificial intelligence,42
+directory,43
+esprit,46
+graphics programming,47
+race,48
+statistics,49
+internet/web design,51
+apple pc,52
+logic programming,53
+vocational training,54
+software reengineering,56
+x-windows,57
+ercim,58
+software development,59
+testing,60
+psychology,61
+virtual reality,63
+autocad,64
+autovision,66
+multimedia,68
+human performance,70
+marketing,71
+rehabilitation technology,72
+tide,73
+databases,75
+dictionaries,76
+hypermedia,77
+hypertext,78
+esprit/hufit,79
+usability,80
+modeling,81
+aim,82
+communication aids,83
+prolog,85
+systems analysis,86
+networks,89
+information technology,90
+lecture notes in computer science,92
+borland c++,93
+paradox for windows,94
+borland visual,95
+turbo c,96
+paradox,97
+borland c,98
+ms-windows,100
+pattern recognition,101
+ergonomics,103
+management,104
+visualization,106
+compilers,107
+economics,108
+desqview/x,110
+h/w documentation,112
+microcomputers,113
+research evaluation,114
+data structures,115
+telecommunications,116
+pc tools,117
+biceps,119
+tide/access,121
+signal processing,122
+delta,123
+rise,125
+race/drive/delta/aim,126
+drive,127
+ms-dos,128
+corel draw,129
+mouse,131
+sound card,132
+business,134
+rehabilitation engineering,137
+unix operating system,138
+tide/guib,139
+health care,140
+telematics,141
+cognitive science,142
+windows programming,143
+braille,146
+visual languages,147
+visual systems,148
+image processing,150
+systems design,152
+serpent system,153
+printers,155
+icap directory,157
+software management,158
+systems engineering,159
+mathematics,161
+authorware,164
+backup,165
+digital systems,166
+modem,168
+microsoft visual c,169
+microsoft windows,170
+microsoft masm,171
+microsoft visual c++,173
+microsoft visual basic,174
+microsoft windows nt,175
+s/w documentation,177
+rtlink/plus,179
+voice processing,181
+tide/cost,182
+sas software,184
+worldtoolkit for windows,185
+speech recognition systems,187
+xenix,189
+tide/heart,190
+wordperfect,191
+programming languages,196
+knowledge representation,197
+focus groups,199
+digital libraries,201
+software evaluation,203
+computer supported cooperative work,207
+microprocessors,208
+electronic commerce,210
+software reuse,213
+internet,216
+audio-visual,218
+speech reading,221
+information society,226
+software quality management,230
+quality control,237
+standards,238
+dynamical systems,240
+basic,249
+multimedia programming,250
+work groups,251
+scriptwriting,252
+metaphors,253
+groupware,254
+agents,255
+lecture notes in artificial intelligence,257
+computer-biographies,258
+geometry,259
+unix programming,261
+powerchute plus,262
+norton utilities,264
+grammatik 5,265
+autodesk 3d studio,266
+cyberscpace developer kit,267
+turbo assembler,268
+turbo debugger,269
+turbo profiler,270
+java,271
+internet programming,272
+automated reasoning,273
+business re-engineering,275
+interactive systems,276
+systems development,277
+cryptography,278
+semiotics,280
+research reports esprit,281
+speech technology,282
+document designing,284
+programming,286
+computer visualisation,287
+computer documentation,292
+algorithms,293
+computers and civilisation,294
+juvenile literature,295
+information security,296
+graphic design,297
+typography,299
+art & science,300
+ethical & social aspects,301
+information theory,302
+data processing,303
+law,304
+distance learning,305
+sign language,306
+computer animation,307
+bioethics,308
+endophysics,309
+teaching and learning,310
+computers and children,311
+research report,312
+communication and technology,313
+desktop publishing,314
+business presentations,315
+technology,316
+accessibility,317
+telemedicine,318
+health,319
+computational geometry,320
+design,321
+powerpoint,322
+gerontechnology,323
+smart homes,324
+video telephony,325
+text telephony,326
+media,327
+information networks,328
+educational,329
+children's learning,330
+interactive multimedia,331
+art & electronics,332
+video techniques,333
+activity theory,334
+www,335
+benchmarking,336
+teleworking,337
+mathematical models,338
+guidelines,339
+computer networks,340
+graphical user interfaces,341
+web design,342
+e-commerce,343
+animation,344
+instructional systems,345
+decision making,346
+computer-aided design,347
+task analysis,348
+wearable computers,349
+markup languages,350
+international studies,351
+collaboration,352
+web,353
+xml,354
+sql,355
+signs/symbols,356
+computing systems,357
+pictorial symbols,358
+machine learning,359
+empirical evaluation,360
+adaptive systems,361
+contracts,362
+universal access,363
+industrial engineering,364
+medical informatics,365
+special education,366
+game-based learning,367
+xslt,368
+human communication,369
+cybernetics,370
+presentation,371
+semantic web,372
+image education,373
+design for all,374
+software design,375
+support systems,376
+ict,377
+uniquitous computing,378
+ubiquitous computing,379
+numerical simulation,380
+human engineering,381
+system design,382
+research,383
+mobile communication,384
+c++,385
+c#,386
+inclusive design,388
+cross-media publishing,389
+service delivery,390
+socio-ecocomic issues,391
+information design,392
+environment,393
+assessment,394
+mobile devices and services,395
+web servers,396
+networking,397
+employment,398
+egovernment,399
+social inclusion,400
+culture,401
+social exclusion,402
+visualisation,403
+reasoning,404
+disability and computers,405
+eaccessibility,406
+einfrastructure,407
+interfaces,408
+optoelectronics,409
+circuits,410
+eadoption,411
+knowledge economy,412
+feedback and control systems,413
+mental retardation,414
+workshops,415
+market analysis,416
+video games,417
+cost,418
+new technologies,419
+games,420
+visual disability,421
+ambient intelligence,422
+mobility impairments,423
+security,424
+programme design,425
+impact assessment,426
+transnational cooperation,427
+portals,428
+taxonomies,429
+graphics design,430
+e-inclusion,431
+internationalization,432
+management information,433
+computer work,434
+applications/services,435
+multimodal environments,436
+interaction design,437
+online communities,438
+social computing,439
+human modeling,440
+augmented cognition,441
+engineering psychology,442
+intuition,443
+knowledge capture,444
+pervasive computing,445
+functionality,446
+software visualization,447
+web accessibility,448
+χωροταξία - περιβάλλον,449
+wireless networks,450
+peer-to-peer computing,451
+informaton & communication,452
+elderly,453
+services,454
+service engineering,455
+design engineering,456
+human interface,457
+information management,458
+communications in computer and information science,459
+υπολογιστική γεωμετρία,460
+θεωρία υπολογισμού,461
+μαθηματική λογική,462
+augmented communication,463
+software,464
+philosophy,465
+resilient systems,466
+computer entertainment,467
+business process management,468
+industry,469
+lecture notes in business information processing,470
+embedded systems,471
+elearning,472
+universal design,473
+cross-cultural design,474
+ambient environments,475
+social media,476
+hci international,477
+learning technologies,478
+haptic systems,479
+multisensors,480
+entertainment media,481
+augmented reality,482
+writing,483
+thesis,484
+springer series on cultural computing,485
+music,486
+physiological computing,487
+semantic models,488
+eye-tracking technologies,489
+intelligent user interfaces,490
+semantic acquisition games (sags),491
+metadata,492
+computation,493
+facebook,494
+springer series on touch and haptic systems,495
+haptics,496
+open science,497
+entertainment,498
+hand gesture recognition,499
+simulation,500
+springer briefs in digital spaces,501
+springer briefs in education,502
+springer briefs in electrical and computer engineering,503
+springer briefs in applied sciences and technology - polimi springer briefs,504
+data analysis,505
+twitter,506
+springer briefs in computer science,507
+data security,508
+springer briefs in cybersecurity,509
+evakuation,510
+safety,511
+risk management,512
+user engineering,513
+lecture notes in electrical engineering,514
+teenagers,515
+children,516
+secularization,517
+art,518
+smart learning,519
+smart cities,520
+tablet technology,521
+user centred design,522
+creativity,523
+automotive environments,524
+distributed systems,525
+monitoring,526
+springer briefs in human-computer interaction,527
+government,528
+springer notes in computer science,529
+user expeience,530
+undergraduate topics in computer science,532
+big data,533
+,534
+questionnaire design,535
+user experience,536
+digital technologies,537
+museums,538
+transport,539
+,540
+virtual environments,541
+assistive environments,542
+cybersecurity,543
+cognitive ergonomics,544
+well-being,545
+aging,546
+ethics,547
+sustainability,548
+intelligent environments,549
+automation,550
+e-services,551
+deep learning,552
+cognitive technologies,553
+text-to-speech (tts),554
+teaching technology,555
+information science and technology (ist),556
+extended reality,557
+biometrics,558
+arts,559
+metaverse,560
+ux,561
+artificial psychology,562
+language models,563
+autism,564
+conceptual models,565
+humanity,566
+sketching,567
+technology acceptance model (tam),568
+world wide web navigation,408
+user support tools,409
+ambient intelligence,410
+user experience,411
+human interface,412
+information management,413
+engineering psychology,414
+augmented reality,415
+social computing,416
+social media,417
+augmented cognition,418
+human modeling,419
+learning technologies,420
+aged population,421
+security,422
+games,423
+mobility,424
+transport,425
+multimodality,426
+pervasive interactions,427
+government,428
+human aspects,429
+cybersecurity,430
+cross-cultural design,431
+cognitive ergonomics,432
+digital human modeling,433
+distributed interactions,434
+privacy,435

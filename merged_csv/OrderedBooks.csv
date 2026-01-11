@@ -1,0 +1,186 @@
+BookID,ISBN,Inserted,OrderID,PublicationYear,Publisher,Title
+18,0566075776,true,3,1996,gower publishing group,a practical guide to business process re-engineering
+22,1572316047,true,2,1997,microsoft corporation,visual basic 5.0: programmer's guide
+23,0137483287,true,2,1997,prentice-hall,core visual basic 5 (the core series)
+24,0672309793,false,2,1996,sams publishing,visual basic 5 unleashed (not needed for the moment)
+25,1556156677,true,2,1995,microsoft corporation,hardcore visual basic
+26,1572314362,true,2,1997,microsoft corporation,microsoft visual basic 5.0 developer's workshop (fourth edition)
+27,0471116904,true,2,1997,john wiley & sons,handbook of human factors and ergonomics
+28,0787903582,true,3,1997,jossey-bass,steps to the future: fresh thinking on the dynamics of it-based organizational transformation
+29,1850321930,true,3,1995,international thomson computer press,rapid prototyping: reengineering the development process
+30,0852926219,true,3,1995,institute of personnel and development,re-engineering's missing ingredient: the human factor
+31,047195490x,true,3,1996,john wiley & sons,managing business process: bpr and beyond
+32,0814479235,true,3,1996,amecom,reengineering handbook: a step-by-step guide to business transformation
+33,0471118079,true,3,1996,john wiley & sons,reengineering your nonprofit organisation: a guide to strategic transformation
+34,0387945539,true,3,1995,springer-verlag wien new york,software methods for business reengineering
+35,0256154783,true,3,1996,,"strategic management: formulation, implementation, and control"
+36,0070019746,true,3,1995,mcgraw-hill,systems requirements and process reengineering: a modeling and prototyping guide
+37,0077079922,false,3,1995,mcgraw-hill,"total competitiveness: the 7 questions for re-engineering - where you are, where you want to be and how to get there"
+38,0875846734,true,3,1996,harvard business sch,fast forward: the best ideas on managing business change
+39,0712675450,false,3,1995,business books,crunchtime: how to re-engineer your organization (out of print)
+40,0133107078,true,3,1995,prentice-hall,the essence of business process re-engineering
+41,0412640007,true,3,1995,indernational federation for information processing,informations systems development for decentralized organization
+42,0070157685,true,3,1997,mcgraw-hill,iso 9000 management systems manual
+43,007011224x,true,3,1995,mcgraw-hill,best practices in reengineering: what works and what doesn't in reengineering turnarounds
+44,0079122825,false,3,1997,mcgraw-hill,the business process reengineering workbook
+45,1878289292,true,3,1995,idea group publishing,"business process change: reengineering concepts, methods and technologies"
+46,0471950882,true,3,1994,john wiley & sons,business process reengineering: breakpoint strategies for market dominance
+47,1558604111,true,6,1997,morgan kaufmann publishers,contextual design: defining customer centered systems
+48,1558604448,true,6,1997,morgan kaufmann publishers,reading in intelligent user interfaces
+49,1558604189,false,6,1997,morgan kaufmann publishers,introduction to user interface software
+50,1558603107,true,6,1995,morgan kaufmann publishers,human computer interface design: success cases emerging methods and real-world context
+52,1558604626,true,6,1997,morgan kaufmann publishers,applying case-based reasoning
+53,1558604030,true,6,1997,morgan kaufmann publishers,predictive data mining
+54,1558603018,true,6,1995,morgan kaufmann publishers,elements of machine learning
+55,155860166x,true,6,1995,morgan kaufmann publishers,introduction to knowledge systems
+56,155860460x,true,6,1997,morgan kaufmann publishers,foundations of genetic algorithms (volume 4)
+57,1558604790,true,6,1991,morgan kaufmann publishers,probabilistic reasoning in intelligent systems
+58,1558602607,true,6,1994,morgan kaufmann publishers,intelligent scheduling
+59,1558604200,true,6,1997,morgan kaufmann publishers,intelligent java programming for the internet and intranets
+60,1558604596,true,6,1997,morgan kaufmann publishers,"practical digital libraries: books, bytes, and bucks"
+61,1558604545,true,6,1997,morgan kaufmann publishers,readings in information retrieval
+63,155860457x,false,6,1997,morgan kaufmann publishers,java under the hood
+64,1558604650,false,6,1997,morgan kaufmann publishers,an introduction to the omg's unified modeling language
+65,155860443x,true,6,1997,morgan kaufmann publishers,an introduction to advanced database systems
+66,1558604340,true,6,1997,morgan kaufmann publishers,"principles of database query processing for advanced applications: multimedia, object-oriented, and distributed /heterogeneous databases"
+67,1898972125,true,6,1997,ovum,agents on the web catalyst for e-commerce
+68,,true,6,1996,ovum,best practice in software development: experiences in european industry
+69,1556156790,true,6,1995,microsoft corporation,the windows interface guidelines for software design: an application design guide
+70,1568843224,true,6,1995,idg books worldwide,about face: the essentials of user interface design
+71,1556158742,false,6,1995,microsoft corporation,mastering microsoft windows 95 user interface design
+72,0226103897,true,6,1993,university of chicago,"the chicago manual of style: the essential guide for writers, editors, and publishers (14th edition)"
+73,0024181900,true,6,1979,allyn and bacon,elements of style (3rd indexd edition)
+74,1566091594,true,6,1994,peachpit press,the non-designer's design book: design nad typographic principles for the visual novice
+75,0471157554,true,6,1997,john wiley & sons,the essential guide to user interface design: an introduction to gui design principles and techniques
+76,0471175498,true,6,1997,john wiley & sons,gui design essentials
+77,0201694972,true,6,1997,longman,designing the user interface: strategies for effective human-computer interaction
+78,0471117099,true,6,1995,john wiley & sons,"applied cryptography: protocols, algorithms, and source code in c"
+79,,false,7,1996,mcgraw-hill,fundamentals of behavioral statistics
+80,,false,7,1982,addison-wesley publishing company,fundamentals of behavioral research
+81,,false,7,1997,john wiley & sons,the elements of user interface design
+82,,false,7,1993,john wiley & sons,the gui-ooui war: the designer's guide to human-computer interfaces
+83,1572315652,false,7,1997,microsoft corporation,inside visual c++ (fourth edition)
+84,080581566x,true,8,1996,lawrence erlbaum associates,"design rationale: concepts, techniques, and use (computers, cognition, and work)"
+85,0471076597,true,9,1995,john wiley & sons,scenario-based design: envisioning work and technology in system development
+86,9810228309,true,10,1997,world scientific,"knowledge-based systems: advanced concepts, techniques and applications"
+87,0837949321,true,10,1997,springer,beyond calculation: the next fifty years of computing
+88,3450620672,false,10,1997,springer,advanced interfaces for the information society: human confort and security in the ue of information systems
+89,3540594833,true,10,1997,springer,document management for hypermedia design
+90,3540626972,true,10,1997,springer,hypermedia systems and applications: world wide web and beyond
+91,3540199861,true,10,1997,springer,the ergonomics of computer pointing devices
+92,3540620036,true,10,1996,springer,the design of intelligent agents: a layered approach
+93,3540627359,true,10,1997,springer,creating  personalities for synthetic  actors towards autonomous personality agents
+94,3540609237,true,10,1996,springer,adaption and learning in multi-agent  systems
+95,3540610448,true,10,1996,springer,communication and cooperation in agent systems:  a pragmatic theory
+96,3540625070,true,10,1997,springer,"intelligent agents iii: agent theories, architectures, and languages"
+97,3540625607,true,10,1997,springer,software agents and soft computing: towards enhancing machine intelligence: concepts and applications
+98,3540625917,true,10,1997,springer,cooperative information agents
+99,3540626867,true,10,1997,springer,intelligent  agent  systems: theoretical and practical issues
+100,3540628037,true,10,1997,springer,mobile agents
+101,3540588558,true,10,1995,springer,intelligent  agents
+102,3540611576,false,10,1996,springer,applications of multi-agent systems
+103,3540601554,true,10,1995,springer,from reaction to cognition
+104,3540582665,true,10,1994,springer,artificial social systems
+108,0748407626,true,13,,taylor & francis,an introduction to usability
+109,0849331250,true,13,,crc press,user interface design: bridging the gap from user requirements to design
+110,0262161702,true,13,,mit press,affective computing
+111,0553061720,false,13,,broadway books,nine essential principles for growing your business on the world wide web
+112,0875847595,true,13,,harvard business sch,net gain: expanding markets through virtual communities
+113,,true,14,1982,open university press,learning to use statistical tests in psychology: a student's guide
+114,,true,14,1983,penguin books,experimental design and statistics in psychology
+115,,false,15,1997,aaai press,intelligence and multimodality in multimedia interfaces: research & applications
+117,0132398648,true,25,1998,prentice-hall,human-computer interaction (2nd edition)
+118,0137519753,true,25,1998,prentice-hall,the essence of human-computer interaction (essence of computing series)
+119,0566080702,false,25,1998,gower publishing group,public access interfaces to database resources
+120,0471178314,true,25,1998,john wiley & sons,user and task analysis for interface design
+122,0752812505,true,26,1997,harvard business school,the death of distance: how the communications revolution will change our lives
+123,3-540-64382-6,true,27,1998,springer,"information security: first international workshop, isw'97, tatsunokucki, ishikawa japan, september 17-19, 1997, proceedings"
+124,0-471-24216-0,true,27,1998,john wiley & sons,web developer.comtm guide to 3d avatars
+125,0-471-19713-0,true,27,1998,john wiley & sons,"antipatterns: refactoring software, architectures, and projects in crisis"
+126,0-471-95869-7,true,27,1998,john wiley & sons,a system of patterns: pattern-oriented software architecture
+127,0-471-25406-1,true,27,1998,john wiley & sons,programming mobile objects with java
+128,0-471-24268-3,true,27,1998,john wiley & sons,visual basic algorithms (second edition)
+129,0-471-98142-7,true,27,1998,john wiley & sons,computer graphics for java programmers
+130,1566048567,true,27,1998,the coriolis group,looking good in print
+131,0201571684,true,27,1998,addison-wesley publishing company,unified modeling language user guide
+132,0-7167-5059-7,false,27,1998,w.h. freeman and company,visual computing
+133,1-55860-467-7,true,27,1998,morgan kaufmann publishers,artificial intelligence: a new synthesis
+139,3-540-19930-6,true,28,1998,springer,electronic commerce and business communications
+140,3-540-63591-2,true,28,1998,springer,"agent technology: foundations, applications, and markets"
+141,0-8493-3116-1,true,28,1997,springer,knowledge management and its integrative elements
+142,3-540-64493-8,true,28,1998,springer,digital libraries in computer science: the medoc approach
+143,3-540-64380-x,true,28,1998,springer,"multimodal human-computer communications: systems, techniques, and experiments"
+144,3-540-64170-x,true,28,1998,springer,"coordination technology for collaborative applications: organizations, processes, and agents"
+145,3-540-64424-5,true,28,1998,springer,gesture and sign language in human-computer interaction
+146,3-540-63763-x,true,28,1998,springer,java: data structures and programming
+147,3-540-63411-8,true,28,1998,springer,intelligent software agents: foundations and applications
+148,3-540-76046-6,true,28,1997,springer,managing your software project: a student's guide
+149,981-3083-22-0,false,28,1997,springer,writing your computer science
+150,0-387-98275-2,true,28,1997,springer,ethical and social issues in the information age
+151,3-540-76139-x,true,28,1997,springer,information and meaning: an evolutionary perspective
+152,3-211-82953-9,true,28,1997,springer,art@science
+153,3-540-76201-9,true,28,1997,springer,java and object orientation: an introduction
+154,3-540-62695-6,true,28,1997,springer,software engineering with reusable components
+155,3-540-76084-9,true,28,1997,springer,software reuse
+156,0-387-94972-0,true,28,1997,springer,the art of analysis
+157,3-540-76128-4,true,28,1997,springer,intelligent systems for engineering: a knowledge-based approach
+158,3-540-76158-6,true,28,1997,springer,formal methods in human-computer interaction
+159,3-540-63348-0,true,28,1997,springer,virtual reality for industrial applications
+160,3-540-62662-x,true,28,1997,springer,creative web design: tips and tricks step by step
+161,3-540-76141-1,true,28,1997,springer,the computerised lawyer: a guide to the use of computers in the legal profession
+162,3-540-63078-3,true,28,1997,springer,"multimedia applications, services and techniques - ecmast '97"
+163,0262631504,true,28,1993,aaai press,intelligent multimedia interfaces
+164,0262631792,true,28,1997,mit press,intelligent multimedia information retrieval
+165,1558604448,true,28,1998,morgan kaufmann publishers,readings in intelligent user interfaces
+167,0877782970,true,29,1997,educational technology publications,web-based instruction
+168,0471191620,true,29,1997,john wiley & sons,building a web-based education system
+169,1562860607,true,29,1997,amer society training & dev,distance learning: a step-by-step guide for trainers
+170,0306455528,true,29,1997,plenum pub corp,web-teaching: a guide to designing interactive teaching for the world wide web (innovations in science education and technology)
+171,0749407107,false,29,1994,stylus pub llc,key terms and issues in open and distance learning (open and distance learning series)
+173,0749414189,true,29,1994,stylus pub lic,flexible learning in higher education (teaching and learning in higher education)
+174,0415127599,true,29,1995,routledge,open and distance learning today (routledge studies in distance education)
+176,074941149x,true,29,1994,stylus pub lic,using communications media in open learning (open and distance learning series)
+177,0749407123,true,29,1993,stylus pub llc,improving your students' learning: reflections on the experience of study (open and distance learning series)
+178,0471178306,true,29,1997,john wiley & sons,creating the virtual classroom: distance learning with the internet
+179,0415127998,true,29,1995,routledge,"technology, open learning and distance education (routledge studies in distance education)"
+181,1560798750,true,29,1997,petersons guides,peterson's distance learning programs (2nd ed)
+182,0-89006-927-1,true,30,1997,north carolina state university,voice recognition
+183,0679762906,false,30,1996,vintage books,being digital
+184,981-02-2752-3,true,30,1998,world scientific,endophysics - the world as an interface
+185,0861036055,false,30,1998,facts on file science series,virtual reality: computers mimic the physical world
+186,0684827239,false,30,1997,free pr,hamlet on the holodeck: the future of narrative in cyberspace
+187,0684832070,false,30,1997,simon & schuster,digital mosaics:the aesthetics of cyberspace
+188,0195104269,true,30,1997,oxford university press,virtual realism
+189,1-55860-353-0,false,30,1998,morgan kaufmann publishers,working with virtual reality
+190,1852330120,true,30,1998,springer-verlag,essential virtual reality fast: how to understand the techniques and potential of virtual reality
+191,1566047714,true,30,1998,the coriolis group,character animation in depth
+192,0393730247,true,30,1998,w.w. norton & company,"principles of three-dimensional computer animation: modeling, rendering, and animating with 3d computer graphics"
+193,0805037225,true,30,1996,twenty first century books,virtual reality: a door to cyberspace
+194,3540647805,true,30,1998,springer-verlag,"virtual worlds: first international conference, vw '98, paris, france, july 1-3, 1998: proceedings (lecture notes in computer science, 1434)"
+195,052145493x,true,30,1996,cambridge university press,"virtual individuals, virtual groups: human dimensions of groupware and computer networking"
+196,1562765043,true,30,1997,ziff-davis press,late night vrml 2.0 with java
+197,0127100083,true,30,1998,ap professional,vrml clearly explained (clearly explained series)
+198,1-57870-101-5,true,31,1998,macmillan press,designing for the user with ovid: bridging user interface design and software engineering
+199,,false,32,1998,gmd-ipsi,electronic communication and research in europe
+200,0-08-043334-0,true,33,1998,elsevier science publishers,global ergonomics
+201,3-540-64814-3,true,33,1998,springer,the technology management handbook
+202,3-540-63780-x,true,33,1998,springer,intelligence and artificial intelligence
+203,90-5199-346-3,true,33,1997,ios press,telecommunications for older people and disabled people in europe: preparing for the information society
+204,,false,34,1998,university of north london,"innovation in the evaluation of learning technologies (elt98, 7th november 1998, university of north london)"
+205,,true,34,1998,harvard university press,avatars of the world: from papyrus to cyberspace
+206,1558285938,true,34,1997,idg books worldwide,one-minute designer
+207,1566044944,false,34,1997,ventana communications group inc.,looking good in 3d
+208,1566048540,true,34,1999,the coriolis group,looking good in presentations
+209,1556048567,true,34,1998,the coriolis group,looking good in print
+210,0-471-97076-x,true,35,1998,wiley,managing innovation
+212,15586005339,true,36,1999,morgan kaufmann publishers,readings in information visualization: using vision to thik
+213,,true,37,1999,kluwer academic publishers,human factors and voice interactive systems
+214,92-828-1186-7,true,37,1998,european commission,"society, the endless frontier: a european vision of research and innovation policies for the 21st century"
+215,1-5586-0561,true,38,1999,morgan kaufmann publishers,the usability engineering lifecycle
+216,0-893-1825-4,true,38,1999,crc press,handbook on multimedia computing
+217,0-8493-1858-0,true,38,1999,crc press,handbook of internet and multimedia systems and applications
+220,9051993676,true,39,,ios press,gerontechnology
+221,,false,39,1996,coriolis group,zen of graphics programming (2nd edition)
+222,,true,39,1985,mcgraw-hill,procedural elements of computer graphics
+223,1-884777-65-1,false,40,1999,manning,distributed programming with java
+224,1-58113-169,false,40,1999,acm press,intellectual property in the age of universal access

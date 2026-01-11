@@ -1,0 +1,538 @@
+Available,CopiesNo,EndMonth,ISSN,JournalID,Language,Number,PhotocopiesNo,Publisher,Shelf,StartMonth,Subscriber,Theme,Title,Volume,Year
+1,1,,,17,english,1,0,british computer society disability programme,guib-lib,16,δείγμα,visual language centre/virtual reality/rehabilitation robotics/7th annual conference programme,ability,0,1991
+1,1,,,18,english,2,0,british computer society disability programme,guib-lib,14,δείγμα,sound and vision issue: guis among the blind/making sense of the patterns of speech/british hci conference.,ability,0,1991
+1,1,,,19,english,30,0,emap b&cp,cs-lib,3,δείγμα,"hyperguide: hypermedia, hypergames, hyperconfused, hyperexplained",ace (advanced computer entertainment),0,1990
+2,1,,0001-6918,31,english,1,0,elsevier science b.v.,g122,6,δείγμα,"acta psychological publishes original papers on experimental studies, as well as theoretical and review articles, in human experimental psychology.",acta psychological international journal of psychonomics,86,1994
+1,1,,0963-6013,32,english,1,0,intellect,g122,1,δείγμα,"computer animation, connectionism as a software-engineering paradigm, computer assisted language learning, a critical assessment of linguistics.",advanced information systems,1,1993
+1,1,,1075-3982,33,english,3,0,"augmentative communication, inc.",g123,10,cs,the internet and aac/ speaking out through on-line services/ kids in cyberspace/ resources to get you surfing/ what can kids do on the internet?,alternatively speaking,2,1995
+1,1,,1075-3982,34,english,4,0,"augmentative communication, inc.",g123,12,cs,talking about us/ this is entertainment?/ tips from lenny/ words about words/ what is normal?,alternatively speaking,2,1995
+1,1,,0004-3702,35,english,1,0,elsevier science b.v.,cs-lib,5,δείγμα,"planning with constraints, planning and meta-planning, modelling student's problem solving",artificial intelligence,16,1981
+1,1,,0004-3702,36,english,1,0,elsevier science b.v.,cs-lib,11,δείγμα,papers: motivated action theory: a formal theory of causal reasoning/ downward refinement and the efficiency of hierarchical problem solving,artificial intelligence,71,1994
+1,1,,0897-9278,40,english,6,0,"augmentative communication, inc.",g123,11,δείγμα,clinical news/equipment/governmental/university & research,augmentative communication news,5,1992
+1,0,,0897-9278,41,english,1,1,"augmentative communication, inc.",g123,3,δείγμα,this issue focuses on the design and construction  of communication displays for low tech devices.,augmentative communication news,6,1993
+1,0,,0897-9278,42,english,3,1,"augmentative communication, inc.",g123,6,cs,clinical news: augmentative communication across the life span in as/ equipment: low and high tech strategies across the life span,augmentative communication news,8,1995
+1,1,,0897-9278,43,english,4,0,"augmentative communication, inc.",g123,9,cs,"building consensus: brainstorming & storyboarding: communication needs, skills, abilities, goals and more",augmentative communication news,8,1995
+1,1,,0897-9278,44,english,5,0,"augmentative communication, inc.",g123,10,cs,university & research/ technology and inclusion/ introducing aac to classmates,augmentative communication news,8,1995
+1,1,,0897-9278,45,english,6,0,"augmentative communication, inc.",g123,12,cs,inclusive education: the legal test/ helping: the right kind/ using technology to support inclusion,augmentative communication news,8,1995
+1,1,2,0897-9278,46,english,1,0,"augmentative communication, inc.",g123,1,cs,clinical news: aac strategies and approaches,virtual reality systems,9,1996
+1,1,4,0897-9278,47,english,2,0,"augmentative communication, inc.",g123,3,cs,for consumers the third thirty: keep on communicating!/ clinical news who can benefit? storytelling and poetry/ equipment making technology use friendly,augmentative communication news,9,1996
+1,1,,0263-7456,48,english,91,0,redwood publishing,cs-lib,2,δείγμα,education key software for geography in the classroom,bbc acorn user,0,1990
+1,1,6,0144-929x,49,english,2,0,taylor & francis,g122,4,δείγμα,1. automatic speech recognition 2. use of flexible voice output techniques for machine-man communication.,behaviour & information technology,3,1984
+1,1,4,0144-929x,50,english,1&2,2,taylor & francis,g122,1,δείγμα,special issue: usability laboratories,behaviour & information technology,13,1994
+1,1,,,171,ελληνικό,2,0,compupress,g122,17,δείγμα,"κεντρικό αφιέρωμα αυτού του τεύχους είναι, τα πληροφοριακά συστήματα ή gis",cad/cam & graphics,0,1992
+1,1,,0010-0277,172,english,2,0,elsevier science b.v.,g122,5,δείγμα,papers: soar and the case for unified theories of cognition/ phonological recording and self-teaching: sine quanon of reading acquisition,cognition,55,1995
+1,1,,0305-2109,207,english,10,0,northern telecom,cs-lib,10,δείγμα,telecom 91: telecommunications in the 1990s,communications international,18,1991
+1,1,,-027-4159,261,english,6,0,pennwell,cs-lib,6,cs,"tools for designing dream machines, mapping business strategies, virtual reality check, a painter's oasis",computer graphics world,14,1991
+1,1,,-027-4159,262,english,7,0,pennwell,cs-lib,7,cs,"scientific visualization, rediscovering the outer planets, evironmental protection, music and motion",computer graphics world,14,1991
+1,1,,-027-4159,263,english,8,0,pennwell,cs-lib,8,cs,"cd-rom publishing, interactive magazines, desktop package design, modern mapmakers",computer graphics world,14,1991
+1,1,,-027-4159,264,english,9,0,pennwell,cs-lib,9,cs,color scanners,computer graphics world,14,1991
+1,1,,-027-4159,265,english,10,0,pennwell,cs-lib,10,cs,"the art of 3d painting, geographic information systems (gis)",computer graphics world,14,1991
+1,1,,-027-4159,266,english,11,0,pennwell,cs-lib,11,cs,"knowledge-based engineering, animation in court, the ultimate survey, color on the pc",computer graphics world,14,1991
+1,1,,-027-4159,267,english,12,0,pennwell,cs-lib,12,cs,"graphics in medicine, visions of venus, rapid prototyping, real estate mapping",computer graphics world,14,1991
+1,1,,-027-4159,268,english,1,0,pennwell,cs-lib,1,cs,"morphing magic, photo-quality printing, solid modelling debate, mac 3d design",computer graphics world,15,1992
+1,1,,-027-4159,269,english,2,0,pennwell,cs-lib,2,cs,"design optimization, full-motion video, evaluating windows 3.0",computer graphics world,15,1992
+1,1,,-027-4159,270,english,3,0,pennwell,cs-lib,3,cs,"graphics in sculpture, cad & gis unite, multimedia survey",computer graphics world,15,1992
+1,1,,-027-4159,271,english,4,0,pennwell,cs-lib,4,cs,"video editing, an interview with jaron lanier, animating cad data",computer graphics world,15,1992
+1,1,,-027-4159,272,english,5,0,pennwell,cs-lib,5,cs,"mechanism analysis, playing games in virtual reality, flight simulation",computer graphics world,15,1992
+1,1,,-027-4159,273,english,6,0,pennwell,cs-lib,6,cs,"architectural animation, digital color, proofing systems",computer graphics world,15,1992
+1,1,,-027-4159,274,english,7,0,pennwell,cs-lib,7,cs,"visualizing scientific data, a new age in supercomputing, multimedia in our schools, 3d digitizers",computer graphics world,15,1992
+1,1,,-027-4159,275,english,8,0,pennwell,cs-lib,8,cs,"multimedia presentation, color hard-copy report, universities embrace gis, accelerating windows",computer graphics world,15,1992
+1,1,,-027-4159,276,english,9,0,pennwell,cs-lib,9,cs,"color management, 2d pc cad software, reviewing 3d studio",computer graphics world,15,1992
+1,1,,-027-4159,277,english,10,0,pennwell,cs-lib,10,cs,"gis and multimedia unite, desktop video special report, pc-based image processing, reviewing renaissance",computer graphics world,15,1992
+1,1,,-027-4159,278,english,11,0,pennwell,cs-lib,11,cs,"modelling complex surfaces, engineering visualization, landscape architecture",computer graphics world,15,1992
+1,1,,-027-4159,279,english,12,0,pennwell,cs-lib,12,cs,"scientific and medical animation, studying galaxy formation",computer graphics world,15,1992
+1,1,,-027-4159,280,english,1,0,pennwell,cs-lib,1,cs,"broadcast animation, erasable optical storage, mac presentation software",computer graphics world,16,1993
+1,1,,-027-4159,281,english,2,0,pennwell,cs-lib,2,cs,"artificial life, designing an airport, exploring image databases, a guide to video walls",computer graphics world,16,1993
+1,1,,-027-4159,282,english,3,0,pennwell,cs-lib,3,cs,computer art: still struggling for acceptance/video on the mac/2d illustration software,computer graphics world,16,1993
+1,1,,-027-4159,283,english,4,0,pennwell,cs-lib,4,cs,"building 3d models with renderman, the low-cost options for 3d animation, video on a network, windows nt impacts the cad world",computer graphics world,16,1993
+1,1,,-027-4159,284,english,5,0,pennwell,cs-lib,5,cs,analyzing cad models from the inside out/a buyer's market for 24-bit pc boards/sketch modeling/compressing images on the pc and mac,computer graphics world,16,1993
+1,1,,-027-4159,285,english,7,0,pennwell,cs-lib,7,cs,a giant leap for particle animation,computer graphics world,16,1993
+1,1,,-027-4159,286,english,8,0,pennwell,cs-lib,8,cs,the amiga platform/sorting through large-screen monitors/sound advice on multimedia sound boards,computer graphics world,16,1993
+1,1,,-027-4159,287,english,9,0,pennwell,cs-lib,9,cs,"modeling 3d terrain/the quest for ""true"" 3d engineering/more power on the pc!",computer graphics world,16,1993
+1,1,,-027-4159,288,english,10,0,pennwell,cs-lib,10,cs,advances in rendering/a beginner's guide to multimedia,computer graphics world,16,1993
+1,1,,,378,english,1,0,acm press,g122,9,δείγμα,networking,crossroads the acm student magazine,2,1995
+1,1,4,1061-3099,379,english,2,0,cyberedge information services,g117,3,cs,the best vr products in the world,cyberedge journal,5,1995
+1,1,2,1061-3099,380,english,1,0,cyberedge information services,g117,1,cs,product of the year finalists announced/ welcome to diamond park,cyberedge journal,6,1996
+1,1,4,1061-3099,381,english,2,0,cyberedge information services,g117,3,cs,research: simulator sickness and virtual environments/ the best vr 1995-the 5th anniversary edition,cyberedge journal,6,1996
+1,1,6,1061-3099,382,english,3,0,cyberedge information services,g117,5,cs,application: virtual archaeology better than the real thing?/ the virtual zoo gorillas in the bits,cyberedge journal,6,1996
+1,1,8,1061-3099,383,english,4,0,cyberedge information services,g117,7,cs,exciting conference news!/ the virtual playground/ 3d design & virtual humans,cyberedge journal,6,1996
+1,1,10,1061-3099,384,english,5,0,cyberedge information services,g117,9,cs,haptics today/ at last: an ommi-directional treadmill,cyberedge journal,6,1996
+1,1,2,1079-2694,385,english,2,0,the delaney companies,g121,1,δείγμα,"contents: before you build a world, your benchmark glossary, publishers of world building software",cyberedge journal's virtual reality products,1,1995
+1,1,,0169-023x,386,english,1,0,elsevier science b.v.,g122,3,δείγμα,papers: formal deadlock elimination in an object oriented conceptual schema/ implementation of a logic-based support system for concurrent engineering,data & knowledge engineering,15,1995
+1,1,,,387,english,1,0,metrabyte,cs-lib,13,δείγμα,personal computer based instrumentation products for ibm pc/xt/at & compatibles,data acquisition and control,21,1989
+1,1,,0363-6399,388,english,3,0,mcgraw-hill,cs-lib,3,cs,super servers energine networks,data communications (international),19,1990
+1,1,,0363-6399,389,english,4,0,mcgraw-hill,cs-lib,17,cs,lan strategies - snmp,data communications (international),19,1990
+1,1,,0363-6399,390,english,5,0,mcgraw-hill,cs-lib,4,cs,ncop deregulation - sna management,data communications (international),19,1990
+1,1,,0363-6399,391,english,6,0,mcgraw-hill,cs-lib,5,cs,network timing - mac layer bridges,data communications (international),19,1990
+1,1,,0363-6399,392,english,7,0,mcgraw-hill,cs-lib,6,cs,channel extenders - broadband networks,data communications (international),19,1990
+1,1,,0363-6399,393,english,8,0,mcgraw-hill,cs-lib,17,cs,lan strategies - noss for corporate nets,data communications (international),19,1990
+1,1,,0363-6399,394,english,9,0,mcgraw-hill,cs-lib,7,cs,network hubs - ethernet nics,data communications (international),19,1990
+1,1,,0363-6399,395,english,10,0,mcgraw-hill,cs-lib,8,cs,outsourcing - multiport bridges,data communications (international),19,1990
+1,1,,0363-6399,396,english,11,0,mcgraw-hill,cs-lib,9,cs,portable communications - t1/e1 muxes,data communications (international),19,1990
+1,1,,0363-6399,397,english,12,0,mcgraw-hill,cs-lib,17,cs,lan strategies - sql database servers,data communications (international),19,1990
+1,1,,0363-6399,398,english,13,0,mcgraw-hill,cs-lib,10,cs,public x.25 services - evaluating sna gateways,data communications (international),19,1990
+1,1,,0363-6399,399,english,14,0,mcgraw-hill,cs-lib,11,cs,european isdn - enterprise network management,data communications (international),19,1990
+1,1,,0363-6399,400,english,15,0,mcgraw-hill,cs-lib,17,cs,lan strategies - token ring bridges,data communications (international),19,1990
+1,1,,0363-6399,401,english,16,0,mcgraw-hill,cs-lib,12,cs,multiprotocol networks - market forecast,data communications (international),19,1990
+1,1,,0363-6399,402,english,1,0,mcgraw-hill,cs-lib,1,cs,testing high-speed modems,data communications (international),20,1991
+1,1,,0363-6399,403,english,2,0,mcgraw-hill,cs-lib,2,cs,testing multiprotocol routers,data communications (international),20,1991
+1,1,,0363-6399,404,english,3,0,mcgraw-hill,cs-lib,3,cs,european edi: business as unusual. network security: moving up to layer 7,data communications (international),20,1991
+1,1,,0363-6399,405,english,4,0,mcgraw-hill,cs-lib,3,cs,lan strategies distributed applications,data communications (international),20,1991
+1,1,,0363-6399,406,english,5,0,mcgraw-hill,cs-lib,4,cs,two scenarios for radical change 1. ibm reformulates sna 2. the end for the fep?,data communications (international),20,1991
+1,1,,0363-6399,407,english,6,0,mcgraw-hill,cs-lib,5,cs,special report on lan/wan protocol analyzers,data communications (international),20,1991
+1,1,,0363-6399,408,english,7,0,mcgraw-hill,cs-lib,6,cs,special report on modems,data communications (international),20,1991
+1,1,,0363-6399,409,english,8,0,mcgraw-hill,cs-lib,17,cs,lan strategies - router backbones unite terminals and lans,data communications (international),20,1991
+1,1,,0363-6399,410,english,9,0,mcgraw-hill,cs-lib,7,cs,1. lan interconect via microwave 2. net management vendors come through with apls,data communications (international),20,1991
+1,1,,0363-6399,411,english,10,0,mcgraw-hill,cs-lib,8,cs,1. x.400 e-mail on lans 2. a low-cost multiplexer for european networks 3. video  and lans,data communications (international),20,1991
+1,1,,0363-6399,412,english,14,0,mcgraw-hill,g121,10,δείγμα,technology deficit/ telecom 95,data communications (international),24,1995
+1,1,,,413,ελληνικό,1,0,dhl international hellas,g122,15,δείγμα,νέες τεχνολογίες και το μέλλον του τραπεζικού συστήματος/ ογύρος του κόσμου με την dhl,dhl express news,0,1995
+1,1,9,0963-8288,414,english,3,0,taylor & francis,cs-lib,7,δείγμα,social epidemiology of falls among the elderly/criteria for disability/cross-cultural assessment of health problems/perceptual impairment after stroke/functional assessment,disability and rehabilitation,14,1992
+1,1,,0967-1846,415,english,1,0,"the british computer society, iee, ip",g122,9,δείγμα,"the journal focuses on the integration of processing, storage and communication subsystems within a distributed or networked system.",distributed systems engineering,1,1993
+1,1,,0883-4989,416,english,16,0,penton publication,cs-lib,10,cs,computers & software/peripherals/communications/semiconductors/components,electronics,61,1988
+1,1,,0883-4989,417,english,12,0,penton publication,cs-lib,12,cs,decade of bicmos/digital scopes/multimedia headache,electronics,63,1990
+1,1,,0883-4989,418,english,1,0,penton publication,cs-lib,1,cs,world market forecast,electronics,64,1991
+1,1,,0883-4989,419,english,2,0,penton publication,cs-lib,2,cs,multimedia,electronics,64,1991
+1,1,,0883-4989,420,english,3,0,penton publication,cs-lib,3,cs,wireless communications,electronics,64,1991
+1,1,,0883-4989,421,english,4,0,penton publication,cs-lib,4,cs,workstations,electronics,64,1991
+1,1,,0883-4989,422,english,5,0,penton publication,cs-lib,5,cs,service,electronics,64,1991
+1,1,,0883-4989,423,english,6,0,penton publication,cs-lib,6,cs,a new look for the pc industry,electronics,64,1991
+1,1,,0883-4989,424,english,7,0,penton publication,cs-lib,7,cs,semiconductor fabs,electronics,64,1991
+1,1,,0883-4989,425,english,8,0,penton publication,cs-lib,8,cs,the battle for the software vendor/computers/supercomputers/cae/cad,electronics,64,1991
+1,1,,0883-4989,426,english,9,0,penton publication,cs-lib,9,cs,the politics of technology,electronics,64,1991
+1,1,,0883-4989,427,english,10,0,penton publication,cs-lib,10,cs,managing change,electronics,64,1991
+1,1,,0883-4989,428,english,11,0,penton publication,cs-lib,11,cs,technology for sale/computers/semiconductors/networks,electronics,64,1991
+1,1,,0883-4989,429,english,12,0,penton publication,cs-lib,12,cs,computers/operating systems,electronics,64,1991
+1,1,,0883-4989,430,english,1,0,penton publication,cs-lib,1,cs,business/technology perspectives for global electronics management,electronics,65,1992
+1,1,,1077-2642,431,english,1,0,john wiley & sons,g122,15,δείγμα,papers: a formal process planning schema for shop floor control,engineering design & automation,1,1995
+1,1,,0014-0139,432,english,4,0,taylor & francis,cs-lib,4,δείγμα,ergonomics news and information,ergonomics,27,1984
+1,1,,0014-0139,433,english,7,0,taylor & francis,cs-lib,7,δείγμα,special issue: ergonomics for quality control in japan,ergonomics,27,1984
+1,1,,0046-2446,434,english,1,0,taylor & francis,cs-lib,1,δείγμα,special issue human-computer interaction,ergonomics abstracts,16,1984
+1,1,,0046-2446,435,english,2,0,taylor & francis,cs-lib,4,δείγμα,this journal provides details of recent additions to the international literature on human factors in man-machine systems and physical environmental influences.,ergonomics abstracts,16,1984
+1,1,,,447,english,0,0,prentke romich company,cs-lib,17,δείγμα,"introduction to the selection and application of aids, education/training aids introduction to technology in the education setting",expressive communication aids,0,
+1,1,,0279-8123,448,english,5,0,seldin publishing,cs-lib,5,δείγμα,computer graphics '86 overview,hardcopy where dec users turn for resources and innovation,6,1986
+1,1,,0279-8123,449,english,1,0,seldin publishing,cs-lib,1,δείγμα,1986 buyer's guide to dec and dec compatibles,hardcopy where dec users turn for resources and innovation,15,1986
+1,3,,,450,ελληνικό,1,0,helios,g122,16,δείγμα,το ευρωπαϊκό φόρουμ των ατόμων με ειδικές ανάγκες,helioscope,,1994
+1,1,,,451,ελληνικό,2,0,helios,cs-lib,13,cs,"εργασία η πρόκληση της δεκαετίας του 1990, ευρωπαϊκή ημέρα των ατόμων με ειδικές ανάγκες 1994, νέες κοινοτικές πρωτοβουλίες employment και adapt",helioscope,,1994
+1,2,,,452,ελληνικό,3,0,helios,g117,15,cs,εκπαίδευση για ολους / ανθρώπινα δικαιώματα / ευρωπαϊκό κοινοβούλιο,helioscope,,1995
+1,2,,,453,ελληνικό,4,0,helios,g117,16,cs,η κοινωνική ένταξη και η αυτόνομη διαβίωση / ανθρώπινα δικαιώματα: η έννοια της ισότητας / το σύστημα handynet,helioscope,,1995
+1,2,,,454,ελληνικό,5,0,helios,g117,14,cs,θέμα: η λειτουργική αποκατάσταση/ κεντρικά και ανατολική ευρώπη: στρατηγικές για συνεργασία/ οι προτότυποι κανόνες του οηε/ σύνδεσμος των ευρωπαϊκών κοινωνικών μκο,helioscope,,1995
+1,1,,,455,ελληνικό,6,0,helios,g117,13,cs,οι πρότυποι κανόνες του οηε για την εξίσωση των ευκαιριών για τα άτομα με ειδικές ανάγκες-ένα πολιτικό εργαλείο για την ευρωπαϊκή ένωση;,helioscope,,1995
+1,1,,,456,ελληνικό,7,0,helios,g120a,15,cs,ο αντίκτυπος των νέων τεχνολογιών,helioscope,,1996
+1,1,,,457,english,0,0,ibm eurocoordination,g122,16,δείγμα,secret short cuts / sunken treasure / information overload,helpware magazine,0,1994
+1,1,,0737-0024,472,english,1,0,lawrence erlbaum associates,g122,17,δείγμα,"a journal of theoretical, empirical and methodological issues of user science and of system design.",human-computer interaction,7,1992
+1,1,,0737-0024,473,english,2,0,lawrence erlbaum associates,g122,17,δείγμα,"a journal of theoretical, empirical and methodological issues of user science and of system design.",human-computer interaction,7,1992
+1,2,,1017-6950,513,english,12,0,european commission,cs-lib,13,cs,idustry and telecoms: giving europe the competitive edge,i & t magazine,0,1993
+1,1,,1017-6950,514,english,13,0,european commission,cs-lib,15,cs,transeuropean information networks,i & t magazine,0,1994
+1,1,,1017-6950,515,english,14,0,european commission,cs-lib,16,cs,from gutenbery to multimedia,i & t magazine,0,1994
+1,1,,1023-425x,516,english,15,0,european commission,cs-lib,14,cs,more competitive industry through research,i & t magazine,0,1994
+1,2,,1023-425x,517,english,16,0,european commission,cs-lib,13,cs,the information society: the way ahead,i & t magazine,0,1994
+1,2,,1023-425x,518,english,17,0,european commission,g121,15,cs,the information society: practical applications/ alarm - fridge door left open,i & t magazine,0,1995
+1,1,,1023-425x,519,english,18,0,european commission,g121,10,cs,the information society: global relations and the eu,i & t magazine,0,1995
+1,1,,1023-425x,520,english,19,0,european commission,g121,4,cs,human aspects of the information society/ user-friendly government/ global video games/ telecommunications and elderly or disabled people,i & t magazine,,1996
+1,1,,1081-275x,521,english,3,0,"helmers publishing, inc.",g122,3,δείγμα,auto id  in electronics manufacturing/ a major map maker tracks distribution.. / hewlett-packard automates label application..,id systems,4,1996
+2,1,,,522,english,0,0,iee,g123,11,δείγμα,colloquium on user interface management systems.,iee colloquium computing and control vision,0,1989
+1,1,,0960-7919,549,english,1,0,iee,g122,2,δείγμα,"1. management review 2. the transformation of british airways 3. company strategy-a role for the electrical engineer 4. standards, product liability and the consumer 5. finance-an introduction.",iee engineering management,1,1991
+1,1,,0963-7346,550,english,1,0,iee,g122,2,δείγμα,"education & training, history of technology, sound science, education and technology",iee engineering science and education journal,1,1992
+1,1,,0963-9640,551,english,1,0,iee,g122,14,δείγμα,1. adaptive fuzzy system for target tracking 2. qualitative modelling of continuous-variable systems by means of non-deterministic automata,iee intelligent systems engineering,1,1992
+1,1,,0268-6961,619,english,1,0,iee,g122,1,δείγμα,"analogy as a paradigm for specification reuse, software technology transfer, modular object-oriented notation.",iee software engineering journal,6,1991
+1,1,,0268-6961,620,english,6,0,iee,cs-lib,11,cs,special issue on software beyond 2001,iee software engineering journal,9,1994
+1,1,,0733-8716,881,english,1,0,ieee,g121,1,cs,"computer-aided modelling, analysis and design of communication networks ii",ieee journal on selected areas in communications,9,1991
+1,1,,0733-8716,882,english,2,0,ieee,g121,2,cs,teletraffic analysis of communications systems,ieee journal on selected areas in communications,9,1991
+1,1,,0733-8716,883,english,3,0,ieee,g121,4,cs,teletraffic analysis of atm systems,ieee journal on selected areas in communications,9,1991
+1,1,,0733-8716,884,english,4,0,ieee,g121,5,cs,human interfaces in telecommunications,ieee journal on selected areas in communications,9,1991
+1,1,,0733-8716,885,english,5,0,ieee,g121,6,cs,integrated circuits for lightwave communications,ieee journal on selected areas in communications,9,1991
+1,1,,0733-8716,886,english,6,0,ieee,g121,8,cs,background/based transmission technology/passband techniques,ieee journal on selected areas in communications,9,1991
+1,1,,0733-8716,887,english,7,0,ieee,g121,9,cs,congestion control in high-speed packet switched networks,ieee journal on selected areas in communications,9,1991
+1,1,,0733-8716,888,english,8,0,ieee,g121,10,cs,large-scale atm switching systems for b-isdn,ieee journal on selected areas in communications,9,1991
+1,1,,0733-8716,889,english,9,0,ieee,g121,12,cs,architectures and protocols for integrated broadband switching,ieee journal on selected areas in communications,9,1991
+1,1,,0733-8716,890,english,1,0,ieee,g121,1,cs,signal processing and coding for recording channels,ieee journal on selected areas in communications,10,1992
+1,1,,0733-8716,891,english,2,0,ieee,g121,2,cs,advances in satellite communications networking and applications,ieee journal on selected areas in communications,10,1992
+1,1,,0733-8716,892,english,3,0,ieee,g121,4,cs,fading channels and equalization,ieee journal on selected areas in communications,10,1992
+1,1,,0733-8716,893,english,4,0,ieee,g121,5,cs,spread spectrum,ieee journal on selected areas in communications,10,1992
+1,1,,0733-8716,894,english,5,0,ieee,g121,6,cs,speech and image coding,ieee journal on selected areas in communications,10,1992
+1,1,,0733-8716,895,english,6,0,ieee,g121,8,cs,advances in satellite communications networking and applications ii,ieee journal on selected areas in communications,10,1992
+1,1,,0733-8716,896,english,7,0,ieee,g121,9,cs,medical communications,ieee journal on selected areas in communications,10,1992
+1,1,,0733-8716,897,english,8,0,ieee,g121,10,cs,satellite systems and services for travelers,ieee journal on selected areas in communications,10,1992
+1,1,,0733-8716,898,english,9,0,ieee,g121,12,cs,b-isdn applications and economics,ieee journal on selected areas in communications,10,1992
+1,1,,0733-8716,899,english,1,0,ieee,g121,1,cs,high-definition television and digital video communications,ieee journal on selected areas in communications,11,1993
+1,1,,0733-8716,900,english,2,0,ieee,g121,2,cs,high-speed computer/network interfaces,ieee journal on selected areas in communications,11,1993
+1,1,,0733-8716,901,english,3,0,ieee,g121,4,cs,"computer-aided modeling, analysis, and design of communication links",ieee journal on selected areas in communications,11,1993
+1,1,,0733-8716,902,english,4,0,ieee,g121,5,cs,protocols for gigabit networks,ieee journal on selected areas in communications,11,1993
+1,1,,0733-8716,903,english,5,0,ieee,g121,6,cs,secure communications,ieee journal on selected areas in communications,11,1993
+1,1,,0733-8716,904,english,6,0,ieee,g121,8,cs,wireless personal communications: parti,ieee journal on selected areas in communications,11,1993
+1,1,,0733-8716,905,english,7,0,ieee,g121,9,cs,wireless personal communications: partii,ieee journal on selected areas in communications,11,1993
+1,1,,0733-8716,906,english,8,0,ieee,g121,10,cs,networks in the metropolitan area,ieee journal on selected areas in communications,11,1993
+1,1,,0733-8716,907,english,9,0,ieee,g121,12,cs,networks management and control,ieee journal on selected areas in communications,11,1993
+1,1,,0733-8716,908,english,1,0,ieee,g121,1,cs,integrity of public telecommunication networks,ieee journal on selected areas in communications,12,1994
+1,1,,0733-8716,909,english,2,0,ieee,g121,2,cs,"quality of telecommunications services, networks, and products",ieee journal on selected areas in communications,12,1994
+1,1,,0733-8716,910,english,3,0,ieee,g121,4,cs,"common channel signaling networks: performance, engineering, protocols, and capacity management",ieee journal on selected areas in communications,12,1994
+1,1,,0733-8716,911,english,4,0,ieee,g121,5,cs,code division multiple access networks i,ieee journal on selected areas in communications,12,1994
+1,1,,0733-8716,912,english,5,0,ieee,g121,6,cs,code division multiple access networks ii,ieee journal on selected areas in communications,12,1994
+1,1,,0733-8716,913,english,6,0,ieee,g121,8,cs,special issue on global network operations and management,ieee journal on selected areas in communications,12,1994
+1,1,,0733-8716,914,english,7,0,ieee,g121,9,cs,telecommunications in eastern europe and russia,ieee journal on selected areas in communications,12,1994
+1,1,,0733-8716,915,english,8,0,ieee,g121,10,cs,"wireless and mobile high-speed communication networks: architecture, modeling, and analysis",ieee journal on selected areas in communications,12,1994
+1,1,,0733-8716,916,english,9,0,ieee,g121,12,cs,"intelligent signal processing in communications-part i: signal processing based on adaptive, neural network, and other intelligent processing algorithms",ieee journal on selected areas in communications,12,1994
+1,1,,0733-8716,917,english,1,0,ieee,g121,1,cs,intelligent signal processing in communications-part ii: communication theories and systems with intelligent signal processing,ieee journal on selected areas in communications,13,1995
+1,1,,0733-8716,918,english,2,0,ieee,g121,2,cs,papers: channel models and power control/capacity/performance analysis and modulation techniques.,ieee journal on selected areas in communications,13,1995
+1,1,,0733-8716,919,english,3,0,ieee,g121,4,cs,high-speed point-to-point optical communication systes,ieee journal on selected areas in communications,13,1995
+1,1,,0733-8716,920,english,4,0,ieee,g121,5,cs,atm lan's: implementations and experiences with an emerging technology,ieee journal on selected areas in communications,13,1995
+1,1,,0733-8716,921,english,5,0,ieee,g121,6,cs,applications enabling the large-scale development of gigabit networks/ mobile and wirelesscomputing networks,ieee journal on selected areas in communications,13,1995
+1,1,,0733-8716,922,english,6,0,ieee,g121,8,cs,advances in the fundamentals of networking-part i: bridging fundamental theory and networking,ieee journal on selected areas in communications,13,1995
+1,1,,0733-8716,923,english,7,0,ieee,g121,9,cs,advances in the fundamentals of networking-part ii: bridging fundamental theory and networking,ieee journal on selected areas in communications,13,1995
+1,1,,0733-8716,924,english,8,0,ieee,g121,10,cs,the global internet,ieee journal on selected areas in communications,13,1995
+1,1,,0733-8716,925,english,9,0,ieee,g121,12,cs,copper wire access technologies for high performance networks,ieee journal on selected areas in communications,13,1995
+1,1,,0733-8716,926,english,1,0,ieee,g121,1,cs,synchronization issues in multimedia communications,ieee journal on selected areas in communications,14,1996
+1,1,,0733-8716,927,english,2,0,ieee,g121,2,cs,circuit switching for broadband isdn and beyond,ieee journal on selected areas in communications,14,1996
+1,1,,0733-8716,928,english,3,0,ieee,g121,4,cs,wireless local communications i,ieee journal on selected areas in communications,14,1996
+1,1,,0733-8716,929,english,4,0,ieee,g121,5,cs,wireless local communications ii,ieee journal on selected areas in communications,14,1996
+1,1,,0733-8716,930,english,5,0,ieee,g121,6,cs,optical networks,ieee journal on selected areas in communications,14,1996
+1,1,,0733-8716,931,english,6,0,ieee,g121,8,cs,integrated video-based services for the home,ieee journal on selected areas in communications,14,1996
+1,1,,0733-8716,932,english,7,0,ieee,g121,9,cs,distributed multimedia systems and technology,ieee journal on selected areas in communications,14,1996
+1,1,,0733-8716,933,english,8,0,ieee,g121,10,cs,code division multiple access networks iii,ieee journal on selected areas in communications,14,1996
+1,1,,1045-9235,934,english,4,0,ieee,cs-lib,11,δείγμα,sonet: a network management viewpoint,ieee lcs (lightwave communications systems),1,1990
+1,1,,1041-4347,1271,english,1,0,ieee computer society,cs-lib,3,cs,special section on enabling technology for knowledge-based systems development,ieee transactions on knowledge and data engineering,3,1991
+1,1,,1041-4347,1272,english,2,0,ieee computer society,cs-lib,6,cs,special section on artificial intelligence and management,ieee transactions on knowledge and data engineering,3,1991
+1,1,,1041-4347,1273,english,3,0,ieee computer society,cs-lib,9,cs,1. reasoning systems 2. learning 3. logic programming 4. active databases 5. database views 6. access methods 7. physical database design,ieee transactions on knowledge and data engineering,3,1991
+1,1,,1041-4337,1274,english,4,0,ieee computer society,cs-lib,12,cs,"papers: deductive reasoning, learning algorithms, knowledge base, production systems, object-oriented model, database models.",ieee transactions on knowledge and data engineering,3,1991
+1,1,,1041-4347,1275,english,1,0,ieee computer society,cs-lib,2,cs,papers: view integration 2. relational model 3. database language 4. recursive queries 5. hashing methods 6. physical database design.,ieee transactions on knowledge and data engineering,4,1992
+1,1,,1041-4347,1276,english,2,0,ieee computer society,cs-lib,4,cs,special section on self-organizing knowledge and data representation in distributed environments,ieee transactions on knowledge and data engineering,4,1992
+1,1,,1041-4347,1277,english,3,0,ieee computer society,cs-lib,6,cs,1. image data representation 2. knowledge-based systems 3. query processing 4. consensus protocol 5. signature files,ieee transactions on knowledge and data engineering,4,1992
+1,1,,1041-4347,1278,english,4,0,ieee computer society,cs-lib,8,cs,machine learning/rule-based systems/logic programming/query processing/object-oriented languages and tools,ieee transactions on knowledge and data engineering,4,1992
+1,1,,1041-4347,1279,english,5,0,ieee computer society,cs-lib,10,cs,1. notes on concurrent engineering 2. the integration of rule systems and database systems 3. knowledge intensive software engineering tools 4. image information systems,ieee transactions on knowledge and data engineering,4,1992
+1,1,,1041-4347,1280,english,6,0,ieee computer society,cs-lib,12,cs,main memory database systems/knowledge-based systems/data replication schemes,ieee transactions on knowledge and data engineering,4,1992
+1,1,,1041-4347,1281,english,1,0,ieee computer society,cs-lib,2,cs,knowledge acquisition/machine learning/nonmonotonic reasoning/knowledge base management/knowledge processing architectures,ieee transactions on knowledge and data engineering,5,1993
+1,1,,1041-4347,1282,english,2,0,ieee computer society,cs-lib,4,cs,"papers: knowledge representation, knowledge-based systems, expert systems, rule-based systems, object-oriented systems, data dependencies, database semantics, relational models, replicated databases, query processing.",ieee transactions on knowledge and data engineering,5,1993
+1,1,,1041-4347,1283,english,3,0,ieee computer society,cs-lib,6,cs,knowledge acquisition/rule-based systems/logical inference/knowledge and software engineering/database models/database query languages/object-oriented models and languages,ieee transactions on knowledge and data engineering,5,1993
+1,1,,1041-4347,1284,english,4,0,ieee computer society,cs-lib,8,cs,special section on multimedia information systems,ieee transactions on knowledge and data engineering,5,1993
+1,1,,1041-4347,1285,english,5,0,ieee computer society,cs-lib,10,cs,papers: knowledge representation/constraint satisfaction/knowledge processing architectures/access methods/object-oriented databases/recursive queries/query languages/transaction processing/concurrency control,ieee transactions on knowledge and data engineering,5,1993
+1,1,,1041-4347,1286,english,6,0,ieee computer society,cs-lib,12,cs,special issue in learning and discovery in knowledge-based databases,ieee transactions on knowledge and data engineering,5,1993
+1,1,,1041-4347,1287,english,1,0,ieee computer society,cs-lib,2,cs,concise papers: an object-oriented query evaluation scheme for logical databases in massively parallel environment,ieee transactions on knowledge and data engineering,6,1994
+1,1,,1041-4347,1288,english,2,0,ieee computer society,cs-lib,4,cs,"papers: semantic integrity, machine learning, search methods, data organization, file organization, database views, object-oriented databases, statistical database",ieee transactions on knowledge and data engineering,6,1994
+1,1,,1041-4347,1289,english,3,0,ieee computer society,cs-lib,6,cs,"papers: uncertainty reasoning, search methods, nonmonotonic logic processing, database models, object-oriented models, data organization, user interface, database query processing.",ieee transactions on knowledge and data engineering,6,1994
+1,1,,1041-4347,1290,english,4,0,ieee computer society,cs-lib,8,cs,"papers: logic inference, logic languages, knowledge-based systems, rule-based systems",ieee transactions on knowledge and data engineering,6,1994
+1,1,,1041-4347,1291,english,5,0,ieee computer society,cs-lib,10,cs,"papers: search methods, rule-based processing, rule-based systems",ieee transactions on knowledge and data engineering,6,1994
+1,1,,1041-4347,1292,english,6,0,ieee computer society,cs-lib,12,cs,"papers: machine learning, uncertainty reasoning, expert systems, rule-based systems, distributed knowledge processing, database integration, query processing, temporal databases, replicated databases",ieee transactions on knowledge and data engineering,6,1994
+1,1,,1041-4347,1293,english,1,0,ieee computer society,cs-lib,2,cs,"papers: knowledge representation, uncertaintly knowledge management, logic programming, logic processing, nonmonotonic reasoning",ieee transactions on knowledge and data engineering,7,1995
+1,1,,1041-4347,1294,english,2,0,ieee computer society,g121,4,cs,"regular papers: query processing, deductive databases, secure databases, statistical databases, distributed database allocation, pattern matching",ieee transactions on knowledge and data engineering,7,1995
+1,1,,1041-4347,1295,english,3,0,ieee computer society,g121,6,cs,papers: mapping datalog program execution to networks of processors / wfs+branch and bound = stable models,ieee transactions on knowledge and data engineering,7,1995
+1,1,,1041-4347,1296,english,4,0,ieee computer society,g121,8,cs,special section on temporal and real-time databases,ieee transactions on knowledge and data engineering,7,1995
+1,1,,1041-4347,1297,english,5,0,ieee computer society,g121,10,cs,regular papers: research survey-knowledge representation/ knowledge base management/ knowledge acquisition/ knowledge bases/ machine learning/ concurrency control/ data model,ieee transactions on knowledge and data engineering,7,1995
+1,1,,1041-4347,1298,english,6,0,ieee computer society,g121,12,cs,special section on query processing,ieee transactions on knowledge and data engineering,7,1995
+1,1,,1041-4347,1299,english,1,0,ieee computer society,g121,2,cs,special issue on secure database systems technology,ieee transactions on knowledge and data engineering,8,1996
+1,1,,1041-4347,1300,english,2,0,ieee computer society,g121,4,cs,regular papers: research surveys on learning networks/ knowledge discovery/ logic processing/ database optimization/ imprecise data/ object-oriented database systems/ partitioned databases/ sorting algorithms,ieee transactions on knowledge and data engineering,8,1996
+1,1,,1041-4347,1301,english,3,0,ieee computer society,g121,6,cs,survey on methods for handling imperfect information,ieee transactions on knowledge and data engineering,8,1996
+1,1,,1041-4347,1302,english,4,0,ieee computer society,g121,8,cs,special section on digital libraries,ieee transactions on knowledge and data engineering,8,1996
+1,1,,1063-6692,1473,english,1,0,ieee computer society / acm,cs-lib,2,cs,a language-based approach to protocol implementation/communication architectures and algorithms for media mixing in multimedia conferences,ieee/acm transactions on networking,1,1993
+1,1,,1063-6692,1474,english,2,0,ieee computer society / acm,cs-lib,4,cs,transactions papers,ieee/acm transactions on networking,1,1993
+1,1,,1063-6692,1475,english,3,0,ieee computer society / acm,cs-lib,6,cs,multicast routing for multimedia communication/statistical optimization of dynamic importance sampling,ieee/acm transactions on networking,1,1993
+1,1,,1063-6692,1476,english,4,0,ieee computer society / acm,cs-lib,8,cs,"network architecture and design, communication protocols, network software, network technologies, network services and applications, network operations and management",ieee/acm transactions on networking,1,1993
+1,1,,1063-6692,1477,english,5,0,ieee computer society / acm,cs-lib,10,cs,packing coded video signals into atm cells/competitive routing in multiuser communication networks,ieee/acm transactions on networking,1,1993
+1,1,,1063-6692,1478,english,6,0,ieee computer society / acm,cs-lib,12,cs,transactions papers,ieee/acm transactions on networking,1,1993
+1,1,,1063-6692,1479,english,1,0,ieee computer society / acm,cs-lib,2,cs,"papes: on the self-similar nature of ethernet traffic , weightedsum codes for error detection and their comparison with existing codes.",ieee/acm transactions on networking,2,1994
+1,1,,1063-6692,1480,english,2,0,ieee computer society / acm,cs-lib,4,cs,transactions papers,ieee/acm transactions on networking,2,1994
+1,1,,1063-6692,1481,english,3,0,ieee computer society / acm,cs-lib,6,cs,papers: efficient algorithm for virtual topology design in multihop lightwave networks,ieee/acm transactions on networking,2,1994
+1,1,,1063-6692,1482,english,4,0,ieee computer society / acm,cs-lib,8,cs,"papers: editorial board comings and goings, empirically derived analytic models of wide-area tcp connections",ieee/acm transactions on networking,2,1994
+1,1,,1063-6692,1483,english,5,0,ieee computer society / acm,cs-lib,10,cs,transactions papers: editorial-developing an electronic presence for the ieee/acm transactions on networking,ieee/acm transactions on networking,2,1994
+1,1,,1063-6692,1484,english,6,0,ieee computer society / acm,cs-lib,12,cs,transactions papers: a modular multirate video distribution system-design and dimensioning / erlang capacity and uniform approximations for shared unbuffered resources,ieee/acm transactions on networking,2,1994
+1,1,,1063-6692,1485,english,1,0,ieee computer society / acm,cs-lib,2,cs,transactions papers: a new distribution network based on controlled switching elements and its applications,ieee/acm transactions on networking,3,1995
+1,1,,1063-6692,1486,english,2,0,ieee computer society / acm,g121,4,cs,transactions papers: an analysis of user input to an x.500 white pages directory service,ieee/acm transactions on networking,3,1995
+1,1,,1063-6692,1487,english,4,0,ieee computer society / acm,g121,8,cs,transactions papers: link-sharing and resource management models for packet networks,ieee/acm transactions on networking,3,1995
+1,1,,1063-6692,1488,english,5,0,ieee computer society / acm,g121,10,cs,transactions papers: routing and wavelength assignment in all-optical networks/ resource partitioning for real-time communication,ieee/acm transactions on networking,3,1995
+1,1,,1063-6692,1489,english,6,0,ieee computer society / acm,g121,12,cs,transactions papers: on call processing delay in high speed networks,ieee/acm transactions on networking,3,1995
+1,1,,1063-6692,1490,english,1,0,ieee computer society / acm,g121,2,cs,"transactions papers: the tenet real-time protocol suite: design, implementation, and experiences",ieee/acm transactions on networking,4,1996
+1,1,,1063-6692,1491,english,2,0,ieee computer society / acm,g121,4,cs,transactions papers: trading packet headers for packet processing/ the pim architecture for wide-area multicast routing,ieee/acm transactions on networking,4,1996
+1,1,,1063-6692,1492,english,3,0,ieee computer society / acm,g121,6,cs,transactions papers: what are the implications of long-range dependence for vbr-video traffic engineering?/ performance evaluation and cache analysis of an ilp protocol implementation,ieee/acm transactions on networking,4,1996
+1,1,,1063-6692,1493,english,4,0,ieee computer society / acm,g121,8,cs,papers: efficient network qos provisioning based on per node traffic shaping,ieee/acm transactions on networking,4,1996
+1,1,,0733-8724,1494,english,6,0,ieee,g121,6,δείγμα,special issue on multiwavelength optical technology and networks,ieee/osa journal of lightwave technology,14,1996
+1,1,,1069-0115,1495,english,1,0,elsevier science,g121,1,δείγμα,papers: highly available and reliable communication protocols for heterogeneous systems/ a fuzzy expert system approach for real-time monitoring of endemic diseases,information sciences applications,3,1995
+1,1,,,1496,english,2,0,national information forum,g122,3,δείγμα,"sharing ideas on how to get information to disabled people: in this issue we have featured innovative travel information services, describing a cross-europe motor route planning system devised by disabled people.",innovations in information,0,1994
+1,1,,,1497,english,5,0,national information forum,g122,4,cs,cruising the super highway/ berlin without barries/ the cyberia espresso/ quick courts/ to boldly go,innovations in information,0,1995
+1,1,,,1498,english,6,0,national information forum,g122,7,cs,getting around paris with information in 5 languages in image and text/ viva air takes no chances blind passengers have instructions in braille,innovations in information,0,1995
+1,1,,0953-5438,1499,english,1,0,elsevier science b.v.,g121,3,cs,editorial: a goal satisfied: rapid journal publication,interacting with computers,8,1996
+1,1,,0953-5438,1500,english,2,0,elsevier science b.v.,g121,6,cs,special section: cognitive and educational aspects of desktop videoconferencing (part 1),interacting with computers,8,1996
+1,1,,0953-5438,1501,english,3,0,elsevier science b.v.,g121,11,cs,special section: cognitive and educational aspects of desktop videoconferencing (part 2),interacting with computers,8,1996
+1,1,,1045-2699,1522,english,1,0,john wiley & sons,g122,13,δείγμα,special issue: human factors in automation: implications for manufacturing,international journal of human factors in manufacturing,5,1995
+1,1,,0020-7373,1523,english,6,0,academic press,cs-lib,6,δείγμα,"an experimental evaluation of delimiters in a command language syntax, on the complexity of recursion in problem-solving, an experimental comparison of tabular and graphic data presentation.",international journal of man-machine studies,20,1984
+1,1,,1049-8915,1524,english,4,0,john wiley & sons,g122,12,δείγμα,this journal provides a focus for original results of research in interconnection interoperability of computer networks and systems,internetworking,5,1994
+1,1,,1064-1246,1525,english,1,0,john wiley & sons,g122,15,δείγμα,applications in engineering and technology,journal of intelligent & fuzzy systems,2,1994
+1,1,4,0309-1902,1526,english,1,0,taylor & francis,cs-lib,1,δείγμα,an international bimonthly journal promoting the application of engineering and technology in medical research and clinical medicine.,journal of medical engineering & technology,13,1989
+1,1,,0741-2223,1532,english,5,0,john wiley & sons,g122,5,δείγμα,papers: joint space trajectory planning for flexible manipulators,journal of robotic systems,12,1995
+1,1,,0004-5411,1533,english,3,0,acm,g121,5,cs,artificial intelligence/complexity of algorithms/logic in compute science/machine learning,journal of the association for computing machinery,41,1994
+1,1,,0004-5411,1534,english,4,0,acm,g121,7,cs,artificial intelligence/complexity of algorithms/computer system modeling and analysis/data structures and analysis of algorithms/distributed computing,journal of the association for computing machinery,41,1994
+1,1,,0004-5411,1535,english,5,0,acm,g121,9,cs,artificial intelligence/computer architecture/computer system modeling and analysis/complexity of algorithms/complexity theory/data structures and analysis of algorithms/distributing computing,journal of the association for computing machinery,41,1994
+1,1,,0004-5411,1536,english,6,0,acm,g121,11,cs,complexity of algorithms / computer system modeling and analysis / data structures and analysis of algorithms / database theory / deductive systems and equational reasoning / distributed computing,journal of the association for computing machinery,41,1994
+1,1,,0004-5411,1537,english,1,0,acm,g121,1,cs,artificial intelligence / computational geometry / computer architecture / distributed computing / parallel computation / programming languages and methodology,journal of the association for computing machinery,42,1995
+1,1,,0004-5411,1538,english,2,0,acm,g121,3,cs,papers on ai / complexity of algorithms / database theory / distributed computing / formal languages and complexity theory / logic in computer science,journal of the association for computing machinery,42,1995
+1,1,,0004-5411,1539,english,3,0,acm,g121,5,cs,papers on ai/ graph theory and combinatorial structures/ operations research/ parallel computation/ programming languages and methodology,journal of the association for computing machinery,42,1995
+1,1,,0004-5411,1540,english,4,0,acm,g121,7,cs,"papers on artificial intelligence, deductive systems and educational reasoning, graph theory and combinatorial structures, logic in computer science, parallel computation",journal of the association for computing machinery,42,1995
+1,1,,0004-5411,1541,english,5,0,acm,g121,9,cs,"papers on computer system modeling and analysis, data structures and analysis of algorithms, deductive systems and educational reasoning, distributed computing, graph theory and combinational structures, operations research.",journal of the association for computing machinery,42,1995
+1,1,,0004-5411,1542,english,6,0,acm,g121,11,cs,"papers on complexity of algorithms, computational learning theory, cryptology, deductive systems and educational reasoning, distributed computing, programming languages and methodology",journal of the association for computing machinery,42,1995
+1,1,,0927-3034,1548,english,4,0,elsevier science,g121,12,δείγμα,"formal languages and their use for the synthesis of words, images and sounds",languages of design,2,1994
+1,1,,0741-8647,1549,english,7,0,macworld communications,cs-lib,7,δείγμα,cd-rom drives/photo cd/privacy/routers/desktop calendars,macworld,10,1993
+1,1,,0047-6552,1550,english,1,0,kluwer academic publishers,cs-lib,17,δείγμα,signal processing-imaging systems-assist systems-sensors and instrumentation-computers,medical progress through technology,14,1988
+1,1,,,1551,english,2,0,microsoft,g120a,3,cs,writing 32-bit applications for all windows platforms,microsoft developer network news,3,1994
+1,1,,,1552,english,3,0,microsoft,g120a,5,cs,searching the development library/converting a c app to c++/the multimedia crystal ball,microsoft developer network news,3,1994
+1,1,,,1553,english,4,0,microsoft,g120a,7,cs,converting vbx controls to ole custom controls,microsoft developer network news,3,1994
+1,1,,,1554,english,5,0,microsoft,g120a,9,cs,the foxpro client-server hunt/the state of ole control /going global with visual c++ 2.0,microsoft developer network news,3,1994
+1,1,,,1555,english,6,0,microsoft,g120a,11,cs,windows nt and developers/visual basic in an info system,microsoft developer network news,3,1994
+1,1,2,,1556,english,1,0,microsoft,g120a,1,cs,windows 95 goes global/international compuserve resources,microsoft developer network news,4,1995
+1,1,4,,1557,english,2,0,microsoft,g120a,3,cs,windows 95 controls on windows nt/visual c++ 2.1/new windows setup guidelines,microsoft developer network news,4,1995
+1,1,6,,1558,english,3,0,microsoft,g120a,5,cs,special windows 95 / the microsoft network / high performance in win32,microsoft developer network news,4,1995
+1,1,8,,1559,english,4,0,microsoft,g120a,7,cs,programming for the windows 95 game sdk,microsoft developer network news,4,1995
+1,1,12,,1560,english,6,0,microsoft,g120a,11,cs,distribute the load with remote automation visual basic 4.0 and ole 2.0 now provide the tools to build distributed solutions,microsoft developer network news,4,1995
+1,1,2,,1561,english,1,0,microsoft,g120a,1,cs,what's microsoft up to on the internet?,microsoft developer network news,5,1996
+1,1,,0364-9342,1562,english,1,0,cahners publishing,cs-lib,1,cs,postscript/microrisc/software trends '88,mini-micro systems,0,1988
+1,1,,0364-9342,1563,english,4,0,cahners publishing,cs-lib,4,cs,drive testing/unix/tape drives,mini-micro systems,0,1988
+1,1,,0364-9342,1564,english,5,0,cahners publishing,cs-lib,5,cs,database management systems/micro-to-mainframe links,mini-micro systems,0,1987
+1,1,,0364-9342,1565,english,6,0,cahners publishing,cs-lib,6,cs,distributed dbmses/minicomputers/uninterruptible power systems,mini-micro systems,0,1987
+1,1,,0364-9342,1566,english,7,0,cahners publishing,cs-lib,7,cs,"more workstations/image-processing, product tables: graphics terminals, monitors",mini-micro systems,0,1987
+1,1,,0364-9342,1567,english,8,0,cahners publishing,cs-lib,8,cs,artificial intelligence hardware/multiuser systems,mini-micro systems,0,1987
+1,1,,0364-9342,1568,english,10,0,cahners publishing,cs-lib,10,cs,graphics ics/fax boards/minisuper computers,mini-micro systems,0,1987
+1,1,,0364-9342,1569,english,11,0,cahners publishing,cs-lib,11,cs,focus on apple/pick os/disk and tape,mini-micro systems,0,1987
+1,1,,0364-9342,1570,english,12,0,cahners publishing,cs-lib,12,cs,optical disks/benchmarks/ibm on os/2,mini-micro systems,0,1987
+1,1,,,1571,ελληνικό,1,0,compupress,cs-lib,10,cs,multimedia/κάρτες video,multimedia & cd-rom,0,1993
+1,1,,,1572,ελληνικό,2,0,compupress,cs-lib,11,cs,cd-rom drivers/video for windows/multimedia,multimedia & cd-rom,0,1993
+1,1,,,1573,ελληνικό,3,0,compupress,cs-lib,12,cs,"multimedia pc, multimedia παρουσιάσεις, microsoft dinosaurs, κάρτες ήχου.",multimedia & cd-rom,0,1993
+1,1,,,1574,ελληνικό,4,0,compupress,cs-lib,1,cs,"multimedia pc, microsoft sound system 2.0, microsoft multimedia viewer 2.0, adobe premier 1.0 for windows, microsoft cinemania",multimedia & cd-rom,0,1994
+1,1,,,1575,ελληνικό,5,0,compupress,cs-lib,3,cs,special edition: video blaster,multimedia & cd-rom,0,1994
+1,1,,,1576,ελληνικό,6,0,compupress,cs-lib,4,cs,"panasonic cf-v21p, cd-rom drives",multimedia & cd-rom,0,1994
+1,1,,,1577,ελληνικό,7,0,compupress,cs-lib,5,cs,"unique multimedia pc, lotus 1-2-3 r.4 multimedia edition, κάρτες ηχου",multimedia & cd-rom,0,1994
+1,1,,,1578,ελληνικό,8,0,compupress,cs-lib,6,cs,η ελληνική αγορά των multimedia,multimedia & cd-rom,0,1994
+1,1,8,,1579,ελληνικό,9,0,compupress,cs-lib,7,cs,"dictionary of the living word, multimedia news, great wonders of the word",multimedia & cd-rom,0,1994
+1,1,,,1580,ελληνικό,10,0,compupress,cs-lib,9,cs,microsoft bookshelf '94,multimedia & cd-rom,0,1994
+1,2,,,1581,ελληνικό,11,0,compupress,cs-lib,10,cs,woodstock: 3 days of peace & music,multimedia & cd-rom,0,1994
+1,1,,,1582,ελληνικό,12,0,compupress,cs-lib,11,cs,"microsoft ancient lands, multimedia pcs",multimedia & cd-rom,0,1994
+1,1,,,1583,ελληνικό,13,0,compupress,cs-lib,12,cs,multimedia games,multimedia & cd-rom,0,1994
+1,1,,,1584,ελληνικό,14,0,compupress,cs-lib,1,cs,cd-rom drives,multimedia & cd-rom,0,1994
+1,1,,,1602,english,0,0,newsweek inc.,g122,3,δείγμα,computers & communications the new alliances,newsweek,0,1993
+1,1,,,1603,english,0,0,newsweek inc.,g122,11,δείγμα,office automation: networks in action,newsweek,0,1993
+1,1,,0002-9920,1604,english,1,0,american mathematical society,cs-lib,1,δείγμα,factoring polynomials quickly/supercomputers and the nsf/mathematical text processing,notices of the american mathematical society,34,1987
+1,1,,0272-9490,1605,english,11,0,official publication of the american,g122,11,δείγμα,"nationally speaking-technology applications in occupational therapy, computers and occupational therapy",occupational therapy,41,1987
+1,1,,1051-9696,1606,english,6,0,cobb group,group-lib,6,δείγμα,inplementing an incremental search in paradox for windows,paradox developer's journal,4,1993
+1,1,,0899-1847,1607,english,4,0,ziff-davis,cs-lib,11,δείγμα,"user interface wars, dos 4.0, super scanners",pc computing,1,1988
+1,1,,,1608,english,7,0,ziff-davis,g122,7,δείγμα,windows nt/mobile computing/the ultimate notebook/speed pocket modems/tiny mobile printers/powerful pcmcia cards,pc computing,6,1993
+1,1,,0952-3014,1679,english,10,0,database publications ltd,cs-lib,2,δείγμα,"getting to grips with graphics, opus datasafe, optical drivers, midi music, video bios, reviews",pc personal computing,3,1990
+1,1,,,1680,english,41,0,future publishing ltd,cs-lib,2,δείγμα,386 power test/databases/exchangeable hard disks,pc plus,0,1990
+1,1,,,1681,english,45,0,future publishing ltd,cs-lib,6,δείγμα,power portables/budget word processing/understanding disks/hand-held scanners/specialist accounting,pc plus,0,1990
+1,1,,,1682,english,46,0,future publishing ltd,cs-lib,7,δείγμα,"windows 3, flatbed scanners & software, modems, remote control programs",pc plus,0,1990
+1,1,,0952-3014,1683,english,2,0,database publications ltd,cs-lib,6,δείγμα,"multiusers solutions, moving up to unix, os/2 and networked systems, voice messaging, norton backup",pc today,4,1990
+1,1,,0263-5720,1684,english,133,0,emap business publications,cs-lib,15,δείγμα,windows 3.0/nec and sharp colour portables/communications,pc user,0,1990
+1,1,,0263-5720,1685,english,145,0,emap business publications,cs-lib,11,δείγμα,guide to networking and communications,pc user,0,1990
+1,1,12,0263-5720,1686,english,146,0,emap business publications,cs-lib,11,δείγμα,ibm's 486 bruisers/dynabook laptop/dot-matrix printers,pc user,0,1990
+1,1,,,1687,english,0,0,vnu business,g122,11,δείγμα,"five-tuning improve your windows, future plans for windows",pc windows,0,1992
+1,1,,1017-6721,1761,english,2,0,official organ of the royal belgian society of pmr,g122,5,δείγμα,papers: pelvic floor exercise in the treatment of impotence/ reaction time in patients with chronic low-back pain,pmr european journal of physical medicine and rehabilitation,5,1995
+1,1,,,1762,english,0,0,,g122,17,δείγμα,,power up software,xiv,
+1,1,,,1763,english,0,0,,g122,17,δείγμα,,power up software,xvi,
+1,1,,,1850,english,2,0,chilton company,g122,4,δείγμα,technical update: fluid power technology,product design & development europe,2,1994
+1,1,,,1851,english,3,0,chilton company,g122,15,cs,cad/cam software report,product design & development europe,2,1994
+1,1,,,1852,english,4,0,chilton company,g122,9,cs,"engineer registration program, new product information, marketplace",product design & development europe,2,1994
+1,1,,,1853,english,5,0,chilton company,g122,10,cs,"electronica preview, computer simulation software, new product information",product design & development europe,2,1994
+1,1,,,1854,english,6,0,chilton company,g122,11,cs,"industrial design, marketplace, new product reviews",product design & development europe,2,1994
+1,1,,0748-8017,1855,english,1,0,john wiley & sons,g122,13,δείγμα,this journal devoted to practical engineering problems from the fields of quality and reliability.,quality and reliability engineering international,11,1995
+1,1,,,1856,ελληνικό,25,0,computer peripherals international,box_1,4,cs,1. οι σταθμοί εργασίας ibm risc 6000 2. η σειρά '86 της intel 3. εξερευνώντας το dos.,ram,0,1990
+1,1,,,1857,ελληνικό,40,0,computer peripherals international,box_1,9,cs,"ελληνικό wordperfect 5.1, windows 3.1, norton desktop.",ram,0,1991
+1,1,,,1858,ελληνικό,44,0,computer peripherals international,box_1,1,cs,"hewlett packard deskjet 500c, wordperfect 5.1, compaq deskpro 483s/16m.",ram,0,1992
+1,1,,,1859,ελληνικό,55,0,computer peripherals international,box_1,1,cs,"συγκριτικές δοκιμές:25 μητρικές 386-486, 25 κάρτες οθόνης, 15 εκτυπωτές laser, 5 ομότιμα δίκτυα",ram,0,1993
+1,1,,,1860,ελληνικό,56,0,computer peripherals international,box_1,2,cs,"συγκριτικές δοκιμές:φορητοί, κάρτες δικτύου, πακέτα λογιστικής, διορθωτές ελληνικών",ram,0,1993
+1,1,,,1861,ελληνικό,57,0,computer peripherals international,box_1,3,cs,"συγκριτικές δοκιμές:συστήματα 386sx, σαρωτές, πακέτα φορολογίας, αφιέρωμα εργομάδες",ram,0,1993
+1,1,,,1862,ελληνικό,58,0,computer peripherals international,box_1,4,cs,ms-dos 6.0/21 συστήματα 386dx/12 συστήματα 486sx/14 πακέτα λογιστικής/7 σαρωτές xειρός,ram,0,1993
+1,1,,,1863,ελληνικό,59,0,computer peripherals international,box_1,5,cs,intel pentium/ms visual c++/autocad 12 for windows/novell netware 4.0,ram,0,1993
+1,1,,,1864,ελληνικό,60,0,computer peripherals international,box_1,6,cs,"windows nt/δοκιμές:μητρικές 386-486, κάρτες super vga, φύλλα εργασίας dos, κάρτες ηχου",ram,0,1993
+1,1,,,1865,ελληνικό,61,0,computer peripherals international,box_1,16,cs,"οι πρώτοι amd 486dx/40-δοκιμές: φορητοί, οθόνες, κάρτες ήχου, εμπορικά πακέτα",ram,0,1993
+1,1,,,1866,ελληνικό,62,0,computer peripherals international,box_1,9,cs,"συγκριτικά:12 συστήματα 386sx, 37 εκτυπωτές γραμμής και 17 εκτυπωτές laser, 8 υπερκάρτες γραφικών",ram,0,1993
+1,1,,,1867,ελληνικό,63,0,computer peripherals international,box_1,10,cs,"συγκριτικά:27 συστήματα 386dx/486sx, 22 σκληροί δίσκοι, 6 οδηγοί cd-rom, 5 παραθυρικές c/c++",ram,0,1993
+1,1,,,1868,ελληνικό,64,0,computer peripherals international,box_1,11,cs,εξελληνισμένα windows 3.1/new excel 5.0 & word 6.0,ram,0,1993
+1,1,,,1869,ελληνικό,65,0,computer peripherals international,box_1,12,cs,"συγκρητικά: 8 εμπορικά πακέτα, 18 οθόνες 14""-15"", 29 κάρτες s-vga, 31 μοντεμ",ram,0,1993
+1,1,,,1870,ελληνικό,66,0,computer peripherals international,box_1,1,cs,"συγκρητικά: 5 συστήματα pentium, 19 οθόνες 17-21"", σαρωτές, ιβμ powerpc, impetus alpha",ram,0,1994
+1,1,9,0899-6237,1873,english,5,0,allied health care publications,cs-lib,8,cs,rural rehab/assessing athletic head injuries/acl injury rehab,rehab management,6,1993
+1,1,11,0899-6237,1874,english,6,0,allied health care publications,cs-lib,10,cs,"rehab international, rehab ergonomics, rehab engineering",rehab management,6,1993
+1,1,1,0899-6237,1875,english,1,0,allied health care publications,cs-lib,12,cs,"pediatric rehab engineering, early rehab intervention, ethics and outcomes, rehab economics",rehab management,7,1994
+1,1,3,0899-6237,1876,english,2,0,allied health care publications,cs-lib,2,cs,"technology assessment, advanced technology in sports medicine, electrotherapy issues forum",rehab management,7,1994
+1,1,,0951-8320,1880,english,1,0,elsevier applied science,g122,1,δείγμα,it is an inter. journal devoted to the development and apllication of methods for the enhancement of the safety and reliability of complex tech. systems.,reliability engineering & system safety,47,1995
+1,1,,0167-6393,1881,english,1,0,elsevier science,g122,1,δείγμα,speech communication covers all aspects of speech communication processes between humans as well as between humans and machines.,speech communication,16,1995
+1,1,,0167-6393,1882,english,1,0,north-holland publishing company,cs-lib,5,δείγμα,speech communication incorporates all theoretical and experimental aspects of the speech communication processes.,speech communication an interdisciplinary journal,1,1992
+1,1,,1053-9239,1895,english,7,0,computer publishing group inc.,cs-lib,7,δείγμα,optical disks/running laps/practical unix security,sun expert,2,1991
+1,1,,1053-9239,1896,english,9,0,computer publishing group inc.,cs-lib,9,δείγμα,x-teminals/magnum opus/practical unix security,sun expert,2,1991
+1,1,,,1897,english,7,0,reed business publishing,cs-lib,7,cs,"networking special, real time software",systems international,14,1986
+1,1,,,1898,english,2,0,reed business publishing,cs-lib,2,cs,"desktop publishing, ibm directions, enhancing unix",systems international,15,1987
+1,1,,,1899,english,8,0,reed business publishing,cs-lib,8,cs,"image processing, low cost plotters os-9",systems international,15,1987
+1,1,,,1900,english,10,0,reed business publishing,cs-lib,10,cs,"evaluating speech, recognition systems, the myth of graphics standards, page printer survey",systems international,15,1987
+1,1,,,1901,english,12,0,reed business publishing,cs-lib,12,cs,ergonomics standards/image processing algorithms/software tools,systems international,15,1987
+1,1,,,1902,english,2,0,reed business publishing,cs-lib,2,cs,"storage special-qic, dat, optical disc survey, prototyping, software maintenance",systems international,16,1988
+1,1,,,1903,english,4,0,reed business publishing,cs-lib,4,cs,expert systems shells/real time ada/fax board survey,systems international,16,1988
+1,1,,1055-4181,1904,english,1,0,elsevier science ireland,δείγμα,3,cs,special issue rural technology,technology and disability,4,1995
+1,1,,1073-4457,1905,english,1,0,elsevier science,g121,12,δείγμα,in focus: transforming our workplaces into virtual laboratories,technology management,1,1994
+1,1,,,1913,ελληνικό,1,0,reed business publishing,g120a,4,cs,isdn/on-line πληροφόρηση πού; πώς; γιατί;/modems 28800 bps,telecom τηλεπληροφορική/τηλεπικοινωνίες,0,1994
+1,1,,,1914,ελληνικό,2,0,reed business publishing,g120a,6,cs,"forthnet/κινητή τηλεφωνία, telecom lab test",telecom τηλεπληροφορική/τηλεπικοινωνίες,0,1994
+1,1,,,1915,ελληνικό,3,0,reed business publishing,g120a,10,cs,"audio-video information στο internet, remote ethernet bridges",telecom τηλεπληροφορική/τηλεπικοινωνίες,0,1994
+1,1,,,1916,ελληνικό,4,0,reed business publishing,g120a,12,cs,integrated services digital network,telecom τηλεπληροφορική/τηλεπικοινωνίες,0,1994
+1,1,,,1917,ελληνικό,5,0,reed business publishing,g120,3,cs,"στρατηγική στις τηλεπικοινωνίες, βιομηχανία επικοινωνιών δεδομένων προβλέψεις για το 1995, εισοδος στα on-line συστήματα",telecom τηλεπληροφορική/τηλεπικοινωνίες,0,1995
+1,1,,,1918,ελληνικό,6,0,reed business publishing,g120a,16,cs,test modems v.34/ internetworking αξιοποιήστε routers and bridges για διαδικτύωση/ internet microsoft and uunet προσεγγίζουν το δίκτυο,telecom τηλεπληροφορική/τηλεπικοινωνίες,0,1995
+1,1,,0898-9788,1919,english,3,0,robert ward,cs-lib,3,cs,artificial intelligence,the c users journal,8,1990
+1,1,,0898-9788,1920,english,4,0,robert ward,cs-lib,4,cs,real-time systems,the c users journal,8,1990
+1,1,,0898-9788,1921,english,5,0,robert ward,cs-lib,5,cs,number crunching,the c users journal,8,1990
+1,1,,0898-9788,1922,english,6,0,robert ward,cs-lib,6,cs,software design,the c users journal,8,1990
+2,1,,0898-9788,1923,english,7,0,robert ward,cs-lib,7,cs,object-oriented programming,the c users journal,8,1990
+1,1,,0898-9788,1924,english,8,0,robert ward,cs-lib,8,cs,graphics,the c users journal,8,1990
+1,1,,0898-9788,1925,english,9,0,robert ward,cs-lib,9,cs,communications,the c users journal,8,1990
+1,1,,0898-9788,1926,english,10,0,robert ward,cs-lib,10,cs,debugging,the c users journal,8,1990
+1,1,,0898-9788,1927,english,11,0,robert ward,cs-lib,11,cs,"operating systems os/2, unix & vms",the c users journal,8,1990
+2,1,,0898-9788,1928,english,12,0,robert ward,cs-lib,12,cs,device control,the c users journal,8,1990
+1,1,,0898-9788,1929,english,1,0,robert ward,cs-lib,1,cs,"portability (resources, compiler differences, macro tricks) - using large arrays - multi-threaded c",the c users journal,9,1991
+1,1,,0898-9788,1930,english,2,0,robert ward,cs-lib,2,cs,algorithms,the c users journal,9,1991
+1,1,,0898-9788,1931,english,3,0,robert ward,cs-lib,3,cs,real-time programming,the c users journal,9,1991
+1,1,,0898-9788,1932,english,4,0,robert ward,cs-lib,4,cs,user interfaces,the c users journal,9,1991
+1,1,,0898-9788,1933,english,5,0,robert ward,cs-lib,5,cs,numerical applications,the c users journal,9,1991
+1,1,,0898-9788,1934,english,6,0,robert ward,cs-lib,6,cs,advanced application development,the c users journal,9,1991
+1,1,,0898-9788,1935,english,7,0,robert ward,cs-lib,7,cs,new frontiers in c,the c users journal,9,1991
+1,1,,0898-9788,1936,english,8,0,robert ward,cs-lib,8,cs,graphics,the c users journal,9,1991
+1,1,,0898-9788,1937,english,10,0,robert ward,cs-lib,10,cs,"debugging, x-window programming, a call-tree generator",the c users journal,9,1991
+1,1,,0898-9788,1938,english,11,0,robert ward,cs-lib,11,cs,operating systems,the c users journal,9,1991
+1,1,,0898-9788,1939,english,12,0,robert ward,cs-lib,12,cs,device control,the c users journal,9,1991
+1,1,,0898-9788,1940,english,1,0,robert ward,cs-lib,1,cs,portability,the c users journal,10,1992
+1,1,,0898-9788,1941,english,2,0,robert ward,cs-lib,2,cs,algorithms,the c users journal,10,1992
+1,1,,0898-9788,1942,english,5,0,robert ward,cs-lib,5,cs,scientific and numerical applications,the c users journal,10,1992
+1,1,,0898-9788,1943,english,6,0,robert ward,cs-lib,6,cs,software tools,the c users journal,10,1992
+1,1,,0898-9788,1944,english,7,0,robert ward,cs-lib,7,cs,"extensions, procedure tables, simulations",the c users journal,10,1992
+1,1,,0898-9788,1945,english,9,0,robert ward,cs-lib,9,cs,communications/networks,the c users journal,10,1992
+1,1,,0898-9788,1946,english,10,0,robert ward,cs-lib,10,cs,"debugging, spatial filtering, real-world binary trees, writing crc routines, data compression",the c users journal,10,1992
+1,1,,0898-9788,1947,english,11,0,robert ward,cs-lib,11,cs,"operating systems, console stream manipulators, a versatile plotting routine, image processing in c",the c users journal,10,1992
+1,1,,0898-9788,1948,english,12,0,robert ward,cs-lib,12,cs,"device control (bimodal interrupts, a midi device driver, windows device drivers)",the c users journal,10,1992
+1,1,,0898-9788,1949,english,1,0,robert ward,cs-lib,1,cs,advanced solutions for c/c++ programmers/portability,the c users journal,11,1993
+1,1,,0898-9788,1950,english,2,0,robert ward,cs-lib,2,cs,algorithms/financial functions/linear programming/image segmentation/threads/mastering pointers,the c users journal,11,1993
+1,1,,0898-9788,1951,english,3,0,robert ward,cs-lib,3,cs,real-time & embedded systems/80x86-based embedded systems/a small 80x86 executive,the c users journal,11,1993
+1,1,,0898-9788,1952,english,4,0,robert ward,cs-lib,4,cs,"advanced solutions for c/c++ programmers, natural language processing, user interfaces",the c users journal,11,1993
+1,1,,0898-9788,1953,english,5,0,robert ward,cs-lib,5,cs,object-oriented programming/c++ envelope and letter class idiom/templates in c++/testing objects,the c users journal,11,1993
+1,1,,0898-9788,1954,english,6,0,robert ward,cs-lib,6,cs,scientific and numerical applications/natural language processing for tense and number/c image processing,the c users journal,11,1993
+1,1,,0898-9788,1955,english,7,0,robert ward,cs-lib,7,cs,software tools/revision control/c++ streams,the c users journal,11,1993
+1,1,,0898-9788,1956,english,8,0,robert ward,cs-lib,8,cs,graphics/automated unit testing,the c users journal,11,1993
+1,1,,0898-9788,1957,english,9,0,robert ward,cs-lib,9,cs,windows programming,the c users journal,11,1993
+1,1,,0898-9788,1958,english,10,0,robert ward,cs-lib,10,cs,debugging/embedded systems/exception handling in c,the c users journal,11,1993
+1,1,,0898-9788,1959,english,11,0,robert ward,cs-lib,11,cs,"device control, dma controller programming, data acquisition and control under windows",the c users journal,11,1993
+1,1,,0898-9788,1960,english,12,0,robert ward,cs-lib,12,cs,"advanced development strategies: using c/c++ with clipper, on-the-fly compression, a windows debugging stream, bitmap image transformations",the c users journal,11,1993
+1,1,,0898-9788,1961,english,1,0,robert ward,cs-lib,1,cs,portability/a short float type in c++,the c users journal,12,1994
+1,1,,0898-9788,1962,english,2,0,robert ward,cs-lib,2,cs,"algorithms: an unusal compression technique, fast text matching, efficient binary encoding",the c users journal,12,1994
+1,1,,0898-9788,1963,english,3,0,robert ward,cs-lib,3,cs,"real-time/embedded systems, streamlining c++ programs",the c users journal,12,1994
+1,1,,0898-9788,1964,english,4,0,robert ward,cs-lib,4,cs,advanced solutions for c/c++ programmers user interfaces,the c users journal,12,1994
+1,1,,0898-9788,1965,english,5,0,robert ward,cs-lib,5,cs,"object-oriented programming, advanced solutions for c/c++ programmers",the c users journal,12,1994
+1,1,,0898-9788,1966,english,6,0,robert ward,cs-lib,6,cs,scientific/numerical applications/divided-difference interpolation,the c users journal,12,1994
+1,1,,,1967,english,4,0,mcgraw-hill company,g122,17,δείγμα,in this issue the multimedia revolution,the computing magazine,0,
+1,1,,,1968,english,0,0,,,17,,,the greate graphics ic race,0,
+1,1,12,0,1969,english,2,0,inesc,g122,7,δείγμα,papers: a wood industrial application for quality control using image processing/ context-free syntax and natural language engineering/ personal computer based isdn terminal/ analog to digital converter with bicmos technology,the inesc journal of research & development,4,1993
+1,1,,,1970,english,1,0,acm,g122,3,δείγμα,information about the special interest group for documentation (sigdoc),the journal of computer documentation,15,1991
+1,1,,1058-8406,1971,english,4,0,laurence erlbaum associates,g122,17,δείγμα,learning mathematics from classroom instruction,the journal of the learning sciences,2,1992
+1,1,,,1972,english,0,0,adobe systems incorporated,cs-lib,14,δείγμα,new products for the new macs,the macintosh,0,1987
+1,1,,,1973,english,12,0,database publications ltd.,cs-lib,2,δείγμα,education: up-to-the minute news of the bbc micro in the world of education.,the micro user,7,1990
+1,1,,,1974,english,73,0,margaret willes,g122,14,δείγμα,step this way: angus stirling reaffirms the need for access to the countryside,the national trust magazine,0,1994
+1,1,,0924-1868,1975,english,1,0,kluwer academic publishers,g121,1,cs,special issue on: student modeling,user modeling and user-adapted interaction,5,1995
+1,1,,0924-1868,1976,english,2,0,kluwer academic publishers,g121,17,cs,special issue on student modeling,user modeling and user-adapted interaction,5,1995
+1,1,,0924-1868,1977,english,3-4,0,kluwer academic publishers,g121,17,cs,special issue on : numerical uncertaintly management in user and student modeling,user modeling and user-adapted interaction,5,1995
+1,1,12,,1978,english,5,0,miller freeman,g117,11,cs,"virtual auditoriums: sharing vr in small groups/ bronx hospital uses vr for entertainment, rehabilitation/ vr industry standards",virtual reality special report,2,1995
+1,1,2,1074-1038,1979,english,1,0,miller freeman,g117,1,cs,virtual reality in medicine/ vr shows a new way to education,virtual reality special report,3,1996
+1,1,,,1980,english,1,0,"sig-advanced applications, inc.",cs-lib,3,cs,"human perceptual issues & vr, applications: from wall street to virtual museums",virtual reality systems,1,1993
+1,1,,,1981,english,2,0,"sig-advanced applications, inc.",cs-lib,14,cs,special feature aerospace & military applications of virtual reality,virtual reality systems,1,1993
+1,1,,,1982,english,3,0,"sig-advanced applications, inc.",cs-lib,15,cs,special issue: virtual reality and medical applications,virtual reality systems,1,1994
+1,1,2,1060-9547,1983,english,1,0,alan m. meckler,g117,1,cs,"virtual reality in north america part ii, pteranodom sighting at siggraph '93",virtual reality world,2,1994
+1,1,4,1060-9547,1984,english,2,0,alan m. meckler,g117,3,cs,home vr: electronic playgrounds living room style/avatars and virtual agents uk virtual reality,virtual reality world,2,1994
+1,1,6,1060-9547,1985,english,3,0,alan m. meckler,g117,5,cs,germany's extended virtual environment/virtual motion from the uk,virtual reality world,2,1994
+1,1,8,1060-9547,1986,english,4,0,alan m. meckler,g117,7,cs,health & safety/a survey of medical issues and virtual reality technology,virtual reality world,2,1994
+1,1,10,1060-9547,1987,english,5,0,alan m. meckler,g117,9,cs,designing vr applications for the desktop/the virtual art world of carl loeffler/the virtual globe theater,virtual reality world,2,1994
+1,1,12,1060-9547,1988,english,6,0,alan m. meckler,g117,11,cs,"museums open gateways to cyberspace, home shopping in the virtual mall, cartoon characters come alive with vr",virtual reality world,2,1994
+1,1,2,1060-9547,1989,english,1,0,alan m. meckler,g117,1,cs,"museum-vr: part ii, vr channel surfing, virtual field trips: the jason project",virtual reality world,3,1995
+1,1,4,1060-9547,1990,english,2,0,alan m. meckler,g117,3,cs,peter gabriel's vr vision put on your headmount and experience cybersites on the internet.,virtual reality world,3,1995
+2,1,6,1060-9547,1991,english,3,0,alan m. meckler,g117,5,cs,entertainment special vr goes mass market in 1995. the next generation of consumer games moves into your home,virtual reality world,3,1995
+1,1,8,1060-9547,1992,english,4,0,alan m. meckler,g117,7,cs,design special/ the vr.5 rave/ virtual reality market place '95/ cybersports,virtual reality world,3,1995
+1,1,,0787-8680,1995,english,1,0,miktor helsinki,g122,4,δείγμα,regional activities in eastern and southern africa/world deaf news/wfd news/news from the united nations,wfd news (magazine of the world federation of the deaf),0,1992
+1,1,,0787-8680,1996,english,2,0,miktor helsinki,g122,10,δείγμα,wfd bureau in vancouver/wfd at the independence '92/international conference on bilingualism in deaf education/disability awareness in action/world deaf news,wfd news (magazine of the world federation of the deaf),0,1992
+1,1,,0264-441x,1997,english,0,0,vnu business publications,g122,2,δείγμα,"notebook pcs, relational databases",what micro,0,1991
+1,1,,0264-441x,1998,english,0,0,vnu business publications,cs-lib,7,δείγμα,"windows 3.0, color dot-matrix printers, drawperfect, computer class, buyers guide",what micro,0,1990
+1,1,,0956-5248,1999,english,7,0,emap business and computer publications,cs-lib,2,δείγμα,"21 laser printers, 6 hard disk portables",what personal computer,0,1990
+1,1,,0956-5248,2000,english,19,0,emap business and computer publications,g122,2,δείγμα,"flatbed scanners, low cost networking, databases",what personal computer,0,1991
+1,1,,,2001,ελληνικό,1,0,ιδιότυπο publishing,g123,2,cs,"lotus, bitmaps, θεωρια & windows nt, microsoft sound system",win,1,1993
+1,1,,,2002,ελληνικό,2,0,ιδιότυπο publishing,g123,3,cs,πλήρης ανάλυση για τις εφαρμογές dos κάτω από τα windows/ventura publisher 4.1/lotus improv/spellmate/multimedia,win,1,1993
+1,1,,,2003,ελληνικό,3,0,ιδιότυπο publishing,g123,4,cs,"microsoft on line support, υλοποίηση εφαρμογών multimedia, windows nt",win,1,1993
+1,1,,,2004,ελληνικό,4,0,ιδιότυπο publishing,g123,5,cs,ms dos 6.0 & windows/τα καλύτερα προγράμματα presentation/5 databases for windows/δίκτυα & επικοινωνίες windows,win,1,1993
+1,1,,,2005,ελληνικό,5,0,ιδιότυπο publishing,g123,6,cs,κάρτες γραφικών σε windows & windows nt/microsoft on line windows nt for workgroups για αρχάριους/multimedia/wordperfect,win,1,1993
+1,1,8,,2006,ελληνικό,6,0,ιδιότυπο publishing,g123,7,cs,corel 4.0 intellidraw/windows nt microsoft on line/δίκτυα & windows/μνήμη & windows,win,1,1993
+1,1,,,2007,ελληνικό,7,0,ιδιότυπο publishing,g123,9,cs,fonts και εκτυπώσεις στα windows/επικοινωνίες στα windows/υλοποίηση εφαρμογών multimedia/δίκτυα και windows,win,1,1993
+1,1,,,2008,ελληνικό,8,0,ιδιότυπο publishing,g123,10,cs,pentium vs i486,win,1,1993
+1,1,,,2009,ελληνικό,9,0,ιδιότυπο publishing,g123,11,cs,"αρχεία .inf, cd-rom, windows nt",win,1,1993
+1,1,,,2010,ελληνικό,10,0,ιδιότυπο publishing,g123,12,cs,"αρχεία .inf, εκτυπωτές, inside windows, δίκτυα και windows, word 6.0, foxpro",win,1,1993
+1,1,,,2011,ελληνικό,12,0,ιδιότυπο publishing,g123,2,cs,"κάρτες οθόνης, προγραμματισμός στα windows σε c++ και σε visual basic, visual c++ 1.5",win,2,1994
+1,1,,,2012,ελληνικό,13,0,ιδιότυπο publishing,g123,3,cs,"lotus screen cam, statgraphics for windows, win - os/2, cd-rom drives",win,2,1994
+1,1,,,2013,ελληνικό,14,0,ιδιότυπο publishing,g123,4,cs,winfax pro για δίκτυα/gword for windows/προγραμματίστε σε visual basic/modems,win,2,1994
+1,1,,,2014,ελληνικό,15,0,ιδιότυπο publishing,g123,5,cs,προγραμματίστε σε visual basic/borland c++ 4.0,win,2,1994
+1,1,,,2015,ελληνικό,16,0,ιδιότυπο publishing,g123,6,cs,"windows nt 3.5, os/2 for windows, seven 486 systems, hard disks",win,2,1994
+1,1,,,2016,ελληνικό,17,0,ιδιότυπο publishing,g123,6,cs,"πληροφορική και εκπαίδευση, δίκτυα peer-to-peer, corel draw 5.0",win,2,1994
+1,1,,1059-2407,2017,english,4,0,r & d publications,g120a,4,cs,windows nt/turbo vision traps and techniques/the windows for workgroups sdk/accessing the keyboard from basic,windows/dos developer's journal,4,1993
+1,1,,1059-2407,2018,english,5,0,r & d publications,g120a,5,cs,device drivers/inside windows nt security/3-d buttons/paul bonneau on multi-font edit controls,windows/dos developer's journal,4,1993
+1,1,,1059-2407,2019,english,6,0,r & d publications,g120a,6,cs,windows api debuggers/second-monitor debugging/fast interrupt handling without vxds/mru file menu code,windows/dos developer's journal,4,1993
+1,1,,1059-2407,2020,english,7,0,r & d publications,g120a,7,cs,software tools/a c string extractor/ a configurable menu-based user interface,windows/dos developer's journal,4,1993
+1,1,,1059-2407,2021,english,8,0,r & d publications,g120a,8,cs,object-oriented programming,windows/dos developer's journal,4,1993
+1,1,,1059-2407,2022,english,9,0,r & d publications,g120a,9,cs,visual programming,windows/dos developer's journal,4,1993
+1,1,,1059-2407,2023,english,10,0,r & d publications,g120a,10,cs,graphics,windows/dos developer's journal,4,1993
+1,1,,1059-2407,2024,english,11,0,r & d publications,g120a,11,cs,networks/windows network programming,windows/dos developer's journal,4,1993
+1,1,,1059-2407,2025,english,12,0,r & d publications,g120a,12,cs,database programming,windows/dos developer's journal,4,1993
+1,1,,1059-2407,2026,english,1,0,r & d publications,g120a,1,cs,internationalization an international date class/undocumented winhelp macros,windows/dos developer's journal,5,1994
+1,1,,1059-2407,2027,english,2,0,r & d publications,g120a,2,cs,"multimedia, bitmap special effects",windows/dos developer's journal,5,1994
+1,1,,1059-2407,2028,english,3,0,r & d publications,g120a,3,cs,c++ member function callbacks/an nt asynch i/o c++class/seven borland c++ v4.0 tips/more bitmap special effects/practical c++: pointers to member functions,windows/dos developer's journal,5,1994
+1,1,,1059-2407,2029,english,4,0,r & d publications,g120a,4,cs,windows nt,windows/dos developer's journal,5,1994
+1,1,,1059-2407,2030,english,5,0,r & d publications,g120a,5,cs,"device drivers/bitmap special effects, borland's nasty dll bug",windows/dos developer's journal,5,1994
+1,1,,1059-2407,2031,english,6,0,r & d publications,g120a,6,cs,debugging,windows/dos developer's journal,5,1994
+1,1,,1059-2407,2032,english,7,0,r & d publications,g120a,7,cs,"software tools, using windows nt",windows/dos developer's journal,5,1994
+1,1,,1059-2407,2033,english,8,0,r & d publications,g120a,8,cs,object-oriented programming,windows/dos developer's journal,5,1994
+1,1,,1059-2407,2034,english,9,0,r & d publications,g120a,9,cs,memory management,windows/dos developer's journal,5,1994
+1,1,,1059-2407,2035,english,10,0,r & d publications,g120a,10,cs,graphics (faster graphics in wing),windows/dos developer's journal,5,1994
+1,1,,1059-2407,2036,english,11,0,r & d publications,g120a,11,cs,"networks using the netware core protocol extensions, using cc:mail from visual basic",windows/dos developer's journal,5,1994
+1,1,,1059-2407,2037,english,12,0,r & d publications,g120a,12,cs,mfc programming,windows/dos developer's journal,5,1994
+1,1,,1059-2407,2038,english,1,0,r & d publications,g120a,1,cs,"c++ owl command enablers for dialogs, reducing mfc resource usage",windows/dos developer's journal,6,1995
+1,1,,1059-2407,2039,english,2,0,r & d publications,g120a,2,cs,windows nt / a c++ class for memory-mapped files / the ultimate windows version detector,windows/dos developer's journal,6,1995
+1,1,,1059-2407,2040,english,3,0,r & d publications,g120a,3,cs,multimedia,windows/dos developer's journal,6,1995
+1,1,,1059-2407,2041,english,4,0,r & d publications,g120a,4,cs,communications,windows/dos developer's journal,6,1995
+1,1,,1059-2407,2042,english,5,0,r & d publications,g120a,5,cs,device drivers: - utility: dynamic nt driver loader - a vxd for protected-mode dos multitasking,windows/dos developer's journal,6,1995
+1,1,,1059-2407,2043,english,6,0,r & d publications,g120a,6,cs,"features: debugging fixed memory, an exception debugger for visual c++ v1.5",windows/dos developer's journal,6,1995
+1,1,,1059-2407,2044,english,7,0,r & d publications,g120a,7,cs,"windows 95: writing windows 95 file monitors, windows 95 utility clipbase",windows/dos developer's journal,6,1995
+1,1,,1059-2407,2045,english,8,0,r & d publications,g120a,8,cs,software tools: an import resolver tool/ a printer pass-through tool,windows/dos developer's journal,6,1995
+1,1,,1059-2407,2046,english,9,0,r & d publications,g120a,9,cs,user interface programming,windows/dos developer's journal,6,1995
+1,1,,1059-2407,2047,english,10,0,r & d publications,g120a,10,cs,graphics/ visual c++'s secret 64-bit ints,windows/dos developer's journal,6,1995
+1,1,,1059-2407,2048,english,11,0,r & d publications,g120a,11,cs,networking/ understanding nt,windows/dos developer's journal,6,1995
+1,1,,1101-6930,2062,english,0,0,swedish work environment association,g122,17,δείγμα,unknown hazards for wommen/drug tests on the job ok in sweden/assembly line work/smoking is not a private matter,working environment in sweden,0,1993
+1,1,,1017-6950,2063,english,1,0,commission of the european communities,cs-lib,4,cs,interview/hungarian telecoms/esprit/telecoms/conference/vision 1250/etsi/value judgement,xiii magazine,0,1991
+1,1,,1017-6950,2064,english,2,0,commission of the european communities,race-lib,17,cs,"internal market, programmes in action, standardization, international perspective",xiii magazine,0,1992
+1,1,,1017-6950,2065,english,2,0,commission of the european communities,race-lib,7,cs,race: europe's broadband future,xiii magazine,0,1991
+1,1,,1017-6950,2066,english,3,0,commission of the european communities,race-lib,10,cs,mobile communications,xiii magazine,0,1991
+1,1,,1017-6950,2067,english,4,0,commission of the european communities,race-lib,12,cs,home systems,xiii magazine,0,1991
+1,2,,1017-6950,2068,english,5,0,commission of the european communities,race-lib,3,cs,road transport informatics/smart cars/videotext and audiotext in europe/manufacturing systems/business systems,xiii magazine,0,1992
+1,1,,1017-6950,2069,english,6,0,commission of the european communities,race-lib,5,cs,information services/science parks/machine translation/ora programme/patient data cards/telecommunications,xiii magazine,0,1992
+1,1,,1017-6950,2070,english,7,0,commission of the european communities,race-lib,7,cs,mail chauvinism/microprocessors/standardization/data protection/telecommunications,xiii magazine,0,1992
+1,2,,1017-6950,2071,english,8,0,commission of the european communities,race-lib,10,cs,air traffic management/telecoms equipment/assistive technology/interactive multimedia,xiii magazine,0,1992
+1,1,,1017-6950,2072,english,9,0,commission of the european communities,race-lib,12,cs,value added telecoms services,xiii magazine,0,1992
+1,2,,1017-6950,2073,english,10,0,commission of the european communities,race-lib,5,cs,telecoms: competition in public procurement/designing for users/talking to your pc,xiii magazine,0,1993
+1,2,,1017-6950,2074,english,11,0,commission of the european communities,cs-lib,9,cs,community policy on telecommunications,xiii magazine,0,1993
+1,1,12,1105-1575,2075,ελληνικό,75,0,εππσκε,g117,10,δείγμα,τα ανθρώπινα δικαιώματα και η κοινωνική εργασία,εκλογή,0,1987
+1,1,3,1105-1575,2076,ελληνικό,83,0,εππσκε,g117,10,δείγμα,η φτώχεια στην ευρωπη και στην ελλαδα,εκλογή,0,1989
+1,3,6,1105-1575,2077,ελληνικό,93,0,εππσκε,g117,4,δείγμα,1. ατυπα δίκτυα φροντίδας 2. κοινωνική και μακροοικονομική πολιτική 3. η νομική δομή της ελληνικής οικογένειας 4. το πρόγραμμα haydynet στην ελλάδα.,εκλογή,0,1992
+1,2,,,2078,ελληνικό,14,0,computer verlag s.a.,g120a,6,δείγμα,"υπολογιστικά περιβάλλοντα, σήμερα, αύριο / electronic data interchange / fast ethernet",ελληνικο chip,0,1995
+1,1,6,,2079,english,10,0,επυ,g122,5,δείγμα,"αποτελέσματα γενικής συνέλευσης της επυ, απόψεις της επυ για την πληροφορική στην εκπαίδευση, εξαγγελθείσα στρατηγική του υπουργείου παιδείας για την πληροφορική στο δημόσιο",ενημερωτικό δελτίο,0,1986
+1,1,8,,2080,ελληνικό,35,0,compupress ae,cs-lib,6,δείγμα,οι υβριδικοί managers/εκπαιδεύοντας την πληροφορική της εκπαίδευσης/3ο πανελλήνιο συνέδριο πληροφορικής,ενημερωτικό δελτίο,0,1990
+1,1,5,,2081,ελληνικό,48,0,computer aided επε,g122,3,δείγμα,η αυγή της δεκαετίας των αpi/χαρακτηριστικές περιπτώσεις ζημιών σε h/y,ενημερωτικό δελτίο,0,1993
+1,1,,,2082,ελληνικό,6,0,εταιρεία στήριξης ατόμων με ειδικές ανάγκες,g120a,17,δείγμα,τα δικαιώματα των αμεα/ το ιστορικό του δυσλεξικού παιδιού/ αυτισμός,ενημερωτικο δελτιο,0,1995
+1,1,,1106-2835,2083,ελληνικό,0,0,υπηρεσία πληροφορικής του κεσυ.,gr83.b.1,2,δείγμα,συγκεντρωτικά και αναλυτικά λειτουργικά στοιχεία νοσοκομείων εσυ,επετηρίδα υγείας 1992,0,1994
+1,1,,,2084,ελληνικό,1,0,σύλλογος ελλήνων εργοθεραπευτών,cs-lib,16,cs,εφαρμογή η/υ σε παιδιά με αναπηρίες,εργοθεραπεία,0,1993
+1,1,,,2096,ελληνικό,3,0,εθνικό κέντρο τεκμηρίωσης,g120a,12,cs,"iv πρόγραμμα-πλαίσιο για δραστηριότητες έρευνας, τεχνολογικής ανάπτυξης και επίδειξης 1994-1998 προσκλήσεις υποβολής προτάσεων",ελληνικό κέντρο αναδιανομής value,0,1994
+1,1,,,2097,ελληνικό,4,0,εθνικό κέντρο τεκμηρίωσης,g120a,6,cs,"iv πρόγραμμα-πλαίσιο για δραστηριότητες έρευνας, τεχνολογικής ανάπτυξης και επίδειξης τα πρώτα στοιχεία της ανταπόκρισης της ερευνητικής κοινότητας και οι προσκλήσεις υποβολής προτάσεων",ελληνικό κέντρο αναδιανομής value,0,1995
+1,1,,,2098,ελληνικό,5,0,εθνικό κέντρο τεκμηρίωσης,g120a,7,cs,"iv πρόγραμμα - πλαίσιο ερευνας, τεχνολογικής ανάπτυξης και επίδειξης οι τρέχουσες προσκλήσεις υποβολής προτάσεων",ελληνικό κέντρο αναδιανομής value,0,1995
+1,1,4,,2116,ελληνικό,1,0,computer για ολους,cs-lib,1,cs,"υπολογιστές, εκτυπωτές, οθόνες, αποθηκευτικά μέσα",οδηγός ελληνικής αγοράς πληροφορική (τριμηνιαία έκδοση του περιοδικού για ολους,0,1994
+1,1,7,,2117,ελληνικό,2,0,computer για ολους,cs-lib,5,cs,"υπολογιστές, εκτυπωτές, οθόνες, αποθηκευτικά μέσα, κάρτες γραφικών, scanners, modems",οδηγός ελληνικής αγοράς πληροφορική (τριμηνιαία έκδοση του περιοδικού για ολους,0,1994
+1,1,11,,2118,ελληνικό,3,0,computer για ολους,cs-lib,9,cs,"ελληνικό & ξένο software, εκτυπωτές, σκληροί δίσκοι, cd-rom drivers, κάρτες γραφικών, scanners, modems",οδηγός ελληνικής αγοράς πληροφορική (τριμηνιαία έκδοση του περιοδικού για ολους,0,1994
+1,1,,,2119,ελληνικό,4,0,computer για ολους,cs-lib,12,cs,"ελληνικό & ξένο software, υπολογιστές, εκτυπωτές, monitors, σκληροί δίσκοι, μονάδες back-up, cd-rom drives, scanners, modems, κάρτες γραφικών.",οδηγός ελληνικής αγοράς πληροφορική (τριμηνιαία έκδοση του περιοδικού για ολους,0,1994
+1,1,,0069-8245,2120,ελληνικό,0,0,εθνική στατιστική υπηρεσία της ελλάδος,cs-lib,17,δείγμα,η συνοπτική στατιστική επετηρίδα της ελλάδος περιλαμβάνει μια σύντομη επισκόπιση των βασικών οικονομικών και κοινωνικών μεγεθών της χώρας.,συνοπτική στατιστική επετηρίδα 1985-1986,0,1987
+1,1,6,,2121,ελληνικό,0,0,τεχνικό επιμελητήριο ελλάδος,cs-lib,4,δείγμα,πρακτικά διημέρου έρευνας & τεχνολογίας,τεχνικά χρονικά,0,1984
+1,1,,1063-6692,2129,english,5,0,ieee computer society / acm,g121,10,cs,transactions papers,ieee/acm transactions on networking,4,1996
+1,1,0,1041-4347,2155,english,5,0,ieee computer society,g121,10,cs,knowledge representation/reasoning methods and systems/logic processing/knowledge base systems/multimedia systems,ieee transactions on knowledge and data engineering,8,1996
+1,1,0,,2229,,971,0,edmund scientific company,,0,,1997 optics and opticallnstruments catalog,"edmund scientific, industrial optics division",0,0
+1,1,0,0953-5438,2243,english,4,0,elsevier science b.v.,g121,12,cs,"papers: a visual approach to versioning for text co-authoring / interaction of screen distances, screen letter heights and source document distances / investiogation of voice and text output modes with abstraction in a computer interface / triadic relationship between doctor, computer and patient / towards a practical measure of hypertext usability",interacting with computers,8,1996
+1,1,3,02678373,2301,english,1,0,taylor & francis,,1,cs,"an international, multidisciplinary quarterly of stress, health, and performance",work and stress,10,1996
+1,1,0,1058-8406,2302,english,1,0,laurence erlbaum associates,g122,0,δείγμα,"biology diagrams/positives about negatives/learning ""how"" versus learning ""when""",the journal of the learning sciences,3,1993/1994
+1,1,0,0014-0139,2304,english,5,0,taylor & francis,,5,δείγμα,viewing distance variation and related ophthalmological changes.,ergonomics,39,1996
+1,1,0,0924-1868,2306,english,4,0,kluwer academic publishers,g121,10,cs,this issue complete volume 6,user modeling and user-adapted interaction,6,1996

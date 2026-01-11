@@ -1,0 +1,583 @@
+{
+  "db1": {
+    "Authors": [
+      "AuthorID",
+      "FirstName",
+      "MiddleName",
+      "LastName"
+    ],
+    "AuthorsForOrders": [
+      "BookAuthorID",
+      "BookID",
+      "AuthorID"
+    ],
+    "BookAuthors": [
+      "BookAuthorID",
+      "BookID",
+      "AuthorID"
+    ],
+    "BookTopic": [
+      "BookTopicID",
+      "TopicID",
+      "BookID"
+    ],
+    "Books": [
+      "BookID",
+      "Title",
+      "Theme",
+      "Category",
+      "Publisher",
+      "PublicationYear",
+      "ISBN",
+      "CoverType",
+      "Origin",
+      "Shelf",
+      "CopiesNo",
+      "FotocopiesNo",
+      "Includes"
+    ],
+    "Books1": [
+      "BookID",
+      "Author Name",
+      "Author Middle",
+      "Author Surname",
+      "Co-Authors",
+      "Title",
+      "Theme",
+      "Type",
+      "Category",
+      "Date of publication",
+      "Publisher",
+      "ISBN",
+      "Kind",
+      "Origin",
+      "Shelf",
+      "State",
+      "When_Borrowed",
+      "Who_Borrowed",
+      "Field18"
+    ],
+    "BorrowedBooks": [
+      "BooksReaderID",
+      "BookID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate",
+      "Type"
+    ],
+    "BorrowedJournals": [
+      "JournalsReaderID",
+      "JournalID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate"
+    ],
+    "BorrowedNewsletters": [
+      "NewslettersReaderID",
+      "NewsletterID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate"
+    ],
+    "BorrowingBooks": [
+      "BooksReaderID",
+      "BookID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate",
+      "Type"
+    ],
+    "BorrowingJournals": [
+      "JournalsReaderID",
+      "JournalID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate"
+    ],
+    "BorrowingNewsletters": [
+      "NewslettersReaderID",
+      "NewsletterID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate"
+    ],
+    "ConversionErrors": [
+      "Object Type",
+      "Object Name",
+      "Error Description"
+    ],
+    "ConversionErrors1": [
+      "Object Type",
+      "Object Name",
+      "Error Description"
+    ],
+    "CoverType": [
+      "CoverTypeID",
+      "CoverType"
+    ],
+    "Journals": [
+      "JournalID",
+      "Title",
+      "Publisher",
+      "Theme",
+      "StartMonth",
+      "EndMonth",
+      "Year",
+      "Volume",
+      "Number",
+      "CopiesNo",
+      "PhotocopiesNo",
+      "ISSN",
+      "Subscriber",
+      "Shelf",
+      "Language",
+      "Available"
+    ],
+    "Logic": [
+      "LogicID",
+      "Logic"
+    ],
+    "MissingBooks": [
+      "Title",
+      "Theme",
+      "Category",
+      "Publisher",
+      "PublicationYear",
+      "ISBN",
+      "CoverType",
+      "CopiesNo",
+      "PhotocopiesNo",
+      "Topic1",
+      "Topic2",
+      "Topic3",
+      "Author1",
+      "Author2",
+      "Author3",
+      "Author4"
+    ],
+    "Months": [
+      "MonthID",
+      "Month"
+    ],
+    "NB": [
+      "Title",
+      "Theme",
+      "FirstName1",
+      "MiddleName1",
+      "LastName1",
+      "FirstName2",
+      "MiddleName2",
+      "LastName2",
+      "FirstName3",
+      "MiddleName3",
+      "LastName3",
+      "Topic1",
+      "Topic2",
+      "Topic3",
+      "Category",
+      "Publisher",
+      "PublicationYear",
+      "ISBN",
+      "CoverType",
+      "Origin",
+      "Shelf",
+      "CopiesNo",
+      "PhotocopiesNo",
+      "Available"
+    ],
+    "Newsletters": [
+      "NewsletterID",
+      "Title",
+      "Publisher",
+      "Theme",
+      "StartMonth",
+      "EndMonth",
+      "Year",
+      "Volume",
+      "Number",
+      "Copies",
+      "Photocopies",
+      "ISSN",
+      "Subscriber",
+      "Shelf"
+    ],
+    "OldJournals": [
+      "JournalID",
+      "Title",
+      "Publisher",
+      "Theme",
+      "StartMonth",
+      "EndMonth",
+      "Year",
+      "Volume",
+      "Number",
+      "CopiesNo",
+      "PhotocopiesNo",
+      "ISSN",
+      "Subscriber",
+      "Shelf",
+      "Language",
+      "Available"
+    ],
+    "OldReaderJournals": [
+      "TitleID",
+      "Title",
+      "Name",
+      "Date"
+    ],
+    "OrderedBooks": [
+      "BookID",
+      "OrderID",
+      "Title",
+      "Publisher",
+      "ISBN",
+      "Inserted",
+      "PublicationYear"
+    ],
+    "Orders": [
+      "OrderID",
+      "Name"
+    ],
+    "PAuthors": [
+      "AuthorID",
+      "FirstName",
+      "LastName"
+    ],
+    "Papers": [
+      "PaperID",
+      "CnfJ",
+      "Project",
+      "Topic",
+      "Description",
+      "Title",
+      "Year",
+      "SoftCopy",
+      "HardCopy",
+      "Link",
+      "Accepted",
+      "CondAccepted",
+      "Submitted",
+      "UndSubmission",
+      "InPress",
+      "FullPaper",
+      "Abstract"
+    ],
+    "PapersAuthors": [
+      "PapersAuthorsID",
+      "PaperID",
+      "AuthorID"
+    ],
+    "Reader": [
+      "ReaderID",
+      "LastName",
+      "FirstName"
+    ],
+    "SwitchboardItems": [
+      "SwitchboardID",
+      "ItemNumber",
+      "ItemText",
+      "Command",
+      "Argument"
+    ],
+    "Table1": [
+      "ID"
+    ],
+    "Test": [
+      "TestID",
+      "Link"
+    ],
+    "Topic": [
+      "TopicID",
+      "Topic"
+    ]
+  },
+  "db2": {
+    "Authors": [
+      "AuthorID",
+      "FirstName",
+      "MiddleName",
+      "LastName"
+    ],
+    "AuthorsForOrders": [
+      "BookAuthorID",
+      "BookID",
+      "AuthorID"
+    ],
+    "BookAuthors": [
+      "BookAuthorID",
+      "BookID",
+      "AuthorID"
+    ],
+    "BookTopic": [
+      "BookTopicID",
+      "TopicID",
+      "BookID"
+    ],
+    "Books": [
+      "BookID",
+      "Title",
+      "Theme",
+      "Category",
+      "Publisher",
+      "PublicationYear",
+      "ISBN",
+      "CoverType",
+      "Origin",
+      "Shelf",
+      "CopiesNo",
+      "FotocopiesNo",
+      "Includes"
+    ],
+    "Books1": [
+      "BookID",
+      "Author Name",
+      "Author Middle",
+      "Author Surname",
+      "Co-Authors",
+      "Title",
+      "Theme",
+      "Type",
+      "Category",
+      "Date of publication",
+      "Publisher",
+      "ISBN",
+      "Kind",
+      "Origin",
+      "Shelf",
+      "State",
+      "When_Borrowed",
+      "Who_Borrowed",
+      "Field18"
+    ],
+    "BorrowedBooks": [
+      "BooksReaderID",
+      "BookID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate",
+      "Type"
+    ],
+    "BorrowedJournals": [
+      "JournalsReaderID",
+      "JournalID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate"
+    ],
+    "BorrowedNewsletters": [
+      "NewslettersReaderID",
+      "NewsletterID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate"
+    ],
+    "BorrowingBooks": [
+      "BooksReaderID",
+      "BookID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate",
+      "Type"
+    ],
+    "BorrowingJournals": [
+      "JournalsReaderID",
+      "JournalID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate"
+    ],
+    "BorrowingNewsletters": [
+      "NewslettersReaderID",
+      "NewsletterID",
+      "ReaderID",
+      "DateIssued",
+      "ReturnedDate"
+    ],
+    "ConversionErrors": [
+      "Object Type",
+      "Object Name",
+      "Error Description"
+    ],
+    "ConversionErrors1": [
+      "Object Type",
+      "Object Name",
+      "Error Description"
+    ],
+    "CoverType": [
+      "CoverTypeID",
+      "CoverType"
+    ],
+    "Journals": [
+      "JournalID",
+      "Title",
+      "Publisher",
+      "Theme",
+      "StartMonth",
+      "EndMonth",
+      "Year",
+      "Volume",
+      "Number",
+      "CopiesNo",
+      "PhotocopiesNo",
+      "ISSN",
+      "Subscriber",
+      "Shelf",
+      "Language",
+      "Available"
+    ],
+    "Logic": [
+      "LogicID",
+      "Logic"
+    ],
+    "MissingBooks": [
+      "Title",
+      "Theme",
+      "Category",
+      "Publisher",
+      "PublicationYear",
+      "ISBN",
+      "CoverType",
+      "CopiesNo",
+      "PhotocopiesNo",
+      "Topic1",
+      "Topic2",
+      "Topic3",
+      "Author1",
+      "Author2",
+      "Author3",
+      "Author4"
+    ],
+    "Months": [
+      "MonthID",
+      "Month"
+    ],
+    "NB": [
+      "Title",
+      "Theme",
+      "FirstName1",
+      "MiddleName1",
+      "LastName1",
+      "FirstName2",
+      "MiddleName2",
+      "LastName2",
+      "FirstName3",
+      "MiddleName3",
+      "LastName3",
+      "Topic1",
+      "Topic2",
+      "Topic3",
+      "Category",
+      "Publisher",
+      "PublicationYear",
+      "ISBN",
+      "CoverType",
+      "Origin",
+      "Shelf",
+      "CopiesNo",
+      "PhotocopiesNo",
+      "Available"
+    ],
+    "Newsletters": [
+      "NewsletterID",
+      "Title",
+      "Publisher",
+      "Theme",
+      "StartMonth",
+      "EndMonth",
+      "Year",
+      "Volume",
+      "Number",
+      "Copies",
+      "Photocopies",
+      "ISSN",
+      "Subscriber",
+      "Shelf"
+    ],
+    "OldJournals": [
+      "JournalID",
+      "Title",
+      "Publisher",
+      "Theme",
+      "StartMonth",
+      "EndMonth",
+      "Year",
+      "Volume",
+      "Number",
+      "CopiesNo",
+      "PhotocopiesNo",
+      "ISSN",
+      "Subscriber",
+      "Shelf",
+      "Language",
+      "Available"
+    ],
+    "OldReaderJournals": [
+      "TitleID",
+      "Title",
+      "Name",
+      "Date"
+    ],
+    "OrderedBooks": [
+      "BookID",
+      "OrderID",
+      "Title",
+      "Publisher",
+      "ISBN",
+      "Inserted",
+      "PublicationYear"
+    ],
+    "Orders": [
+      "OrderID",
+      "Name"
+    ],
+    "PAuthors": [
+      "AuthorID",
+      "FirstName",
+      "LastName"
+    ],
+    "Papers": [
+      "PaperID",
+      "CnfJ",
+      "Project",
+      "Topic",
+      "Description",
+      "Title",
+      "Year",
+      "SoftCopy",
+      "HardCopy",
+      "Link",
+      "Accepted",
+      "CondAccepted",
+      "Submitted",
+      "UndSubmission",
+      "InPress",
+      "FullPaper",
+      "Abstract"
+    ],
+    "PapersAuthors": [
+      "PapersAuthorsID",
+      "PaperID",
+      "AuthorID"
+    ],
+    "Reader": [
+      "ReaderID",
+      "LastName",
+      "FirstName"
+    ],
+    "SwitchboardItems": [
+      "SwitchboardID",
+      "ItemNumber",
+      "ItemText",
+      "Command",
+      "Argument"
+    ],
+    "Test": [
+      "TestID",
+      "Link"
+    ],
+    "Topic": [
+      "TopicID",
+      "Topic"
+    ]
+  }
+}

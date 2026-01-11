@@ -1,0 +1,921 @@
+[
+  {
+    "isbns": [
+      "1577355164",
+      "9781577355168"
+    ],
+    "titles": {
+      "artificial intelligence on cd-rom": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3894068396",
+      "9783894068394"
+    ],
+    "titles": {
+      "innovative ideen": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "9678606380",
+      "9789678606387"
+    ],
+    "titles": {
+      "nan": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0201346516",
+      "9780201346510"
+    ],
+    "titles": {
+      "autocad customization guide": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "813173255X",
+      "9788131732557"
+    ],
+    "titles": {
+      "designing the user interface: strategies for effective human-computer interaction": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "9798487216915"
+    ],
+    "titles": {
+      "explanation techniques": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0880229470",
+      "9780880229470"
+    ],
+    "titles": {
+      "paradox for windows quick reference": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0938862650",
+      "9780938862659"
+    ],
+    "titles": {
+      "turbo c++ programmer's guide": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0951974408",
+      "9780951974407"
+    ],
+    "titles": {
+      "the assessment, disability & technology handbook": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0704911418",
+      "9780704911413"
+    ],
+    "titles": {
+      "virtual reality and disability": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1565292294",
+      "9781565292291"
+    ],
+    "titles": {
+      "pc tools for windows": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0119736977",
+      "9780119736977"
+    ],
+    "titles": {
+      "annual report '92": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0697006514",
+      "9780697006516"
+    ],
+    "titles": {
+      "visual basic": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "364230107X",
+      "9783642301070"
+    ],
+    "titles": {
+      "aim profiles": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0880226684",
+      "9780880226684"
+    ],
+    "titles": {
+      "ms-dos 5": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "9688804045",
+      "9789688804049"
+    ],
+    "titles": {
+      "corel draw 4.0": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "9996163229",
+      "9789996163227"
+    ],
+    "titles": {
+      "acm guide to computing literature 1995": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "9996163318",
+      "9789996163319"
+    ],
+    "titles": {
+      "acm guide to computing literature 1996": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "091667178X",
+      "9780916671785"
+    ],
+    "titles": {
+      "vocational assessment and evaluation": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0217915647",
+      "9780217915649"
+    ],
+    "titles": {
+      "aids for the deaf-blind": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1560532335",
+      "9781560532330"
+    ],
+    "titles": {
+      "advances in rehabilitation technology": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0735619077",
+      "9780735619074"
+    ],
+    "titles": {
+      "getting started microsoft visual c++": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1572313390",
+      "9781572313392"
+    ],
+    "titles": {
+      "microsoft visual basic language reference": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1572313404",
+      "9781572313408"
+    ],
+    "titles": {
+      "microsoft visual basic programmer's guide": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1896630189",
+      "9781896630182"
+    ],
+    "titles": {
+      "microsoft windows quick reference guide": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "999477607X",
+      "9789994776078"
+    ],
+    "titles": {
+      "virtual reality and persons with disabilities": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1542739624",
+      "9781542739627"
+    ],
+    "titles": {
+      "user interface tools": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3519261928",
+      "9783519261926"
+    ],
+    "titles": {
+      "gsm global system for mobile communications": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0070491364",
+      "9780070491366"
+    ],
+    "titles": {
+      "the design of digital systems": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1565932765",
+      "9781565932760"
+    ],
+    "titles": {
+      "telecommunications for people with special needs": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1849512639",
+      "9781849512633"
+    ],
+    "titles": {
+      "user interface development": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "8371886489",
+      "9788371886485"
+    ],
+    "titles": {
+      "2nd international conference": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "9282630307",
+      "9789282630303"
+    ],
+    "titles": {
+      "race common functional specifications": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "9282631281",
+      "9789282631287"
+    ],
+    "titles": {
+      "telecommunications and disability": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "8300032711",
+      "9788300032716"
+    ],
+    "titles": {
+      "research report 1988": [
+        "db1/Books",
+        "db1/Books1",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/Books1",
+        "db2/MissingBooks"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0131015850",
+      "9780131015852"
+    ],
+    "titles": {
+      "motif 1.2 style guide": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0719825814",
+      "9780719825811"
+    ],
+    "titles": {
+      "discover data communications": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "092128246X",
+      "9780921282464"
+    ],
+    "titles": {
+      "wordperfect version 6.0, for windows": [
+        "db1/Books",
+        "db1/Books1",
+        "db2/Books",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3540761055",
+      "9783540761051"
+    ],
+    "titles": {
+      "formal aspects of the human computer interface: bcs-facs workshop": [
+        "db1/Books",
+        "db1/MissingBooks",
+        "db2/Books",
+        "db2/MissingBooks"
+      ],
+      "formal aspects of the human computer": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "9282756688",
+      "9789282756683"
+    ],
+    "titles": {
+      "ec research funding: a guide for applicants": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "9997797507",
+      "9789997797506"
+    ],
+    "titles": {
+      "guidelines for document designers": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0788173308",
+      "9780788173301"
+    ],
+    "titles": {
+      "rehabilitation r&d progress reports 1997": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0890439133",
+      "9780890439135"
+    ],
+    "titles": {
+      "consumers reports 1999 home computer buying guide": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0006366023",
+      "9780006366027"
+    ],
+    "titles": {
+      "drawing on the right side of the brain": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "160845083X",
+      "9781608450831"
+    ],
+    "titles": {
+      "scenario-based usability engineering": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0768913985",
+      "9780768913989"
+    ],
+    "titles": {
+      "peterson's guide  to distance learning programs": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1447102797",
+      "9781447102793"
+    ],
+    "titles": {
+      "tools for working with guidelines": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1577353358",
+      "9781577353355"
+    ],
+    "titles": {
+      "personalization for e-commerce": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1883577071",
+      "9781883577070"
+    ],
+    "titles": {
+      "pc game programming explorer": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "8498450853",
+      "9788498450859"
+    ],
+    "titles": {
+      "iques": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "4894714221",
+      "9784894714229"
+    ],
+    "titles": {
+      "c++ in-depth series": [
+        "db1/Books",
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0078427118",
+      "9780078427114"
+    ],
+    "titles": {
+      "electric circuits (theory and problems)": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0671189034",
+      "9780671189037"
+    ],
+    "titles": {
+      "feedback and control systems": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1855208725",
+      "9781855208728"
+    ],
+    "titles": {
+      "ace 2009": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "364221715X",
+      "9783642217159"
+    ],
+    "titles": {
+      "ehawc2011, ergonomics and health aspects of work with computers": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3642292941",
+      "9783642292941"
+    ],
+    "titles": {
+      "s-bpm one - education and industrial developments": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1584505230",
+      "9781584505235"
+    ],
+    "titles": {
+      "ai game programming wisdom": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3642391389",
+      "9783642391385"
+    ],
+    "titles": {
+      "cross-cultural design: cultural differences in everyday life": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3319402374",
+      "9783319402376"
+    ],
+    "titles": {
+      "human-computer interaction: users and contexts": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3319208861",
+      "9783319208862"
+    ],
+    "titles": {
+      "design, user experience and usability: design discourse": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3031054083",
+      "9783031054082"
+    ],
+    "titles": {
+      "human-computer interaction: technological innovation": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3030067548",
+      "9783030067540"
+    ],
+    "titles": {
+      "the future of museums": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "1790813824",
+      "9781790813827"
+    ],
+    "titles": {
+      "introdu": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3031705874",
+      "9783031705878"
+    ],
+    "titles": {
+      "advances, applications and the future of haptic technology": [
+        "db1/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0672226197",
+      "9780672226199"
+    ],
+    "titles": {
+      "the wait group's c++ programming": [
+        "db1/Books1",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0262631504",
+      "9780262631501"
+    ],
+    "titles": {
+      "intelligent multimedia interfaces": [
+        "db1/Books1",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "0937475009",
+      "9780937475003"
+    ],
+    "titles": {
+      "technology and persons with disabilities": [
+        "db1/Books1",
+        "db2/Books1"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3540360204",
+      "9783540360209"
+    ],
+    "titles": {
+      "computers helping people with special needs": [
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3642394043",
+      "9783642394041"
+    ],
+    "titles": {
+      "virtual, augmented and mixed reality": [
+        "db2/Books"
+      ]
+    }
+  },
+  {
+    "isbns": [
+      "3030779424",
+      "9783030779429"
+    ],
+    "titles": {
+      "learning and collaboration technologies: games and virtual environments for learning": [
+        "db2/Books"
+      ]
+    }
+  }
+]

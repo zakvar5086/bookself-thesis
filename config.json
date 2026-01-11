@@ -1,0 +1,19 @@
+{
+  "paths": {
+    "db1": "export_books_2004",
+    "db2": "export_booksCollection",
+    "merged": "merged_csv",
+    "duplicates": "duplicates",
+    "matched_results": "matched_results"
+  },
+
+  "clean_csv": {
+    "remove_first_lines": 2,
+    "remove_last_lines": 2
+  },
+
+  "fuzzy": {
+    "score_threshold": 90,
+    "high_confidence": 95
+  }
+}

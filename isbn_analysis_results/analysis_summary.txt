@@ -1,0 +1,18 @@
+ISBN Analysis Summary
+============================================================
+
+Statistics:
+  total_entries: 13012
+  with_isbn: 8001
+  without_isbn: 5011
+  api_calls: 1370
+  api_errors: 0
+  case2a_count: 4648
+  case2b_count: 126
+  case2c_count: 237
+
+Results Summary:
+  Case 1 (Has ISBN): 2770 unique ISBNs
+  Case 2A (No ISBN found): 1251 titles
+  Case 2B (Multiple ISBNs): 48 titles
+  Case 2C (Single ISBN): 70 ISBN pairs

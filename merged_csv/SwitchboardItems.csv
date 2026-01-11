@@ -1,0 +1,14 @@
+Argument,Command,ItemNumber,ItemText,SwitchboardID
+default,0,0,main switchboard,1
+books,3,1,books,1
+journals,3,2,journals,1
+newsletters,3,3,newsletters/bulletin,1
+papers,3,4,papers,1
+orders,3,5,orders,1
+2,1,6,readers,1
+,6,7,exit application,1
+,0,0,readers,2
+readerbooks,3,1,books,2
+readerjournals,3,2,journals,2
+readernewsletters,3,3,newsletters/bulletin,2
+1,1,4,return to main switchboard,2
