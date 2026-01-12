@@ -2,10 +2,6 @@
 Universal table matching tool with exact and fuzzy matching support.
 
 Usage:
-    # Match using predefined strategy
-    python -m scripts.match_tables Books Books1 --database merged --strategy books
-    python -m scripts.match_tables Journals OldJournals --database merged --strategy journals
-
     # Match with custom exact columns
     python -m scripts.match_tables Books Books1 --database db1 --exact-match ISBN Title Publisher
 
@@ -139,51 +135,6 @@ def fuzzy_match(df1, df2, fuzzy_col, match_on, threshold, label1, label2):
     return pairs[pairs["similarity_score"] >= threshold]
 
 
-def match_with_strategy(table1, table2, database, strategy, out_dir):
-    if strategy not in STRATEGIES:
-        print(f"[FAIL] Unknown strategy: {strategy}")
-        print(f"Available: {', '.join(STRATEGIES.keys())}")
-        sys.exit(1)
-
-    strat = STRATEGIES[strategy]
-    print("=" * 60)
-    print(f"MATCHING: {table1} vs {table2}")
-    print(f"Strategy: {strategy} - {strat['desc']}")
-    print("=" * 60)
-
-    db_path = get_path(database)
-    df1 = load_csv(db_path / f"{table1}.csv")
-    df2 = load_csv(db_path / f"{table2}.csv")
-
-    if df1 is None or df2 is None:
-        print("[FAIL] Could not load tables")
-        return
-
-    print(f"{table1}: {len(df1)} rows")
-    print(f"{table2}: {len(df2)} rows\n")
-
-    if strat["exact"]:
-        print(f"Exact matching on: {', '.join(strat['exact'])}")
-        exact = exact_match(df1, df2, strat["exact"], table1, table2)
-        out_file = out_dir / f"{table1}_{table2}_exact.csv"
-        exact.to_csv(out_file, index=False)
-        print(f"[PASS] {len(exact)} exact matches -> {out_file}")
-
-    if strat["fuzzy"]:
-        cfg = load_config()
-        thresh = cfg.get("fuzzy", {}).get("score_threshold", 80)
-        print(f"\nFuzzy matching on: {strat['fuzzy']} (threshold={thresh})")
-        if strat.get("fuzzy_on"):
-            print(f"  Requiring match on: {strat['fuzzy_on']}")
-
-        fuzzy = fuzzy_match(
-            df1, df2, strat["fuzzy"], strat.get("fuzzy_on"), thresh, table1, table2
-        )
-        out_file = out_dir / f"{table1}_{table2}_fuzzy.csv"
-        fuzzy.to_csv(out_file, index=False)
-        print(f"[PASS] {len(fuzzy)} fuzzy matches -> {out_file}")
-
-
 def match_custom(table1, table2, database, exact_cols, fuzzy_col, threshold, out_dir):
     print("=" * 60)
     print(f"CUSTOM MATCHING: {table1} vs {table2}")
@@ -234,9 +185,6 @@ def main():
         "--database", default="merged", help="Database to use (default: merged)"
     )
     parser.add_argument(
-        "--strategy", choices=list(STRATEGIES.keys()), help="Predefined strategy"
-    )
-    parser.add_argument(
         "--exact-match", nargs="+", metavar="COL", help="Columns for exact match"
     )
     parser.add_argument("--fuzzy-match", metavar="COL", help="Column for fuzzy match")
@@ -263,9 +211,7 @@ def main():
     out_dir.mkdir(exist_ok=True)
     print(f"Output: {out_dir}\n")
 
-    if args.strategy:
-        match_with_strategy(table1, table2, args.database, args.strategy, out_dir)
-    elif args.exact_match or args.fuzzy_match:
+    if args.exact_match or args.fuzzy_match:
         match_custom(
             table1,
             table2,
@@ -276,7 +222,7 @@ def main():
             out_dir,
         )
     else:
-        print("[FAIL] Specify --strategy or --exact-match/--fuzzy-match")
+        print("[FAIL] Specify --exact-match/--fuzzy-match")
         parser.print_help()
         sys.exit(1)
 
