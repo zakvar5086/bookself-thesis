@@ -10,6 +10,7 @@ import sys
 import pandas as pd
 from pathlib import Path
 
+
 def inspect(file_path: Path):
     if not file_path.exists():
         print(f"[FAIL] File not found: {file_path}")
@@ -37,7 +38,7 @@ def inspect(file_path: Path):
     has_newlines = df.apply(
         lambda col: col.str.contains(r"\r|\n", na=False), axis=0
     ).any(axis=1)
-    
+
     bad_rows = df[has_newlines]
     count = len(bad_rows)
 
@@ -55,6 +56,7 @@ def inspect(file_path: Path):
             if pd.notna(val) and ("\n" in str(val) or "\r" in str(val)):
                 print(f"  {col}: {repr(val)}")
 
+
 def main():
     if len(sys.argv) > 1:
         file_path = Path(sys.argv[1])
@@ -63,6 +65,7 @@ def main():
         print(f"No file specified, using: {file_path}")
 
     inspect(file_path)
+
 
 if __name__ == "__main__":
     main()

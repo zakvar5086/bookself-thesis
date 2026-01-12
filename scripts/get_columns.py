@@ -14,9 +14,11 @@ import sys
 import pandas as pd
 from pathlib import Path
 
+
 def load_config():
     with open("config.json") as f:
         return json.load(f)
+
 
 def get_columns(csv_file):
     try:
@@ -25,14 +27,16 @@ def get_columns(csv_file):
     except Exception as e:
         return [f"ERROR: {e}"]
 
+
 def extract_schema(db_path):
     if not db_path.exists() or not db_path.is_dir():
         raise ValueError(f"Invalid path: {db_path}")
-    
+
     schema = {}
     for csv_file in sorted(db_path.glob("*.csv")):
         schema[csv_file.stem] = get_columns(csv_file)
     return schema
+
 
 def main():
     if len(sys.argv) < 2:
@@ -61,7 +65,7 @@ def main():
     for key in db_keys:
         db_path = Path(paths[key])
         print(f"\nExtracting: {key} ({db_path})")
-        
+
         try:
             schema = extract_schema(db_path)
             result[key] = schema
@@ -75,6 +79,7 @@ def main():
         json.dump(result, f, indent=2, ensure_ascii=False)
 
     print(f"\n[PASS] Saved to: {output_file}")
+
 
 if __name__ == "__main__":
     main()

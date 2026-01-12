@@ -27,18 +27,22 @@ import hashlib
 import pandas as pd
 from pathlib import Path
 
+
 def load_config():
     with open("config.json") as f:
         return json.load(f)
 
+
 def get_path(key):
     return Path(load_config()["paths"][key])
+
 
 def load_csv(path):
     try:
         return pd.read_csv(path, dtype=str).fillna("")
     except:
         return None
+
 
 def align_two(df1, df2):
     cols = sorted(set(df1.columns) | set(df2.columns))
@@ -49,14 +53,17 @@ def align_two(df1, df2):
             df2[col] = ""
     return df1[cols], df2[cols]
 
+
 def row_hash(row):
     return hashlib.md5("||".join(str(x) for x in row.values).encode()).hexdigest()
+
 
 def find_missing(src, tgt):
     cols = list(set(src.columns) & set(tgt.columns))
     src_set = set(src[cols].apply(lambda r: tuple(r.values), axis=1))
     tgt_set = set(tgt[cols].apply(lambda r: tuple(r.values), axis=1))
     return len(src_set - tgt_set)
+
 
 def find_duplicates():
     print("=" * 60)
@@ -94,6 +101,7 @@ def find_duplicates():
     print(f"\nTables with duplicates: {tables_with_dups}")
     print(f"Total duplicate rows: {total_dups}")
 
+
 def verify_merge():
     print("=" * 60)
     print("VERIFYING MERGE")
@@ -120,7 +128,9 @@ def verify_merge():
             missing = find_missing(src, mrg)
 
             if missing > 0:
-                print(f"[FAIL] {tf.name}: {missing} missing (src={len(src)}, merged={len(mrg)})")
+                print(
+                    f"[FAIL] {tf.name}: {missing} missing (src={len(src)}, merged={len(mrg)})"
+                )
                 total_missing += missing
             else:
                 print(f"[PASS] {tf.name}: OK")
@@ -129,6 +139,7 @@ def verify_merge():
             print(f"[PASS] All {label} data preserved")
         else:
             print(f"[FAIL] {total_missing} rows missing from {label}")
+
 
 def compare_across(table_name, databases):
     print("=" * 60)
@@ -153,7 +164,7 @@ def compare_across(table_name, databases):
 
     keys = list(dfs.keys())
     for i in range(len(keys)):
-        for j in range(i+1, len(keys)):
+        for j in range(i + 1, len(keys)):
             k1, k2 = keys[i], keys[j]
             df1, df2 = align_two(dfs[k1].copy(), dfs[k2].copy())
             dups = df1.merge(df2, how="inner")
@@ -161,6 +172,7 @@ def compare_across(table_name, databases):
             print(f"  Shared rows: {len(dups)}")
             print(f"  Only in {k1}: {len(df1) - len(dups)}")
             print(f"  Only in {k2}: {len(df2) - len(dups)}")
+
 
 def compare_within(table1, table2, database):
     print("=" * 60)
@@ -187,11 +199,14 @@ def compare_within(table1, table2, database):
     print(f"Only in {table1}: {len(df1) - len(dups)}")
     print(f"Only in {table2}: {len(df2) - len(dups)}")
 
+
 def main():
     parser = argparse.ArgumentParser(description="Table comparison tool")
     parser.add_argument("tables", nargs="*", help="Table name(s)")
     parser.add_argument("--database", help="Single database for within-db comparison")
-    parser.add_argument("--databases", nargs="+", help="Multiple databases for cross-db comparison")
+    parser.add_argument(
+        "--databases", nargs="+", help="Multiple databases for cross-db comparison"
+    )
     parser.add_argument("--find-duplicates", action="store_true")
     parser.add_argument("--verify-merge", action="store_true")
     args = parser.parse_args()
@@ -220,6 +235,7 @@ def main():
         print("[FAIL] Invalid arguments")
         parser.print_help()
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

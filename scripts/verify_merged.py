@@ -12,9 +12,11 @@ import hashlib
 import pandas as pd
 from pathlib import Path
 
+
 def load_config():
     with open("config.json") as f:
         return json.load(f)
+
 
 def load_csv(path):
     try:
@@ -22,9 +24,11 @@ def load_csv(path):
     except:
         return None
 
+
 def row_hash(row):
     s = "||".join(str(x) for x in row.values)
     return hashlib.md5(s.encode()).hexdigest()
+
 
 def align_columns(df1, df2):
     all_cols = sorted(set(df1.columns) | set(df2.columns))
@@ -35,11 +39,13 @@ def align_columns(df1, df2):
             df2[col] = ""
     return df1[all_cols], df2[all_cols]
 
+
 def find_missing(source_df, target_df):
     cols = list(set(source_df.columns) & set(target_df.columns))
     src_rows = set(source_df[cols].apply(lambda r: tuple(r.values), axis=1))
     tgt_rows = set(target_df[cols].apply(lambda r: tuple(r.values), axis=1))
     return len(src_rows - tgt_rows)
+
 
 def verify_db(db_path, db_label, merged_path):
     print(f"\n{'=' * 60}")
@@ -56,7 +62,7 @@ def verify_db(db_path, db_label, merged_path):
 
     for table_file in tables:
         merged_file = merged_path / table_file.name
-        
+
         if not merged_file.exists():
             print(f"[FAIL] {table_file.name}: not in merged")
             issues += 1
@@ -64,7 +70,7 @@ def verify_db(db_path, db_label, merged_path):
 
         src_df = load_csv(table_file)
         mrg_df = load_csv(merged_file)
-        
+
         if src_df is None or mrg_df is None:
             print(f"[FAIL] {table_file.name}: load error")
             issues += 1
@@ -74,7 +80,9 @@ def verify_db(db_path, db_label, merged_path):
         missing = find_missing(src_df, mrg_df)
 
         if missing > 0:
-            print(f"[FAIL] {table_file.name}: {missing} missing rows (src={len(src_df)}, merged={len(mrg_df)})")
+            print(
+                f"[FAIL] {table_file.name}: {missing} missing rows (src={len(src_df)}, merged={len(mrg_df)})"
+            )
             total_missing += missing
             issues += 1
         else:
@@ -84,8 +92,9 @@ def verify_db(db_path, db_label, merged_path):
     print(f"  Tables: {len(tables)}")
     print(f"  Issues: {issues}")
     print(f"  Missing rows: {total_missing}")
-    
+
     return total_missing == 0
+
 
 def main():
     cfg = load_config()
@@ -101,9 +110,10 @@ def main():
     ok2 = verify_db(db2, "db2", merged)
 
     if ok1 and ok2:
-        print(f"\n[PASS] All data preserved in merge")
+        print("\n[PASS] All data preserved in merge")
     else:
-        print(f"\n[FAIL] Some data missing from merge")
+        print("\n[FAIL] Some data missing from merge")
+
 
 if __name__ == "__main__":
     main()

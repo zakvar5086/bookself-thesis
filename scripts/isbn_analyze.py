@@ -23,14 +23,17 @@ TABLES = ["Books", "Books1", "MissingBooks", "NB"]
 API_URL = "https://openlibrary.org/search.json"
 API_DELAY = 0.5
 
+
 def load_config():
     with open("config.json") as f:
         return json.load(f)
+
 
 def normalize_isbn(isbn):
     if not isbn or pd.isna(isbn):
         return ""
     return str(isbn).replace("-", "").replace(" ", "").strip().upper()
+
 
 def is_valid_isbn(isbn):
     n = normalize_isbn(isbn)
@@ -40,27 +43,34 @@ def is_valid_isbn(isbn):
         return False
     return len(n) in [10, 13]
 
+
 def normalize_text(v):
     if pd.isna(v):
         return ""
     return str(v).replace("\r", " ").replace("\n", " ").strip().lower()
+
 
 def fetch_isbn(title, retries=3):
     if not title or not title.strip():
         return []
     for attempt in range(retries):
         try:
-            resp = requests.get(API_URL, params={"title": title, "fields": "isbn", "limit": 1}, timeout=10)
+            resp = requests.get(
+                API_URL,
+                params={"title": title, "fields": "isbn", "limit": 1},
+                timeout=10,
+            )
             resp.raise_for_status()
             data = resp.json()
             if data.get("numFound", 0) == 0 or not data.get("docs"):
                 return []
             return data["docs"][0].get("isbn", [])
         except Exception as e:
-            print(f"  [WARN] API error (attempt {attempt+1}): {e}")
+            print(f"  [WARN] API error (attempt {attempt + 1}): {e}")
             if attempt < retries - 1:
                 time.sleep(1)
     return None
+
 
 def classify_isbns(isbn_list):
     isbn10s, isbn13s = [], []
@@ -71,6 +81,7 @@ def classify_isbns(isbn_list):
         elif len(n) == 13:
             isbn13s.append(n)
     return isbn10s, isbn13s
+
 
 def main():
     print("=" * 60)
@@ -84,22 +95,28 @@ def main():
     output_dir.mkdir(exist_ok=True)
 
     # Results containers
-    case1_with_isbn = {}      # {ISBN: [tables]}
-    case2a_no_isbn = {}       # {title: [tables]}
-    case2b_multiple = {}      # {title: {tables: [], isbns: []}}
-    case2c_single = {}        # {"isbn10|isbn13": {title: [tables]}}
-    
-    stats = {"total": 0, "with_isbn": 0, "without_isbn": 0, "api_calls": 0, "api_errors": 0}
+    case1_with_isbn = {}  # {ISBN: [tables]}
+    case2a_no_isbn = {}  # {title: [tables]}
+    case2b_multiple = {}  # {title: {tables: [], isbns: []}}
+    case2c_single = {}  # {"isbn10|isbn13": {title: [tables]}}
+
+    stats = {
+        "total": 0,
+        "with_isbn": 0,
+        "without_isbn": 0,
+        "api_calls": 0,
+        "api_errors": 0,
+    }
     api_cache = {}
 
     for db_name, db_path in [("db1", db1_path), ("db2", db2_path)]:
         print(f"\n[INFO] Processing {db_name}: {db_path}")
-        
+
         for table in TABLES:
             csv_path = db_path / f"{table}.csv"
             if not csv_path.exists():
                 continue
-            
+
             try:
                 df = pd.read_csv(csv_path, dtype=str)
             except Exception as e:
@@ -110,7 +127,7 @@ def main():
             cols = {c.lower(): c for c in df.columns}
             isbn_col = cols.get("isbn")
             title_col = cols.get("title")
-            
+
             if not title_col:
                 print(f"  [WARN] No Title column in {table}")
                 continue
@@ -142,7 +159,11 @@ def main():
                 if norm_title in api_cache:
                     api_result = api_cache[norm_title]
                 else:
-                    print(f"  [API] {title[:50]}..." if len(title) > 50 else f"  [API] {title}")
+                    print(
+                        f"  [API] {title[:50]}..."
+                        if len(title) > 50
+                        else f"  [API] {title}"
+                    )
                     time.sleep(API_DELAY)
                     api_result = fetch_isbn(title)
                     stats["api_calls"] += 1
@@ -183,7 +204,9 @@ def main():
             print(f"  [PASS] {table}: {count} entries")
 
     # Sort case1 by table count
-    case1_with_isbn = dict(sorted(case1_with_isbn.items(), key=lambda x: len(x[1]), reverse=True))
+    case1_with_isbn = dict(
+        sorted(case1_with_isbn.items(), key=lambda x: len(x[1]), reverse=True)
+    )
 
     # Convert case2c for JSON
     case2c_json = []
@@ -217,6 +240,7 @@ def main():
     print(f"Case 2B (Multiple ISBNs): {len(case2b_multiple)} titles")
     print(f"Case 2C (Single ISBN pair): {len(case2c_single)} pairs")
     print(f"\n[PASS] Results saved to {output_dir}/")
+
 
 if __name__ == "__main__":
     main()

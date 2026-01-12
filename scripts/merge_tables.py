@@ -11,9 +11,11 @@ import json
 import pandas as pd
 from pathlib import Path
 
+
 def load_config():
     with open("config.json") as f:
         return json.load(f)
+
 
 def load_csv(path):
     try:
@@ -21,6 +23,7 @@ def load_csv(path):
     except Exception as e:
         print(f"[FAIL] Cannot read {path}: {e}")
         return None
+
 
 def align_columns(dfs):
     all_cols = sorted({col for df in dfs for col in df.columns})
@@ -32,26 +35,27 @@ def align_columns(dfs):
         aligned.append(df[all_cols])
     return aligned
 
+
 def merge_table(table_name, db1_path, db2_path, output_path):
     dfs = []
-    
+
     file1 = db1_path / table_name
     file2 = db2_path / table_name
-    
+
     if file1.exists():
         df1 = load_csv(file1)
         if df1 is not None:
             dfs.append(df1)
-    
+
     if file2.exists():
         df2 = load_csv(file2)
         if df2 is not None:
             dfs.append(df2)
-    
+
     if not dfs:
         print(f"[WARN] {table_name}: no data in either database")
         return False
-    
+
     if len(dfs) == 1:
         merged = dfs[0]
         src = "db1" if file1.exists() else "db2"
@@ -60,13 +64,14 @@ def merge_table(table_name, db1_path, db2_path, output_path):
         aligned = align_columns(dfs)
         merged = pd.concat(aligned, ignore_index=True).drop_duplicates()
         print(f"[PASS] {table_name}: {len(merged)} rows (merged)")
-    
+
     try:
         merged.to_csv(output_path / table_name, index=False)
         return True
     except Exception as e:
         print(f"[FAIL] {table_name}: save failed - {e}")
         return False
+
 
 def main():
     cfg = load_config()
@@ -92,8 +97,11 @@ def main():
     print(f"  In both: {len(tables_db1 & tables_db2)}\n")
 
     success = sum(1 for t in all_tables if merge_table(t, db1, db2, output))
-    
-    print(f"\n[{'PASS' if success == len(all_tables) else 'WARN'}] Merged {success}/{len(all_tables)} tables")
+
+    print(
+        f"\n[{'PASS' if success == len(all_tables) else 'WARN'}] Merged {success}/{len(all_tables)} tables"
+    )
+
 
 if __name__ == "__main__":
     main()
