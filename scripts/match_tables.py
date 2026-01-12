@@ -19,13 +19,7 @@ import json
 import argparse
 import pandas as pd
 from pathlib import Path
-
-try:
-    from rapidfuzz import fuzz
-
-    HAS_FUZZ = True
-except ImportError:
-    HAS_FUZZ = False
+from rapidfuzz import fuzz
 
 STRATEGIES = {
     "books": {
@@ -78,8 +72,6 @@ def add_norm_cols(df, cols):
 
 
 def fuzzy_score(a, b):
-    if not HAS_FUZZ:
-        return 100 if a == b else 0
     return fuzz.ratio(a, b)
 
 
@@ -106,9 +98,6 @@ def exact_match(df1, df2, cols, label1, label2):
 
 
 def fuzzy_match(df1, df2, fuzzy_col, match_on, threshold, label1, label2):
-    if not HAS_FUZZ:
-        print("[WARN] rapidfuzz not installed, using exact match only")
-
     df1 = add_norm_cols(df1, [fuzzy_col] + ([match_on] if match_on else []))
     df2 = add_norm_cols(df2, [fuzzy_col] + ([match_on] if match_on else []))
 
