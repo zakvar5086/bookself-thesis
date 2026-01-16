@@ -1,803 +1,803 @@
 old_topic_id,old_topic_name,new_book_topic_id,source_db
-1,Equipment,b176a1d3-fbed-4b88-a636-1636218ebf7e,db1
-2,CD-ROMs,0a1fcfdf-9520-401c-9e81-4a87b573badb,db1
-3,Communications,29575ddd-c338-4ef2-bc32-7b2e7108b97d,db1
-5,Information Systems,2d08eb1b-8fa4-4afe-a3cb-2323b7dcbc81,db1
-6,Catalogs,5f81a30f-d1e3-45eb-8878-374178c4cf47,db1
-7,Human Factors,37305640-c53a-43cc-b981-311a4458d7e5,db1
-8,Ergonomics Course,dd7944df-5c6a-41a5-ae87-e7713de9f31e,db1
-9,General Purpose,76004974-ee84-444f-a7e4-75b08f531bd4,db1
-10,Human-Computer Interaction,f34b6a57-bb9a-4fb2-9f92-dd4a093de88d,db1
-12,Technical Aids,88121c0a-ff47-48b2-84fe-9809804f66ab,db1
-13,H/D Documentation,063ff618-6e6e-4bbe-94dd-fbb8cb9afd2d,db1
-14,Disability,6a1feb7d-a4c0-49ec-a9e9-a54b1b503204,db1
-15,User Interfaces,a802d058-cb4b-4416-8ea0-38cfbc80ca3d,db1
-16,CEC Programs,16770a84-81ed-4383-ba91-4378c9ed78c1,db1
-18,Occupational Therapy,0f7016d7-0137-47bf-8f4c-2665f14cb17e,db1
-19,Sociology,093a70fa-4e8e-424f-a1e9-5a7aa816d4a6,db1
-20,Sun Systems,cefb8ad2-921c-4892-89c2-42f120ad4ef2,db1
-21,Assistive Technology,a421a0ab-e418-499a-916c-64cff5995f5f,db1
-22,Educational Technology,14bfab4e-2664-49d0-9960-a4b6a6f00ef5,db1
-23,Computer Graphics,1607cb94-1dae-411e-9345-5f2e752e0ea1,db1
-24,Knowledge-Based Systems,31580daa-75b6-431a-a10c-4f137acff12d,db1
-25,Robotics,f1291ab1-a366-4618-a839-e5b4335d6c32,db1
-26,Computer Science,623fbbe9-e1f8-4938-b461-b140c53283ed,db1
-27,IBM PC,50c4efa8-88b7-498f-bfde-ce3fe543060b,db1
-28,Programming Language C,ff13bc89-75d8-4f28-9cb6-d40651dc5b1c,db1
-29,Expert Systems,9b1fa233-95b6-4a0e-94a6-210daf44780e,db1
-30,Innovation,a3dba7ff-ae7f-4a94-b0f2-89de33e8fff2,db1
-31,Object-Oriented Programming,386e8d50-f5a6-4e2b-a2aa-49f46f6717ac,db1
-33,Speech Recognition,87ca40b7-81aa-49be-bc09-f8b35a279623,db1
-34,Software Engineering,25219082-ddbc-4e9b-a073-585f4694e53b,db1
-36,Neural Computing,2b33d389-e198-46db-aecc-29cdd2e17ea6,db1
-37,TIDE COST,f608696a-4434-4d01-a0a3-353105533465,db1
-38,Natural Language,5d164e30-1ae0-4402-a3d1-becaf5f4009e,db1
-39,Microsoft Office,46cac23d-db5e-4b90-8b96-0333cf4a1127,db1
-40,Computational Linguistics,8494b32b-58b2-447d-9841-2612e8271fea,db1
-41,Multimedia Systems,1260271b-8034-4892-b810-49fb96940f58,db1
-42,Artificial Intelligence,4f6ea58b-2d5b-4267-87a9-740165ab7cd7,db1
-43,Directory,b6bd0335-b50c-470c-8403-c5c58c18aa55,db1
-46,ESPRIT,9fb04911-cd93-4e71-9531-fc5b4d93944c,db1
-47,Graphics Programming,37d8e144-37d8-4e0c-98db-d5c8176eabf1,db1
-48,RACE,53723db1-89e5-4572-a71b-6e1b8d6e4b70,db1
-49,Statistics,64027a72-0a4e-46a4-9154-55740733ca28,db1
-51,Internet/WEB Design,258d0a56-86a6-425d-b751-6fc21891e408,db1
-52,Apple PC,e12f1126-1a08-46ad-ba29-2238984ef9b2,db1
-53,Logic Programming,3788378e-d900-4bb1-9f1f-4c4d9120952c,db1
-54,Vocational Training,e29d4e65-7160-4daf-86ff-5538e2f34e25,db1
-56,Software Reengineering,4eeb72c2-a434-4b3e-8335-24df822932d4,db1
-57,X-Windows,17c93bdc-f185-4ae3-b9cc-45314e12d130,db1
-58,ERCIM,1ca6c3d2-d993-466c-9a3a-29e4ba6f4c16,db1
-59,Software Development,7f913ae9-4827-4278-86e8-90960885a93a,db1
-60,Testing,d2b70b41-0cd1-4943-9874-0a45439ce074,db1
-61,Psychology,5cea3c6f-b746-4ad5-b062-e686a1e230b5,db1
-63,Virtual Reality,b64ce197-1920-4004-9835-1f455eb424aa,db1
-64,AutoCAD,feb919e4-61dc-48d9-9063-118cb1c3c9cf,db1
-66,AutoVision,32039c26-d396-4917-a8fc-30e90fd8ea69,db1
-68,Multimedia,daf158ff-0a82-4964-a362-ee6678318e1c,db1
-70,Human Performance,db7924a7-483c-4e58-bda5-a545a0cca53e,db1
-71,Marketing,0c056c2e-d0cd-48ef-b381-f563addebe28,db1
-72,Rehabilitation Technology,67571a6c-d97a-4396-8a51-3a25e7f35e9b,db1
-73,TIDE,2f11b811-5e30-4011-84b2-b3ec7a6f7a1c,db1
-75,Databases,cfdcc06f-1025-4465-93ea-700b701536f8,db1
-76,Dictionaries,6cc8d3f2-e59c-49d6-b1f4-3e0bd737b92a,db1
-77,Hypermedia,bc7136f4-1a41-4067-a43b-e96c9cad94a9,db1
-78,Hypertext,980fbdb6-25a2-4dc3-aeb7-e490ac5d4be2,db1
-79,ESPRIT/HUFIT,31065dd8-9e22-4e8a-9adb-5426f904ce11,db1
-80,Usability,98e1e1a4-7134-4d04-9df9-25a0c8d53532,db1
-81,Modeling,05524711-63a0-4a8d-af7e-294336c1152e,db1
-82,AIM,39972ea3-ac9b-4ae4-9c25-188bf4b18657,db1
-83,Communication Aids,a1673e3a-b5ee-493b-b930-41dc5f97617f,db1
-85,Prolog,9ef7473a-055f-4d3d-9565-eb60e21f0445,db1
-86,Systems Analysis,825c84d4-db1c-4433-8145-f05ff413ebfc,db1
-89,Networks,0e7fbdad-07a7-4458-9d1d-05b547e82077,db1
-90,Information Technology,18a09227-f59a-4e0c-beb9-c78152b2c4ce,db1
-92,Lecture Notes in Computer Science,0d753647-d1e0-492e-85a3-5040ef653020,db1
-93,Borland C++,77e487e7-f146-4b12-b353-c8d1c103561d,db1
-94,Paradox for Windows,ce4759e6-8a51-4cbb-bf23-060b13703cbe,db1
-95,Borland Visual,63d31f98-3cb8-455b-9e04-a4cb162a4b2a,db1
-96,Turbo C,394d7aea-1f31-487e-be0f-4839e4f50c56,db1
-97,Paradox,d4676f37-743a-421c-b686-d3068f51d590,db1
-98,Borland C,96dcfafa-96ad-49e7-aba3-16ae953ee406,db1
-100,MS-Windows,ed01ce67-dfdc-4290-88c1-8d4e07025bb9,db1
-101,Pattern Recognition,7b129e90-7bc7-4627-a983-5eccabbd8171,db1
-103,Ergonomics,0f6b36a9-78f1-40c4-84c3-7c1f32fdc0de,db1
-104,Management,efc90fec-f132-44fa-9cbb-3271cd2b21f3,db1
-106,Visualization,4d3d1621-3e71-44e9-ab13-54f4e81187ba,db1
-107,Compilers,d2f6eb52-483d-4960-b9d9-603488b22500,db1
-108,Economics,20672395-ae0e-4ea6-8b91-aaf8d7d44261,db1
-110,DESQview/X,26f8cb1f-3796-4b80-9bca-653a244a5c39,db1
-112,H/W Documentation,585141b6-99bd-46f6-ad41-4092eb0b9a28,db1
-113,Microcomputers,b8aea49c-f983-4d5a-8e0b-c5b41ae92af3,db1
-114,Research Evaluation,6d53e953-d6f8-476b-af1f-60c5651ea964,db1
-115,Data Structures,517332ae-38f1-4e68-97c8-59b13ef87545,db1
-116,Telecommunications,fbb75286-6e0e-42dc-baa5-eca91f56d16f,db1
-117,PC Tools,1f55b595-04bf-41a3-a4a3-89db94dc73e7,db1
-119,BICEPS,4d259d16-bf76-4f5d-b9ec-b9b369894afc,db1
-121,TIDE/ACCESS,e57a63ca-f2f8-47ca-9478-c6210df551e2,db1
-122,Signal Processing,06c72f02-2776-459f-bb56-3a98c6afa4a7,db1
-123,DELTA,645570fb-1156-454c-bd55-b79a9d5df460,db1
-125,RISE,d3a5930a-e59f-442c-a92c-ca17743327fd,db1
-126,RACE/DRIVE/DELTA/AIM,13c63568-b8ad-49d5-9cea-643850d4c4aa,db1
-127,DRIVE,c97b9d17-e4ac-4c51-a0ea-7f8fb8230d17,db1
-128,MS-DOS,c42351f7-7f6b-49ba-b268-e0993253e28b,db1
-129,Corel Draw,a29cdd81-8f01-4da5-b973-019c316300ff,db1
-131,Mouse,e19eb4b1-161b-4241-b865-c605337a73eb,db1
-132,Sound Card,77813d78-a632-475a-9b55-0945a00bd800,db1
-134,Business,76783465-72c7-41e1-bd73-271395072e32,db1
-137,Rehabilitation Engineering,598a0b6b-bc3d-4572-91e2-4056a8ad2165,db1
-138,UNIX Operating System,033ead8b-2717-4b30-9413-d9071a9f54b7,db1
-139,TIDE/GUIB,f20b7775-11c5-4ed6-a0fb-21081bae9c34,db1
-140,Health Care,b1d5bbba-f117-400f-82ee-183060dcb1e2,db1
-141,Telematics,b84361ef-889c-4195-bcf6-3b2d32a86819,db1
-142,Cognitive Science,25825b98-2f18-4ead-ba69-d381180066d8,db1
-143,Windows Programming,d849b04c-b782-4a16-8585-171f5cbb60c3,db1
-146,Braille,388cab34-43f9-46c5-a8b9-333b9f609e34,db1
-147,Visual Languages,536a4c17-6d9c-45c8-97cd-f96ca694f830,db1
-148,Visual Systems,361969ff-1195-40b3-9771-540f8b7411ba,db1
-150,Image Processing,3b78f37c-f4e0-4422-9584-4bb7c5101b68,db1
-152,Systems Design,09ec18ea-274f-49b4-839c-a905b4dc1c6c,db1
-153,Serpent System,7c36f4fa-46a0-4bc0-87ab-7dcf92331786,db1
-155,Printers,b4ad9c7b-a6e8-48cf-b08b-c28d1dabc44f,db1
-157,ICAP Directory,8bd79666-3e71-443a-ae86-2e5c1cc591df,db1
-158,Software Management,8939e802-978e-4f79-993c-aefa19b3a6e2,db1
-159,Systems Engineering,26f768d3-5ea3-4ce9-805a-c0383a018fa5,db1
-161,Mathematics,1e01da97-c926-475f-8bf1-3e78b2ca41bf,db1
-164,Authorware,dc22e5ae-a0b3-42d1-83ec-87d7cfe964d1,db1
-165,Backup,73faa91b-46cd-4179-aaa4-fddeec0164a1,db1
-166,Digital Systems,baed4683-f8a2-47e3-b439-c2f3a0046be0,db1
-168,Modem,777c9fcf-36fd-4ef8-a6ff-f357762968ec,db1
-169,Microsoft Visual C,8b0cc7c4-f068-4f30-8d29-088846448487,db1
-170,Microsoft Windows,d7fbde4d-10f1-4e6d-857b-6692d1ea05e8,db1
-171,Microsoft MASM,c5be4792-e339-4d62-9cc4-3764369ef12d,db1
-173,Microsoft Visual C++,9409a318-bf41-4d67-9027-6a798c49b6b1,db1
-174,Microsoft Visual Basic,a899fa12-6ed6-4286-8c23-bca8d73123ab,db1
-175,Microsoft Windows NT,360b0f67-30e1-4e03-883d-6f8b9e4def7e,db1
-177,S/W Documentation,2fef47e6-3881-417c-b131-b2f31e944868,db1
-179,RTLink/Plus,39c1c805-337f-4c12-ac01-fd1bd3b0a432,db1
-181,Voice Processing,c33b755b-23e0-436d-8873-7f80f2f15d9d,db1
-182,TIDE/COST,0a153324-c9be-4a28-a8f9-5971e112b72c,db1
-184,SAS Software,439b35a0-e265-49e7-aa39-923591883991,db1
-185,WorldToolKit for Windows,2e9eb3ef-4c84-429b-96ec-9d92a6794f91,db1
-187,Speech Recognition Systems,9561c627-1ca8-4a52-8de3-09738ff2df46,db1
-189,XENIX,190b12be-7ac2-4e9a-a0fe-d2a0358418de,db1
-190,TIDE/HEART,adf9e0a9-9c7a-400d-b6d9-030af6051044,db1
-191,WordPerfect,4b92abda-a2af-46fa-bc0e-feb434b7d438,db1
-196,Programming Languages,07c5ffb9-46c3-497f-9a3d-f30dd91a015b,db1
-197,Knowledge Representation,f04382bd-b91c-4245-b26b-142a26eaf9ab,db1
-199,Focus Groups,1112fe4e-0183-4eb9-8e52-5851643d2710,db1
-201,Digital Libraries,971e24a7-8951-429c-bda8-b48328e36dd2,db1
-203,Software Evaluation,fe7bdf5d-871b-45ad-b343-916ff243418e,db1
-207,Computer Supported Cooperative Work,34ae6bf4-dc65-444d-938b-a908897142e5,db1
-208,Microprocessors,f1c83b1f-59ba-4766-8329-41626fa34d24,db1
-210,Electronic Commerce,7a484430-8f2e-4409-b287-cc30b2ff47a0,db1
-213,Software Reuse,fc638ac5-8886-4ec0-b871-19e11149784a,db1
-216,Internet,f04942d6-5f4b-4641-a955-412d33e5e385,db1
-218,Audio-Visual,2afc2422-4c90-4b08-aa37-86f9e1939025,db1
-221,Speech Reading,ba7b72db-1dd5-4263-a8d0-094bdc383d0e,db1
-226,Information Society,ba587ffb-92ea-4bc7-a6a7-f7b591ae3ac0,db1
-230,Software Quality Management,57b3e580-dc71-4fa2-82fb-0b15595e863b,db1
-237,Quality Control,58ee010b-eb9d-4ae0-a4ab-43a062c6001a,db1
-238,Standards,22391844-9c6b-4d95-8834-e46285ab4e25,db1
-240,Dynamical Systems,3e9643af-cb3a-43d2-aee9-e289a3f3e319,db1
-249,Basic,f89ad17c-ee29-4fe4-a32a-8e8fd99d983d,db1
-250,Multimedia Programming,d17c1a87-a090-4a09-9fc9-fe3e8451d4dd,db1
-251,Work Groups,a4dc9079-997f-4582-a735-0233e801d5e9,db1
-252,Scriptwriting,40b10218-930d-4891-9927-ac42d51d7199,db1
-253,Metaphors,20754803-d010-4904-a15d-1e35e232ec83,db1
-254,Groupware,e3a5324c-13ab-4cff-9c65-96aafc9c9b8e,db1
-255,Agents,47829365-f389-4471-b9b8-5735a0661c3e,db1
-257,Lecture Notes in Artificial Intelligence,968d437c-778d-4e18-a3d1-fb37de1f1f5d,db1
-258,Computer-Biographies,6b3a7f6c-b2eb-4dce-a7a5-4539a1c5d6a7,db1
-259,Geometry,fe535f93-53e2-470c-8e4d-7aeb218f9f84,db1
-261,UNIX Programming,e9a29b2c-d168-4cab-925b-f9f473ae2d4b,db1
-262,PowerChute Plus,0c94efdb-051f-48f0-a68c-2c1bbe21a63f,db1
-264,Norton Utilities,e37b2188-5c81-4ee6-b182-bf9776635cb9,db1
-265,Grammatik 5,52549b0a-f4c9-4798-a132-35a737372ae3,db1
-266,Autodesk 3D Studio,435cf59e-f0e5-4363-bce7-58551eb5fdac,db1
-267,Cyberscpace Developer Kit,d2fabedf-17b0-4c48-bf3e-9e0178a64c2e,db1
-268,Turbo Assembler,3eef042a-343a-4f75-b8db-c598d684e92a,db1
-269,Turbo Debugger,5e616af3-6618-4e91-86a9-d8babb843d8d,db1
-270,Turbo Profiler,8b931925-3c0f-4fa4-a2f3-b0eecb8b0ecb,db1
-271,Java,73c29463-5dec-408b-82b6-fe4aef0ee059,db1
-272,Internet Programming,eef5861f-654f-4654-88f8-ba0f507d9a42,db1
-273,Automated Reasoning,a2ca64e3-ee0c-4053-978d-e4067915f815,db1
-275,Business Re-engineering,18a2e7f8-fe83-45ea-978e-f0375e34e542,db1
-276,Interactive Systems,383f54d9-77a2-4d66-8a86-7fd1b2db3cff,db1
-277,Systems Development,2ae7559c-06d5-4e1c-8666-76b54f773d6c,db1
-278,Cryptography,6229e3d3-c666-4178-9682-da59a22ab13e,db1
-280,Semiotics,5a28aca3-ca8d-45b6-9b32-8a2632f43eeb,db1
-281,Research Reports ESPRIT,5b426e9b-b95b-4e93-87e4-f42227e129e1,db1
-282,Speech Technology,3d8b7ce8-7a48-4177-a677-bd6fb40e74b5,db1
-284,Document designing,b690c14c-8f9f-4378-bd84-95351df63e26,db1
-286,Programming,691650c2-31da-4ac4-856c-0d25497374b0,db1
-287,Computer Visualisation,06f28aee-df41-4967-87fb-f4295e76986d,db1
-292,Computer Documentation,f0dbe5cd-74d2-48ff-a69f-4fe0843c45d9,db1
-293,Algorithms,df0e6812-3323-498e-a1c5-86f97dfb99a7,db1
-294,Computers and Civilisation,763ed0e8-d99e-45fd-a387-d0b5e96428aa,db1
-295,Juvenile Literature,80369547-509d-4f1d-be3d-7e64a53914f4,db1
-296,Information Security,0e74827e-a02e-4907-a75a-5d0feb3b964d,db1
-297,Graphic design,1067e7df-7e05-4526-b966-afb1e9c6c888,db1
-299,Typography,1a3d1d4a-3404-4bd1-bb37-77f2f0da1f7c,db1
-300,Art & Science,da165c33-a293-4381-8d4f-0961fb5196e7,db1
-301,Ethical & Social Aspects,5d7d8922-4e9f-4bec-b4d0-e8f032ae1657,db1
-302,Information Theory,76adb0a3-ef99-42ae-97d4-7e4be28abde9,db1
-303,Data Processing,dbcb2679-57fe-44c4-961d-b14466dfca20,db1
-304,Law,0ad5b669-34c8-4ba3-9b4d-1a01fffd23da,db1
-305,Distance Learning,cb5997cc-b242-46c6-94d8-b937e1a9f612,db1
-306,Sign Language,4a8602f0-33f0-47b8-a58b-14037579107d,db1
-307,Computer Animation,f50029fa-feb4-40cf-931e-df58ebf62c4d,db1
-308,Bioethics,66b937c7-95af-4fea-97b8-1d2c965db445,db1
-309,Endophysics,595d763a-3320-46b0-9dc0-ee96a49189aa,db1
-310,Teaching and Learning,b88f9f41-1e40-402c-a134-14ce5fd0732e,db1
-311,Computers and Children,0ac58a65-2f92-4f08-ba79-eedac5069f69,db1
-312,Research Report,b2c25bea-1fbc-46b2-a374-0a1e3f43b2b2,db1
-313,Communication and Technology,2ebdcd4c-e109-45f2-967c-761542932f95,db1
-314,Desktop publishing,5dc3fe09-c68d-4114-aa9f-3d3ee36c5f61,db1
-315,Business Presentations,92d23a84-9af6-4af7-a206-ddc1fd5afff8,db1
-316,Technology,79fefe58-f107-41fc-b129-036322211068,db1
-317,Accessibility,1c02ae7b-d660-4c0d-aea0-166f020a4aa3,db1
-318,Telemedicine,9a267865-2c91-4cec-8c17-58c453ebdf20,db1
-319,Health,b452fd5b-d99f-4f51-aedd-f0b02bb12278,db1
-320,Computational Geometry,729622e2-4e1a-42ac-a57c-54c1cab23800,db1
-321,Design,af943445-4b27-464f-aa7f-c5cd6350b265,db1
-322,PowerPoint,5bedb175-a04d-4bb0-bf2d-29cae3aa9beb,db1
-323,Gerontechnology,93eb4fee-2765-4ad5-85ba-726a51b2a6d8,db1
-324,Smart Homes,13613549-4802-445b-b765-f6e4bd422f1a,db1
-325,Video Telephony,27adee9e-3ca1-4b47-bb3d-3b51ad9d7668,db1
-326,Text telephony,67276cf3-b728-4804-8a2b-aac7c12d700c,db1
-327,Media,f84e33e7-149f-459e-b0ba-e860688ee6e8,db1
-328,Information networks,b2bb7695-b5fb-4863-834d-0d4c6c84e5a1,db1
-329,Educational,2d45dfce-44e3-4fc4-ba92-666c439bba71,db1
-330,Children's Learning,b9d935c0-e721-42c5-92ff-ad24426f5526,db1
-331,Interactive Multimedia,ec9d55d6-1e03-4092-b6c2-f2c6e3783280,db1
-332,Art & Electronics,b43c6365-1271-41bb-b5c5-994d8d4c4542,db1
-333,Video Techniques,7341dce8-97bf-4121-9d08-b055d28cebdc,db1
-334,Activity theory,c9dda63d-c5dc-4c54-864f-05c8a2aca6bf,db1
-335,WWW,194faeba-2a46-44b7-a807-f82427d56ab1,db1
-336,Benchmarking,5333992f-9f41-4bcf-b921-b6e66a89bb72,db1
-337,Teleworking,09dcf92e-e030-446c-ac36-1bb14b96502f,db1
-338,Mathematical models,27e3d528-d99f-4a7d-904a-c2f286e34600,db1
-339,Guidelines,12ff7c84-8168-46d0-addc-14b214653e70,db1
-340,Computer Networks,0647c384-71d8-4234-878f-38a1ca61af6f,db1
-341,Graphical User Interfaces,5c5a6a0b-7ffe-459c-9b1c-9ac4774418a4,db1
-342,Web Design,fe7cb5d4-4439-43df-853e-82b866dcaec2,db1
-343,e-commerce,1fb1467f-56c5-4e7a-ad29-466d649aff09,db1
-344,Animation,c91fdceb-c354-4df0-86c6-19c582165009,db1
-345,Instructional Systems,de1efed6-a98a-4fe8-b818-9e88232de7d7,db1
-346,Decision Making,a03aaed5-70fb-491f-be8e-02311eab2a85,db1
-347,Computer-aided design,90f62147-4abb-49bd-a625-ae33a31b688d,db1
-348,Task Analysis,4fa36318-3712-48a5-ac30-bb34c9856574,db1
-349,Wearable Computers,7939b00a-968e-44b4-9a19-77b2ca6d9b9d,db1
-350,Markup Languages,4b88c583-ff2f-4a00-9901-794053fdacb4,db1
-351,International Studies,ac8d4ea9-1b45-49a0-b33e-fc9aa802f001,db1
-352,Collaboration,7fb137c4-a874-4634-888d-63afd85a19a9,db1
-353,Web ,8d526e45-590e-4f2b-a596-3b836461674b,db1
-354,XML,cc366422-6a8c-4ab1-b97e-1d0c25ccf101,db1
-355,SQL,7fd83fc3-38d8-4c14-99cc-51c9733bd9e5,db1
-356,Signs/Symbols,3192f6ff-2abe-4d11-b400-2f709e3b815f,db1
-357,Computing Systems,d2670214-4c9f-43d4-9c6f-1763b8d3ca4f,db1
-358,Pictorial Symbols,7432684d-fef4-43c1-af4a-f973e7705709,db1
-359,Machine Learning,52589d50-f7ee-4c50-8a9c-197e14962d08,db1
-360,Empirical Evaluation,0b70f449-d3bd-40f5-b0c8-9a5d5a8c26c8,db1
-361,Adaptive Systems,d226ffaf-6bfe-4a93-83a2-47165c375b26,db1
-362,Contracts,489fff03-dcf4-4a47-af22-263923ece0f3,db1
-363,Universal Access,30fbe910-a54b-4087-9ba1-736d2c48719d,db1
-364,Industrial Engineering,7a33c0ba-c633-4782-b177-b30a697187df,db1
-365,Medical Informatics,0a8409f5-3077-4880-924b-fba36d3a806f,db1
-366,Special Education,ca187b79-5da9-4474-8562-098800c7429f,db1
-367,Game-Based learning,a46e993c-698e-4285-997f-d3fa5a78882b,db1
-368,XSLT,3a0a1cbb-3424-4773-9868-1f25cdc19163,db1
-369,Human Communication,1bd619a2-9da7-47b3-aee3-456c170953d0,db1
-370,Cybernetics,cdd68962-dbca-4df4-81f6-d0f1ff832589,db1
-371,Presentation,083797a9-4c77-4267-83fd-9f887def7d74,db1
-372,Semantic Web,bb01b81f-9b2e-4429-bda6-a018fe4e04bf,db1
-373,Image Education,82eba79d-82cf-4f44-bd88-99746851db9e,db1
-374,Design for All,2b983dd2-3a5a-4713-9182-55fb1ad5de27,db1
-375,Software Design,79024920-53ab-4cae-9bd0-114192ab05f5,db1
-376,Support Systems,77dba204-2042-495b-b600-57331ce0f16a,db1
-377,ICT,c47c2569-a69f-4242-a558-cd52f6ba1b5d,db1
-378,Uniquitous Computing,ccd059a5-a997-428e-9543-24a5f130df45,db1
-379,Ubiquitous Computing,064afceb-8a40-4e63-bbd1-fa0a7bb88af7,db1
-380,Numerical simulation,28d9d539-151f-4eee-8d57-5d1d917c7912,db1
-381,Human Engineering,519846e3-d77f-410b-9ea0-bf1f3006a823,db1
-382,System Design,32d77591-75a9-4ff0-ab16-3c493e480773,db1
-383,Research,58f900b5-492c-437f-bb03-125673ff3ded,db1
-384,mobile communication,e88215ca-f9c1-4528-a90c-3ef3d99dee80,db1
-385,C++,f388c2ab-715e-4afd-a1ea-6c79955c4bc3,db1
-386,C#,c8deb412-e654-4fb1-a39e-772cdb65b530,db1
-388,Inclusive design,8864ffef-c119-49f1-9939-c5b3dbd72822,db1
-389,cross-media publishing,dcc77308-138a-4d98-b0e8-edcacaa4b643,db1
-390,service delivery,a7b08b46-c996-475a-98a5-0ebcb3ac6030,db1
-391,Socio-Ecocomic Issues,8467ca2b-3a09-44ed-bcc5-6f87b8d8e8b6,db1
-392,Information design,4427eb40-90c9-4af9-b74b-28037996739e,db1
-393,Environment,79d3293c-ea87-408d-b017-dfef9abf1c74,db1
-394,Assessment,01294746-83f6-4e8c-b4bb-cb52a92aae07,db1
-395,Mobile Devices and Services,b5cfcbdb-06ec-46f1-91c7-daa17c23cc19,db1
-396,Web Servers,d0bec3c7-ac6e-4503-a0e8-e1084a8c6d09,db1
-397,Networking,5f5dac9f-f39b-489e-b685-b309a25ddde7,db1
-398,Employment,cb118b45-4bbe-48d4-a8a3-09c6bcd9431f,db1
-399,eGovernment,0787b90f-bc52-4c10-964d-2fb5f44a29b0,db1
-400,Social Inclusion,3f2b2bfa-0663-476d-a91c-be611992a562,db1
-401,Culture,8f8ed4bb-70aa-443c-be34-d1b841d1a3f9,db1
-402,Social Exclusion,bfa3e784-d43f-43e9-bf5a-a2829183c385,db1
-403,Visualisation,233083b5-b0e7-4da3-97ef-0d094b1ddc1b,db1
-404,Reasoning,13cfd5f4-3e64-49ac-86cf-764a5bbf4e89,db1
-405,Disability and computers,4d75663a-f658-4c27-a6c7-e9758f207c21,db1
-406,eAccessibility,101464d9-988d-433b-a93d-7f03b68349e6,db1
-407,eInfrastructure,ec3c4b45-2269-46e3-bcb8-a5fc4a05600e,db1
-408,Interfaces,f078d867-9396-4d7d-bc30-2388293942a8,db1
-409,Optoelectronics,4383c92b-70d6-4313-8dd1-5692bd5ab592,db1
-410,Circuits,b72e96c3-9c3a-4353-bea6-605d89c0da74,db1
-411,eAdoption,ca8ec765-3f29-4492-94f2-6439b49ffef1,db1
-412,Knowledge Economy,54fec892-97a0-4461-b162-45a94abd336b,db1
-413,Feedback and control systems,13f01414-662e-420b-8829-561939f7185d,db1
-414,Mental retardation,90da8247-e209-4dff-9dfb-cde699e80f6c,db1
-415,Workshops,07050d14-a1a2-407a-9b25-7ba948e27e1c,db1
-416,Market Analysis,5f46f14f-b0b2-4c52-b122-1492e768331c,db1
-417,Video Games,555bab6d-631f-4c59-960e-7e0932e6f31a,db1
-418,Cost,81f68557-fdff-498c-9d4b-f793a6b909ae,db1
-419,New Technologies,a5672ebc-cd39-4d04-8c87-ecfb484991a4,db1
-420,Games,0bb00d55-a19f-4f58-ac65-22fc209ee644,db1
-421,Visual disability,18bb10a6-9d5b-475e-a406-49a0f6f4f5ac,db1
-422,Ambient Intelligence,92a384c4-255b-48ad-a149-202c55a06469,db1
-423,Mobility impairments,d58727f7-4ddf-4fc9-b5cc-74c59a978085,db1
-424,Security,4071c38d-f06f-40bd-9d40-dd94bb24b6a2,db1
-425,programme design,7acbc5ff-b843-467b-858e-57b7671556a7,db1
-426,impact assessment,4698446a-26a1-4fec-941a-d09700b665f8,db1
-427,transnational cooperation,81d18698-c936-4010-8cd3-4a310b711fde,db1
-428,portals,8debadd6-33e2-4ac8-8e0d-ea25d3b4b044,db1
-429,taxonomies,8995f356-6d7b-4816-bbf9-5ece58b38291,db1
-430,Graphics design,732dc3ba-6eff-483b-b230-af6f8c0ea8c9,db1
-431,e-Inclusion,809a278e-2988-43a1-bf10-1e55c45f6dca,db1
-432,Internationalization,7eb3e9e0-3a88-467d-a770-4b9f6b15ef53,db1
-433,Management Information,6863cdae-84be-41e2-a24c-4c8ce061d31b,db1
-434,Computer Work,3d352d3b-45e1-464b-8285-7e5ed1e5ec1a,db1
-435,Applications/Services,f8f881c7-caf1-4cea-8173-d095ae6fde66,db1
-436,Multimodal Environments,0de6b38f-0b19-4f33-a2df-885291e8bce2,db1
-437,Interaction Design,8093351e-5e52-4736-9128-fa461a217f52,db1
-438,Online Communities,9d921ec9-e491-49c8-a2b5-f8a718a6b857,db1
-439,Social Computing,100966a7-add2-43b1-8f1c-7134ebaa79a6,db1
-440,Human Modeling,25a9930a-d092-4b17-982e-814ece91066e,db1
-441,Augmented Cognition,dcc502cc-8e42-401a-885e-4cf61111d6f4,db1
-442,Engineering Psychology,13661e87-922d-4c71-be47-cc658cbc3496,db1
-443,INTUITION,90cde37d-07cd-401b-ba9f-5a9767b91072,db1
-444,Knowledge Capture,d4dd70bb-e43d-40f9-a659-1bf7a04ecdf7,db1
-445,Pervasive Computing,fd9cca93-9844-49b0-8790-3e5e287cfd1c,db1
-446,Functionality,df6569bb-f621-40b0-b986-da397db4ccf7,db1
-447,Software Visualization,b3833de3-0bee-42ee-8426-87e1705dad6e,db1
-448,Web accessibility,9665fb38-2b04-4edb-afd3-d612bb25e94e,db1
-449,Χωροταξία - Περιβάλλον,5decab8c-b0b6-4f2c-8444-cd29db9be076,db1
-450,wireless networks,d3c6ad28-fe0f-4e8f-b070-a2295119191b,db1
-451,peer-to-peer computing,cbde2507-e11e-4f4c-b28e-bd8691dd9fe0,db1
-452,Informaton & Communication,62a60fb4-f2b2-449a-9fa0-a063a695199d,db1
-453,elderly,bd289e45-38ea-4342-9a8e-11f75a491b82,db1
-454,services,3f212d83-16c2-4ee7-8549-4d810762198c,db1
-455,service engineering,762611d0-cc23-47f2-98dd-600f697cfa46,db1
-456,Design Engineering,6959b57a-abb2-414c-90d6-0aedee463b44,db1
-457,Human Interface,071c6be0-6c95-422e-8e2f-f94ae04c1037,db1
-458,Information Management,63b6bc46-1fb0-4f8b-a5e4-4d8a891252cd,db1
-459,Communications in Computer and Information Science,c7d5d64d-b4d9-4e1f-a2d5-37624fdbae77,db1
-460,Υπολογιστική γεωμετρία,78c2c85f-affc-4c0d-af5a-dbd1cdd4c5a5,db1
-461,Θεωρία υπολογισμού,e4cb3837-a0ef-4477-b631-41e3d297d928,db1
-462,Μαθηματική Λογική,8bdfa3b7-169c-4076-a6cb-f0e9e4d832e0,db1
-463,Augmented Communication,25cb5281-04e3-4d9b-84b3-dfccaa0a2be5,db1
-464,software,7e282c8f-e79b-4b68-9f73-c433c2ae99c7,db1
-465,philosophy,8a830986-0dc6-4649-be76-3723bdd88f20,db1
-466,resilient systems,198eafb3-6755-421e-9ec9-979aedf2cc45,db1
-467,Computer entertainment,d799422b-7995-47e8-bbda-d11bed20f03b,db1
-468,business process management,f90ddfa7-3cca-43a1-bad7-203030685d4c,db1
-469,Industry,f76f523e-9ab9-4cf1-8428-7b02dd6cfde6,db1
-470,Lecture Notes in Business Information Processing,bea24038-3871-4b7c-8041-3e325e2bf243,db1
-471,Embedded Systems,a7153f0f-f52a-4169-9cb9-19036f28cef7,db1
-472,eLearning,ba6c5b3c-fbd8-4386-95e5-68844c34834e,db1
-473,Universal Design,662a29ec-f75f-4d79-b908-20ce716065ad,db1
-474,cross-cultural design,9003dea8-c48f-493e-981d-a716cfffa7eb,db1
-475,Ambient environments,a51eaa8b-7eb4-4e0e-9395-4c1810d174fb,db1
-476,Social Media,9dd2f217-a9de-4c59-94e5-5d3b069ce6f4,db1
-477,HCI International,3353f781-6697-46df-b597-6295b592498b,db1
-478,Learning Technologies,6a271c96-fa7e-452c-867f-bc71e63530c2,db1
-479,haptic systems,daf4dcf0-05cd-4664-87ce-8dc7b2fc36e8,db1
-480,Multisensors,dbddd1f1-c8ea-40c1-93ba-694b638b7687,db1
-481,Entertainment media,001cd985-5503-411a-8464-0d037e7b2678,db1
-482,Augmented reality,3bff9fc5-3d77-4b65-a29c-bbfb8b718ee5,db1
-483,writing,11db961b-e43d-41fc-b977-ad9eed3c78e3,db1
-484,thesis,49298e89-767d-44ed-ae9e-2d4dec591398,db1
-485,Springer Series on Cultural Computing,f564882c-1edf-446c-b7c2-4bdc2e1e8a22,db1
-486,Music,0694d03b-dbe1-4a48-9d72-d1935dc9408f,db1
-487,Physiological computing,bf7c2071-04a5-4fb9-a4ee-754c750787f6,db1
-488,Semantic Models,dbcd0989-e42f-4969-9bcf-a47109c3b396,db1
-489,Eye-tracking technologies,a65fbd6f-8c9a-4ff6-8894-9662777fe2d2,db1
-490,Intelligent User Interfaces,a519f2b4-4ca1-45cb-8a5a-798387881393,db1
-491,Semantic Acquisition Games (SAGs),d5b9b0bf-bd19-48cc-ac66-3b8956d5c366,db1
-492,Metadata,0bd4b8ac-1efd-4ac2-b87d-3518c80f556d,db1
-493,Computation,4400b78d-ec1f-462c-82d0-cf2080000602,db1
-494,Facebook,999e27cc-ff63-43c9-b18b-607c8b5182b9,db1
-495,Springer Series on Touch and Haptic Systems,0c009db6-a9da-4db1-b474-0d1249aca4d6,db1
-496,Haptics,c916c173-f0b0-4f24-9667-b4a78a52d022,db1
-497,Open Science,9e60a373-4930-44d3-9cd0-438a187b7378,db1
-498,Entertainment,7058a081-7906-4958-b6fa-72143951a7c5,db1
-499,Hand Gesture Recognition,7d8b11e6-e42b-4775-afae-5bcca0d17135,db1
-500,Simulation,4f3ef24d-041d-4413-a79b-428a3707ea0c,db1
-501,Springer Briefs in Digital Spaces,0f1854ec-c00e-4e06-b7a7-7ef4cba3a826,db1
-502,Springer Briefs in Education,19cc9c9e-13cd-4a62-8509-7c0d682e52af,db1
-503,Springer Briefs in Electrical and Computer Engineering,ea76f4d1-d7ec-4049-ac31-6f9c14ac7ab8,db1
-504,Springer Briefs in Applied Sciences and Technology - Polimi Springer Briefs,421402e1-a919-4c6e-9e83-ebb9fe583ae7,db1
-505,Data Analysis,8253953f-5ca9-4a10-9bd7-f7f3f5e91348,db1
-506,Twitter,717b687f-7058-43ba-a75b-ae47db3a95a1,db1
-507,Springer Briefs in Computer Science,20f6a32c-3f7a-4493-8f25-56c6f6d38e11,db1
-508,Data Security,6e33bc7b-3748-456e-8312-99c4289abc69,db1
-509,Springer Briefs in Cybersecurity,6a41a79f-edb6-4dcc-aa12-88725756c7ee,db1
-510,Evakuation,96ed9258-2be9-4baa-baba-5d600a3e26b5,db1
-511,Safety,9de123c3-dd80-481e-a036-49f9b577e22b,db1
-512,Risk Management,d0e5bbc5-5fa3-4255-8c28-e1e84c2d41cc,db1
-513,user engineering,3e43a279-8e2e-45ed-b4da-e988a284cd63,db1
-514,Lecture Notes in Electrical Engineering,a3616cc2-6315-4548-bc80-ab4f26e78e05,db1
-515,teenagers,54d050cc-6477-42f6-b7c4-947750eb2556,db1
-516,Children,e854bba8-2baa-4f6a-a6eb-3512ee384095,db1
-517,secularization,f2fabcec-2cf7-42f1-b96c-dbc8c6ed7f19,db1
-518,Art,30ea18a4-ef01-4145-bec2-13c50a87ebee,db1
-519,smart learning,377f14ff-b7ba-4c30-b23e-ddbd1c59f5da,db1
-520,smart cities,fc4aec7b-35ca-43e3-ac96-0a72bbacfc15,db1
-521,tablet technology,50d3fa66-bd14-40d1-aa45-636598580bc7,db1
-522,User centred design,997a0b2c-a3bf-476d-a077-97706679514b,db1
-523,creativity,1febe524-af03-41e1-a99d-a7cd747ab504,db1
-524,Automotive environments,92e6469f-9aab-46b4-bf88-d09b0f550269,db1
-525,Distributed systems,d89e25ab-c275-4cc0-b454-b1186a68482f,db1
-526,monitoring,7e5c67d3-a5d1-415e-b266-d52914b85646,db1
-527,springer Briefs in Human-Computer Interaction,a42abdc3-737b-436d-b0c8-99462bab7304,db1
-528,Government,0d5cb5e8-2a2b-424b-aa7b-74cbd0a9377d,db1
-529,Springer Notes in Computer Science,98c161b8-334a-4deb-9ff7-59a8cf951643,db1
-530,User Expeience,3ead5052-1930-47ae-8cb1-66bb1315e52f,db1
-532,Undergraduate topics in Computer Science,348264db-89af-4077-a743-bce908dbbb9b,db1
-533,big data,cf5b7488-6131-45c8-97f1-d73fd489d9c4,db1
+1,Equipment,6e4e83c0-d53c-5c14-948f-a05c2822761f,db1
+2,CD-ROMs,9321f8f9-046d-55f6-bbfd-6c9c029163c9,db1
+3,Communications,e9215128-f8a8-5aa3-a77b-4c936a815da1,db1
+5,Information Systems,ff1f9cdf-b854-5db8-b9dc-808a821f55e9,db1
+6,Catalogs,a9c936e2-43b3-59aa-8aab-c4fd8228e7cf,db1
+7,Human Factors,096f0524-c97b-5d53-8dec-28a28072ab26,db1
+8,Ergonomics Course,c4bceb3e-7bdc-5ffc-a3ac-ccf0ea22c434,db1
+9,General Purpose,a2f1e4a4-c14c-5259-b68f-45c8ad2758d5,db1
+10,Human-Computer Interaction,b57afbae-943a-550a-8557-c95ae7c8b981,db1
+12,Technical Aids,bbe79a14-9aa5-5464-8bf0-89ab8984f327,db1
+13,H/D Documentation,aa781b77-91be-51a7-bbc1-6e0c4e0fe2ab,db1
+14,Disability,41d318fa-559d-5d02-b80e-eb6dfb1738f1,db1
+15,User Interfaces,9c6feaaa-455b-51ae-89d1-93330b1aa6d4,db1
+16,CEC Programs,e5c501d3-b41d-59e0-9a26-b16d62ee45ca,db1
+18,Occupational Therapy,a1dbbbe5-749b-59ff-b7a9-5c73b10b54ec,db1
+19,Sociology,fb29b90e-e990-521b-82cd-59081950d709,db1
+20,Sun Systems,de92157c-9628-56d1-884b-ca0fd9f5b233,db1
+21,Assistive Technology,9440e82a-0ae5-57e2-97c7-fb182acc4554,db1
+22,Educational Technology,fe466eb3-4c66-5afa-a583-aeefdaa6ed65,db1
+23,Computer Graphics,362a4167-84a0-53b3-ac4b-f76cd628d648,db1
+24,Knowledge-Based Systems,9c285647-22ad-585d-8c1a-95492ec8f59e,db1
+25,Robotics,06811a15-5050-5496-a433-594c82e1dcb7,db1
+26,Computer Science,ee225a2b-06b8-5212-a376-7a1261875f18,db1
+27,IBM PC,eec3ee9d-de7d-5029-9cd5-74bab77d4edf,db1
+28,Programming Language C,b95625a6-5876-5c8b-a931-b6d37327330b,db1
+29,Expert Systems,3190ab31-ced6-504b-a4a1-e84c93c97add,db1
+30,Innovation,85d43148-707f-5a6a-8714-20bb50afbdf9,db1
+31,Object-Oriented Programming,826a5a02-5ade-5afb-b72c-84cc528fd07a,db1
+33,Speech Recognition,eef572a0-344b-5836-9d63-ad41b2792837,db1
+34,Software Engineering,4cae54a3-6da4-51f7-9505-0e95923885cc,db1
+36,Neural Computing,35d47058-f497-563e-ba47-123a4478e9ea,db1
+37,TIDE COST,2b793866-2516-5019-9c40-c8130861d104,db1
+38,Natural Language,5aab4d01-c0e9-5eef-9c4f-8f857073286d,db1
+39,Microsoft Office,ff8e3f79-90ea-58d3-b421-831c34e76fdf,db1
+40,Computational Linguistics,adfd3bfc-c578-50be-8750-e6afef8deea1,db1
+41,Multimedia Systems,28801988-7075-5eb2-bf79-3c6d3ce9d3e6,db1
+42,Artificial Intelligence,52670bfb-df65-550a-bba0-1ca2029eb874,db1
+43,Directory,3b49473c-9cd3-5365-8f85-e94f05500427,db1
+46,ESPRIT,73af87f6-1f0b-52e5-a7eb-fff2a5d81bc1,db1
+47,Graphics Programming,0feaab3d-bade-5084-8675-4297caa56eb3,db1
+48,RACE,8f5129c2-86cb-58f9-ab12-e9c1fd76fd72,db1
+49,Statistics,a8bd9afc-3cbb-5c96-81ff-04b2a4f09274,db1
+51,Internet/WEB Design,03fb2b57-66ad-552f-8aaa-7b42b7673148,db1
+52,Apple PC,007f87d3-c0d4-5442-a683-f04fb628a791,db1
+53,Logic Programming,aa306fe5-ed41-579a-adb6-5917ce37315d,db1
+54,Vocational Training,6d980a66-a7a9-5f89-a4bd-2996f89b58e3,db1
+56,Software Reengineering,500d816f-ce59-58e5-adc3-f5640face225,db1
+57,X-Windows,baa8c4f0-be18-56af-9e0e-552cf6e7c4a4,db1
+58,ERCIM,1eb3a5c1-eb2d-55e2-b2d4-ef1487e9909c,db1
+59,Software Development,13358fa5-6c92-5072-9b3b-1b71eeb2c59f,db1
+60,Testing,c5c313d3-e10a-57f5-9c96-3d0e100c7b4c,db1
+61,Psychology,7f5845cc-05b9-59e6-af97-09f86cc0db21,db1
+63,Virtual Reality,fa2bf652-9d05-5186-bf4c-2638516b31a5,db1
+64,AutoCAD,4e69351c-0a8d-5c6f-8b03-a6649a1c71e4,db1
+66,AutoVision,8132846e-14d2-5708-a7c6-b3dd81124c97,db1
+68,Multimedia,3207c17a-bf7c-53e5-a1c3-f2fb35be76ea,db1
+70,Human Performance,9a9e1880-bfe2-56bb-8366-cf1afd48e3d3,db1
+71,Marketing,1eed6274-496b-53ea-9650-92467161c915,db1
+72,Rehabilitation Technology,5b9ac638-4cb6-5bab-98b7-fd86ef38b61a,db1
+73,TIDE,ef17eeec-cdc4-50b1-9ca7-b81f5cb32ac3,db1
+75,Databases,8c904b55-1873-556d-8f6e-b3fd6d693799,db1
+76,Dictionaries,c58dcefa-07d1-590b-abc5-d7da2215c28a,db1
+77,Hypermedia,5b7ab9ef-270f-57ea-b2dd-177f52203410,db1
+78,Hypertext,ce2af93b-fc68-5fc9-9b5a-d91fe94e790f,db1
+79,ESPRIT/HUFIT,af235c84-722e-508d-b515-c9bcc739cf95,db1
+80,Usability,bc1d8384-e49e-5732-bf3b-59e628fabc73,db1
+81,Modeling,081b5a0f-f29b-578e-a5f2-f572d790279f,db1
+82,AIM,e6aa081b-861f-5407-bcfa-fff6661aeb45,db1
+83,Communication Aids,106b6647-c544-5907-ab1c-abd467710e8c,db1
+85,Prolog,76235060-3d1b-5b55-91f4-ffe26de9110f,db1
+86,Systems Analysis,c6fd1362-8435-5572-9f9b-15fdea0fd1e9,db1
+89,Networks,a4478e9e-98c2-5f5d-9b6f-197d2b2ae2ae,db1
+90,Information Technology,8e0efa41-892b-5044-a8b5-39ed67a6e228,db1
+92,Lecture Notes in Computer Science,39c0d4d0-7db4-5c67-a64a-fa7aa1bdcc2a,db1
+93,Borland C++,9c50ba4d-9a9d-5bf3-aef5-ff4b9d9de421,db1
+94,Paradox for Windows,afb52951-5def-5fa3-bdf3-83e36ca48fb2,db1
+95,Borland Visual,0f16228d-ae8c-597f-bafc-82f0900ad575,db1
+96,Turbo C,2cac203b-9e59-51bb-8af5-24d5e1534956,db1
+97,Paradox,c88eed66-51af-5c1e-9252-b277647d35e7,db1
+98,Borland C,04c15b0e-edaf-55ce-9e4a-0834926e83f0,db1
+100,MS-Windows,9cc0cc61-202b-5c49-b3b8-e38fa88acfca,db1
+101,Pattern Recognition,34770bbd-d859-5c56-8f42-5140a8852bd1,db1
+103,Ergonomics,e635d554-6232-5737-9a74-f61435990017,db1
+104,Management,678489d8-79de-5c23-91ea-cb46f06d4a79,db1
+106,Visualization,34c7ed27-e865-5281-84db-9fdae3f1648d,db1
+107,Compilers,74af61ec-f8cc-5027-b82a-ddd49db29fc6,db1
+108,Economics,187de0ae-0dcd-54d5-833c-436848c076bd,db1
+110,DESQview/X,3f222862-0c54-5caf-ac6c-b2ba30809a99,db1
+112,H/W Documentation,6c036b5d-2430-543c-9184-0c06d0114c86,db1
+113,Microcomputers,b12a2825-c0a7-591a-bfb4-e2b2a41b7a7a,db1
+114,Research Evaluation,b589b6fe-68e9-5f3e-9563-94627c4472c8,db1
+115,Data Structures,c77d1c73-bac0-5486-9404-3b70f080c8d3,db1
+116,Telecommunications,0161eca2-7528-550a-98a1-c1e786fca323,db1
+117,PC Tools,988e48df-b7e6-5f16-a9ea-e298d1274f06,db1
+119,BICEPS,6c692bab-023e-5933-81b3-c1d336cc52db,db1
+121,TIDE/ACCESS,85211233-d2c4-5954-abc0-ef738c0cc609,db1
+122,Signal Processing,f3c05b68-cd63-51a1-8c27-ddddd3134572,db1
+123,DELTA,ffd870db-11cd-5589-97db-78badd4c3cbe,db1
+125,RISE,56c464b6-40d8-5329-89d9-fec1b584983b,db1
+126,RACE/DRIVE/DELTA/AIM,43770e2b-aeb6-5843-9548-5caee3d62d97,db1
+127,DRIVE,70934ea4-00d4-5576-81c5-1dc41541ca1a,db1
+128,MS-DOS,1f99fdf6-886b-5da7-8aaf-88c55672d5c6,db1
+129,Corel Draw,73a0b376-b29b-540b-8eaa-a001bce4774e,db1
+131,Mouse,169a4230-6b4d-5514-924f-9d1af8ebf842,db1
+132,Sound Card,cbd34fa4-2784-5a3f-bfea-38247e176f1a,db1
+134,Business,0314b92b-fa23-58a6-8f30-01116bb832e7,db1
+137,Rehabilitation Engineering,1bc7c897-4b25-5adb-acb8-5a63e761a8d6,db1
+138,UNIX Operating System,89a3cbd7-fba6-5297-912d-a19daa638554,db1
+139,TIDE/GUIB,0dbd024b-060b-5446-942b-a8d6cdbf066f,db1
+140,Health Care,21be4c43-d365-571e-96a2-6caf251c086c,db1
+141,Telematics,ea1ef460-30b5-592b-a38b-ab39a26f6138,db1
+142,Cognitive Science,46af520c-973f-5429-8a13-5d142ae53257,db1
+143,Windows Programming,f7992b63-69f0-53e3-98a9-da07f81b4b4c,db1
+146,Braille,18cb8fd0-06d7-5cb1-a3bb-8e0e8bddaa66,db1
+147,Visual Languages,660032b0-8b9d-5ed4-949e-a4d3b2f65e25,db1
+148,Visual Systems,d0cb1826-7711-5e89-b689-eb3e20aad37a,db1
+150,Image Processing,73fd3a79-55ea-5b4e-8524-0718e6226636,db1
+152,Systems Design,29acf4d5-24ac-5aa0-b774-2bfdb77982f5,db1
+153,Serpent System,00dc00c4-0ffc-5941-8c2f-f37a7ca3658f,db1
+155,Printers,e55ee1b5-d950-579f-bdf2-1892ce328273,db1
+157,ICAP Directory,8417edff-c3a8-5fcd-9c52-d30aa9a2d196,db1
+158,Software Management,590254c0-8f81-5b27-a8c4-2219221c265a,db1
+159,Systems Engineering,10a9b7d4-afd3-5ed9-bd3d-abce0a8edd94,db1
+161,Mathematics,32120606-4aca-5b96-a7f9-5c7c86ec8d44,db1
+164,Authorware,84e9476a-6a90-54d6-a5b6-5c536d7950f0,db1
+165,Backup,86825b1e-c018-57c9-9559-dba7a3484744,db1
+166,Digital Systems,5054dc67-cba0-5c08-8770-86358f8946fe,db1
+168,Modem,75110fb6-d499-58d4-89cd-bf841904f807,db1
+169,Microsoft Visual C,92b6a8c0-e80a-55a9-82c0-c9c2fb23ec4a,db1
+170,Microsoft Windows,3e08805e-8e8e-5b22-9409-3e3e799c3fba,db1
+171,Microsoft MASM,e814686c-e126-5fd2-97d4-8da6312369dc,db1
+173,Microsoft Visual C++,8e97dd05-f635-53d4-882c-9cc469e0d76f,db1
+174,Microsoft Visual Basic,afa8f60f-7904-559f-8ad2-8a909b2e39f7,db1
+175,Microsoft Windows NT,41135a81-dee2-54c8-97da-afcf3e9a98c6,db1
+177,S/W Documentation,989b5f21-4e95-53cc-abd2-07f9bd529cc5,db1
+179,RTLink/Plus,68a372d2-1598-55a6-af1f-fc1518027a71,db1
+181,Voice Processing,11d41900-9c1d-56d8-aef0-0ffc1269b328,db1
+182,TIDE/COST,aa6e448d-1f84-5846-ab36-75d555b9869e,db1
+184,SAS Software,a7697693-c6b6-5576-98b1-5b1edfd28b02,db1
+185,WorldToolKit for Windows,eb62d801-9044-5285-9ca9-66edb88417ef,db1
+187,Speech Recognition Systems,d50d12c3-617d-5445-8415-480645f04671,db1
+189,XENIX,f2ebb930-7beb-5b39-8d90-8504a89cd41f,db1
+190,TIDE/HEART,5f28c240-d61c-5134-b848-e2780421a1f1,db1
+191,WordPerfect,3f9bbb6c-f51a-5f3b-b1ae-8dd762704ebb,db1
+196,Programming Languages,1a6f378a-a637-56f8-9de6-2d80d876f09f,db1
+197,Knowledge Representation,b05024bb-5251-542c-afdd-c2850afc6535,db1
+199,Focus Groups,3a00d95c-e5da-540f-87d2-151dd5b17d6d,db1
+201,Digital Libraries,8fe90597-f5c9-5fd5-8317-80f7c3eff4a8,db1
+203,Software Evaluation,0e3dec8d-3dbb-5b91-b871-5f968161135b,db1
+207,Computer Supported Cooperative Work,42aaf205-7826-56ae-8f79-d83cba64dc5d,db1
+208,Microprocessors,10cbfe1e-cc3d-52f4-a222-a922c9369891,db1
+210,Electronic Commerce,9c368d45-b82e-5874-bf5a-822397eb6a8d,db1
+213,Software Reuse,9a633ede-62a5-509f-9bd8-4f7f12ab4db4,db1
+216,Internet,eb7ab30b-36ee-530b-85fa-3c28ff275a4b,db1
+218,Audio-Visual,096363f3-6597-510c-a546-f972ab2e1ecb,db1
+221,Speech Reading,a44e4b8f-f2f1-53c1-86d7-0ff9acaa7069,db1
+226,Information Society,0f68cf46-661e-59f9-955f-509ec17ec2fc,db1
+230,Software Quality Management,8974f26f-318a-57e2-8a27-34531211ba3f,db1
+237,Quality Control,c9f5397d-8b51-5f96-8131-94f380ea2c2c,db1
+238,Standards,5faff9af-291c-5ad2-840d-a968cf6f8f1f,db1
+240,Dynamical Systems,d9bee4cf-bfc4-5634-b01d-f037753a5695,db1
+249,Basic,855f82c0-e1a0-55f5-a04a-166912bd8205,db1
+250,Multimedia Programming,40051908-f8b3-587a-878f-e961e386a67b,db1
+251,Work Groups,bf8b25da-3240-535f-980a-c903a666ad62,db1
+252,Scriptwriting,b1719d10-8cd2-5212-b49d-83abeac45056,db1
+253,Metaphors,0c2c0f80-0755-5f35-8ab2-02650b7932de,db1
+254,Groupware,46c8014c-ac52-55ed-9eb0-e6d4b861d608,db1
+255,Agents,50008cec-59d5-5c21-959d-59282139b761,db1
+257,Lecture Notes in Artificial Intelligence,36a461ba-b114-5ff9-8fc9-e86abac37fd6,db1
+258,Computer-Biographies,e0e2e70f-ea38-5498-9ad9-6f885f1b1d35,db1
+259,Geometry,b8d112b7-4bd5-5eec-a16e-c8bfc680c703,db1
+261,UNIX Programming,1c4b5022-97ae-5a5b-b2d4-6e75cf93e457,db1
+262,PowerChute Plus,d63f2afb-28ae-5a9d-9526-f962533eee5d,db1
+264,Norton Utilities,73cdd824-6ae0-5a77-9ebc-cbed2823958f,db1
+265,Grammatik 5,27ebc23f-2a7a-5686-b74f-d440f78a9e70,db1
+266,Autodesk 3D Studio,6335fbee-c7bf-5ec4-95fb-1d658047b21c,db1
+267,Cyberscpace Developer Kit,1d5437c6-9f75-57d9-b977-849799887e63,db1
+268,Turbo Assembler,ca622c5b-1b28-591f-b5de-18d7d1254a66,db1
+269,Turbo Debugger,4394ffad-91ce-5574-b8a5-7185c9c71b70,db1
+270,Turbo Profiler,e7b56441-6f75-5c37-b4a7-b77e29a781b3,db1
+271,Java,1a621742-1d69-56c9-be0c-8d04bc5721e9,db1
+272,Internet Programming,e3c25a4b-5f82-5199-ba5d-fb1091d5c1ae,db1
+273,Automated Reasoning,ba237e4b-a630-5705-b41d-873099260281,db1
+275,Business Re-engineering,7fc5d082-12bc-5c85-b137-373eb9b8fa50,db1
+276,Interactive Systems,eb761d9f-f4b1-5b2c-aa62-e201d0ed5a5d,db1
+277,Systems Development,221eeb5a-17f7-5ac0-9a22-f890837c8fd7,db1
+278,Cryptography,c4b662d8-d5f4-5b3f-8eba-5a2272e7fbb7,db1
+280,Semiotics,372fdd6d-5f22-5bff-bca8-88f2439a8884,db1
+281,Research Reports ESPRIT,7a22006a-9bbd-5d3e-b0e4-3d05e248cfda,db1
+282,Speech Technology,945fc630-c77d-57df-966b-03b618de60eb,db1
+284,Document designing,567ca04b-5f98-5eec-9ce7-071788db9af9,db1
+286,Programming,46cfe9a9-f86b-50c2-b2e0-0f13d7e3f7fb,db1
+287,Computer Visualisation,2ba5103c-78cf-5ce0-a71d-36fe64c0bbf3,db1
+292,Computer Documentation,cfa02237-35c1-5308-b8c5-0c0e731f25f5,db1
+293,Algorithms,94dd89cf-b9d8-5b8b-9cf0-20e1fa0b6a52,db1
+294,Computers and Civilisation,5d81dd09-de12-5b60-b079-538cb32c7585,db1
+295,Juvenile Literature,f46a684b-cfa4-594a-bd03-75791aab7269,db1
+296,Information Security,5ff2ebcf-51be-5697-9668-f4afa23b9c03,db1
+297,Graphic design,8cce6f53-d802-5368-95b7-31e79e75c378,db1
+299,Typography,629e1870-4093-52e1-9d16-a8b6e98b2f68,db1
+300,Art & Science,22995feb-543c-5be9-8f99-dd296d9c3230,db1
+301,Ethical & Social Aspects,d07060be-4ca6-5c2f-a299-fc19b9ff4039,db1
+302,Information Theory,ab20018b-c338-5b52-8293-0be7157bb8ee,db1
+303,Data Processing,11b11ed7-f41b-56c7-ab0b-ae3376129934,db1
+304,Law,8f3eec68-e648-52d3-8b63-bcc0a769ab67,db1
+305,Distance Learning,77b92d44-23bf-5f6b-b777-17d779da014f,db1
+306,Sign Language,0d090792-e3d5-5a2f-962e-dfdd3981ec17,db1
+307,Computer Animation,5641a177-47c6-51af-a39a-67d7c0555e54,db1
+308,Bioethics,dab03621-3822-5c86-91b0-73ff8c491cf0,db1
+309,Endophysics,1c4b2637-ccf9-5ef5-acc9-212b830ea596,db1
+310,Teaching and Learning,32f2c390-33c9-5d94-be36-b02d998436aa,db1
+311,Computers and Children,37fdb04d-b62e-57e4-835c-498d80839f7b,db1
+312,Research Report,3ac5ae5c-dbd3-5ce5-a549-9a4bb11ddeb9,db1
+313,Communication and Technology,47e814d4-a6c6-5075-9cd8-ae6b9f6ead04,db1
+314,Desktop publishing,9263a43c-c7e0-58e3-a161-e6b1a777d08e,db1
+315,Business Presentations,3ee68fe5-ba56-523c-9293-ba8d0165d7e5,db1
+316,Technology,36c43c87-639e-5765-ae84-72eed40b4823,db1
+317,Accessibility,28d2e92e-338e-5dd6-9c3a-a1c05b255d78,db1
+318,Telemedicine,4f3ed03e-000f-5deb-9f04-657038445181,db1
+319,Health,e07754a4-ef2c-5784-848e-b535612bab34,db1
+320,Computational Geometry,a2845e0e-25cd-5b07-85ba-b6486f0b93dd,db1
+321,Design,b80ed22a-40db-5bc7-85be-87957a479455,db1
+322,PowerPoint,ce63399e-6850-51fb-93ea-94f4d886bf57,db1
+323,Gerontechnology,7faafaf6-7269-5e69-9da9-74a07f54d1f2,db1
+324,Smart Homes,8f3ea10e-7305-5df9-8b79-02fdb8b20d62,db1
+325,Video Telephony,ec7fb4b9-57da-5046-ad02-d82631b7b92b,db1
+326,Text telephony,33c93c99-f16b-51e9-9d2c-13600617a3ab,db1
+327,Media,c7382d18-2261-53e6-ac42-098ff2022731,db1
+328,Information networks,f87a0938-6e23-5fb5-bac5-74f355a6ef03,db1
+329,Educational,47d69022-db7d-5842-8c57-8527cbb83493,db1
+330,Children's Learning,84900b1f-e018-5773-ab5e-a59ea268710d,db1
+331,Interactive Multimedia,db0159d9-1b59-5f85-9ff6-16e0e7f3f119,db1
+332,Art & Electronics,fe90729b-1f7b-5dd0-9b2d-8f1e03dff8e7,db1
+333,Video Techniques,b1b63402-ebb1-503c-be66-4458024ec06d,db1
+334,Activity theory,9ac69639-94c8-5d6b-9a14-dd1747ae7f60,db1
+335,WWW,d6cd7961-9a86-5c4e-aff0-69f630ad79f0,db1
+336,Benchmarking,9f350584-c5ed-5150-a59c-3fb1e0c29914,db1
+337,Teleworking,7527919a-32bf-5113-aa50-104d2c8cd572,db1
+338,Mathematical models,e87dfca3-c85a-5ff9-8a85-f02d608bc807,db1
+339,Guidelines,b065f523-aa1b-5b12-be2c-34c4b1313579,db1
+340,Computer Networks,9ab2e892-b932-5d03-9cdb-fc5ce8f32d81,db1
+341,Graphical User Interfaces,7b213f1d-6675-5804-a205-708e2712a1bb,db1
+342,Web Design,04802ba0-2be5-5e8c-97d0-97a15153769e,db1
+343,e-commerce,d05c0b39-d402-53b3-932b-62b3f5d82cb9,db1
+344,Animation,f267ddf7-c4d3-5200-a204-894afcc4de5b,db1
+345,Instructional Systems,5ff603c4-a6b0-5cdd-b4fa-a7c3d3ebd4f4,db1
+346,Decision Making,69c53d1f-9212-5f68-885d-0aa432319c8e,db1
+347,Computer-aided design,fbb3bdd3-0958-5c72-bb20-11f131bd05f3,db1
+348,Task Analysis,fcd5d64e-b903-57ce-bf64-80d83ecd160a,db1
+349,Wearable Computers,165d7f39-e8ca-5739-8fe4-7e6d83e2c71d,db1
+350,Markup Languages,b62f4b06-e896-59a6-9d3e-e61d72dfcf6e,db1
+351,International Studies,c4872a6b-9cc2-59aa-b0d4-41dbcaf7956e,db1
+352,Collaboration,137fa641-c57f-5039-bb60-1b9fd520cde2,db1
+353,Web ,1e9919fc-11a2-5b0e-b825-61ea935b7ad5,db1
+354,XML,4fd57a32-1b43-5a8f-af25-7e9ec44ddd5d,db1
+355,SQL,0ad33aeb-8c77-596c-b719-e73576ea5bcb,db1
+356,Signs/Symbols,a8a3094f-c8ea-5ea4-a5c9-7a46f1f99a28,db1
+357,Computing Systems,f03b59e9-c3ec-5fe8-90d4-3b57a6de1c80,db1
+358,Pictorial Symbols,376315e5-2c6d-5f0e-a642-77e1c3f1662d,db1
+359,Machine Learning,3deb657a-a241-5b25-9f10-b6a666190db7,db1
+360,Empirical Evaluation,f6e730cb-e6ec-5991-9c82-65a0bc25b4d1,db1
+361,Adaptive Systems,eef9f0d4-ca97-5d31-a8da-94b11eafea66,db1
+362,Contracts,c467bc5a-84e3-50ed-90a8-d45608f5b023,db1
+363,Universal Access,1e4deb7d-1e5a-5e59-a884-1c2070ad1652,db1
+364,Industrial Engineering,7482b461-c034-524a-aa4e-c7f8f4a28ce0,db1
+365,Medical Informatics,5d11290f-cca7-5d9b-9940-2b92238bd626,db1
+366,Special Education,5cc1c3e8-55d5-57ab-a3b8-d888f8ab85bd,db1
+367,Game-Based learning,84866137-8a7a-5e1e-b1bf-a8e468bd56d0,db1
+368,XSLT,068a5871-9c5c-56cf-ad7f-34f4023fe0da,db1
+369,Human Communication,c66f9bf3-087d-51dd-86d8-316032780046,db1
+370,Cybernetics,535ea99f-391d-5120-bbd6-28ec3629a7e7,db1
+371,Presentation,4bfe3362-1c04-5866-a7ea-bf664aee333f,db1
+372,Semantic Web,a14c474c-fec1-5dd4-a0f5-a852fa4bd6d0,db1
+373,Image Education,e4f6f0d3-0bc8-556a-ba22-8f54449e3908,db1
+374,Design for All,1b0012cf-a1c8-5e25-a2f5-a6ae5ef90f67,db1
+375,Software Design,feceaa67-9a3c-50ab-bb2c-b47da93eaafd,db1
+376,Support Systems,d4efa598-b10d-5a6c-9dde-ad588f415e8b,db1
+377,ICT,2070a6ee-949e-5db8-962f-d6f8bf673c03,db1
+378,Uniquitous Computing,eb0b77b7-7f86-5acf-be2f-91db95a3beb9,db1
+379,Ubiquitous Computing,0713729d-f441-51d5-86cb-c1887419df10,db1
+380,Numerical simulation,c9e87c3e-d363-5532-a6a8-cd06f4e64d1a,db1
+381,Human Engineering,37cb739e-19f9-5739-a94e-a1a127a628e5,db1
+382,System Design,684eab7f-2d4e-515c-a3a1-cfed25a83e6b,db1
+383,Research,6d96d2e2-0867-5908-930c-f478f9776157,db1
+384,mobile communication,501a5943-7d15-5c44-a72d-5092934c9e8f,db1
+385,C++,66e95511-40b2-540a-b377-1ed6a95d8d57,db1
+386,C#,f466706c-3744-5510-8e0c-52de8b16fbbf,db1
+388,Inclusive design,bfffc81b-3a11-51a6-8fff-853f5b27396f,db1
+389,cross-media publishing,c9635826-e5f4-5f77-824b-146a2a2b32c7,db1
+390,service delivery,0ae1d5a6-5dfc-5133-9c9b-734496502729,db1
+391,Socio-Ecocomic Issues,a3185cee-83d6-59e2-ad6d-64119f371e26,db1
+392,Information design,2b7b9b80-efb8-5c53-89a5-4f5674fbfabc,db1
+393,Environment,21e36a92-d8a7-584d-8c66-14b8e16d2721,db1
+394,Assessment,c637458a-7116-5afc-ab53-d4839fbb7495,db1
+395,Mobile Devices and Services,3fc6e0ba-d81f-5920-a114-78373c9774d0,db1
+396,Web Servers,b5784970-d083-5060-98a7-9646e2664008,db1
+397,Networking,e4820a6c-5d3d-5130-991d-f8f5d5b23bc2,db1
+398,Employment,9253ca44-1aa2-5521-96ca-6a1eb27ace99,db1
+399,eGovernment,0763578f-859d-511a-b7aa-00edbe0f3e0a,db1
+400,Social Inclusion,90217d9d-acba-5b41-aba3-2f453378505b,db1
+401,Culture,6ddeda13-753d-5c99-be97-94293b1ddbae,db1
+402,Social Exclusion,93225a37-4972-5f27-8cfa-908b3aed78de,db1
+403,Visualisation,faec0578-483e-5124-9022-1d93cb646665,db1
+404,Reasoning,7586d017-bd56-57a3-acc0-f29bd9102bc9,db1
+405,Disability and computers,df0a0f6a-94cc-5ed2-996e-7bd62bad58a2,db1
+406,eAccessibility,456a8ecd-d3ea-5704-a50c-db0301eb4d47,db1
+407,eInfrastructure,634500cb-0888-5a30-9f86-886d346f1c91,db1
+408,Interfaces,257a6362-3984-54b7-b77f-89c73ca1cf6e,db1
+409,Optoelectronics,37b134c5-9cac-522b-90de-80a6ce321a98,db1
+410,Circuits,de3d0152-f2fd-5a3b-a7db-40abbaac71b7,db1
+411,eAdoption,acadccdf-5b6f-5a21-8065-3386ceee01da,db1
+412,Knowledge Economy,d4597737-1dbe-5212-841c-781aeb01efeb,db1
+413,Feedback and control systems,fcf70525-ca8e-554f-b933-7aceb4d92c45,db1
+414,Mental retardation,efe3c8f0-ce34-5bf2-8a41-b2130c234313,db1
+415,Workshops,1e610424-8acf-5371-a771-3b26f1be43ca,db1
+416,Market Analysis,1accfede-8de2-5f69-ab89-a49f4840e9b8,db1
+417,Video Games,009996e3-d3f7-5013-8161-c8bd09a419f3,db1
+418,Cost,e581b3ff-4d01-5685-b140-a4e6478c8392,db1
+419,New Technologies,d5a89ad2-cbff-57ce-bdf8-f9ac90bd16e0,db1
+420,Games,02b0461d-368c-525c-821a-eae2262b408c,db1
+421,Visual disability,35a57c19-ad34-5025-8cfb-4e84c236fc98,db1
+422,Ambient Intelligence,c672f628-2ddb-5b2a-b56d-fbc1042a6098,db1
+423,Mobility impairments,8ff0e274-c3ad-53a8-87ec-db27619e594e,db1
+424,Security,7d5cbb5a-56e4-53b1-b601-c229c07b8623,db1
+425,programme design,aefbb6eb-8fc9-5b01-813d-c36084a36199,db1
+426,impact assessment,188d3b7f-1403-5bbf-92c2-a8499fab1c68,db1
+427,transnational cooperation,c548312d-9b80-57c4-95e3-417987ca8682,db1
+428,portals,9b2b54e8-3d91-5e89-b0a8-7a0edd30d457,db1
+429,taxonomies,09887457-1771-590d-918a-cd93c30db90d,db1
+430,Graphics design,2665b3b2-ef89-5581-81f8-ec46cb704b08,db1
+431,e-Inclusion,897b0b73-6f85-59a0-9e10-32ea02b960e0,db1
+432,Internationalization,affaf392-413c-55d8-8d94-d7e709e93f38,db1
+433,Management Information,47e2b656-f708-50ec-b354-f2b33a9e625a,db1
+434,Computer Work,15f1d835-5642-54da-825b-505a73d78671,db1
+435,Applications/Services,fa7f4fa3-de15-5369-b7dc-aacb87e84f98,db1
+436,Multimodal Environments,7cdae782-0a38-5275-9932-ea4e9669dda2,db1
+437,Interaction Design,0b975a67-4453-5a18-a6e0-5bf6c4e32545,db1
+438,Online Communities,890baf06-23b0-5584-9cbd-c7adf477529c,db1
+439,Social Computing,40f74e34-ae13-5d4c-b331-cd8f1f90a461,db1
+440,Human Modeling,5a2ca56c-5d37-5abc-93b2-580ade0dfd09,db1
+441,Augmented Cognition,7af2e68a-faae-5435-b0f3-0258f76c5dbf,db1
+442,Engineering Psychology,102ea66c-b9e7-576b-931c-00e652723e7d,db1
+443,INTUITION,9b52503d-5f6d-5bf6-bb54-626e73af89ed,db1
+444,Knowledge Capture,8aeea280-94af-588b-9a5b-c83b0f0794b4,db1
+445,Pervasive Computing,b88d293f-04de-5269-896e-dbc4c9ad1568,db1
+446,Functionality,5631f758-9803-5944-8b66-9d6060a02e27,db1
+447,Software Visualization,1332856c-b10f-5e62-928f-df4e578ece0b,db1
+448,Web accessibility,8879e5bb-a974-5b05-b47c-dc1a4c1d7964,db1
+449,Χωροταξία - Περιβάλλον,af80a81d-f18d-500b-a868-6b252e6ceb10,db1
+450,wireless networks,3d067ce4-6bfc-5df3-b617-1ea7f1ec48f6,db1
+451,peer-to-peer computing,0f6ed482-c986-5119-a8b3-dd71e1f3e588,db1
+452,Informaton & Communication,08505728-45be-50d9-abe7-f6fafe7f2432,db1
+453,elderly,b2e03438-43c2-5d71-80fd-76f9b8108bc2,db1
+454,services,875ba36e-06e0-580c-8f51-d72ea8d8601f,db1
+455,service engineering,d3e0ad28-d7ae-52cd-89ec-4ddba4d9b55e,db1
+456,Design Engineering,ad15e4ad-b90a-5e33-8b2a-5ee74fb08835,db1
+457,Human Interface,8d95962a-df90-528b-9413-faf2890f698b,db1
+458,Information Management,e8c48f99-f383-501c-9cfc-d4608b8755e3,db1
+459,Communications in Computer and Information Science,b9b24fd7-0729-564a-9219-45b72c7300cc,db1
+460,Υπολογιστική γεωμετρία,1be9692c-0de8-5ac4-a145-76775f80338b,db1
+461,Θεωρία υπολογισμού,d365d955-79f8-53fa-9366-f919799edc39,db1
+462,Μαθηματική Λογική,d8cdd6ba-33b6-531e-95ec-372b22d10229,db1
+463,Augmented Communication,b4a90c61-f03c-58ab-8dbe-4e3952041c30,db1
+464,software,a100aede-8289-50a0-b6a9-9f29bf1396d9,db1
+465,philosophy,e4ee5690-7742-511d-a2ca-d5f01fea0d5c,db1
+466,resilient systems,a290c632-e466-55cd-bf6f-8221b2087f99,db1
+467,Computer entertainment,3293e187-4b66-5194-bcc0-4071e1e6d42a,db1
+468,business process management,863d8176-19fc-519d-9413-a01d5ccd9bec,db1
+469,Industry,d3d95a94-162b-576c-9cc8-2650a9a2aafa,db1
+470,Lecture Notes in Business Information Processing,0581a2c6-4927-592e-80fd-695805dc4355,db1
+471,Embedded Systems,6de4db68-b1a6-51e5-a454-b8f7e2eeebeb,db1
+472,eLearning,5f4b7388-0259-5ebf-ac3c-0b8607a4b193,db1
+473,Universal Design,9a7d36ed-91bd-50c9-8ecd-57071a31f838,db1
+474,cross-cultural design,7f1c008e-4a6f-598e-a7de-74760b0f9e23,db1
+475,Ambient environments,5f62a287-7162-5b8c-b1b4-0761cdb62d8b,db1
+476,Social Media,28218695-10b4-5876-a376-90f41685e164,db1
+477,HCI International,5c8565a6-321f-5202-96d6-d66ef86b89e3,db1
+478,Learning Technologies,f9d9f91e-d580-587c-bc8d-f131a90521ef,db1
+479,haptic systems,4a45a8c1-4fe9-588f-a784-15d8bef16723,db1
+480,Multisensors,2603740c-6c50-53a3-a14e-8e57d9815684,db1
+481,Entertainment media,94cd5d05-4009-56c6-abc5-a53054554249,db1
+482,Augmented reality,f024686e-c19d-58a5-9d7e-f52c668da063,db1
+483,writing,987f9312-f2be-50b9-a18a-cbe3fc70a163,db1
+484,thesis,632bd038-e1da-567d-aa3f-fa184d541202,db1
+485,Springer Series on Cultural Computing,82543b5d-8d49-5287-ab33-c868a68ff412,db1
+486,Music,794476db-25ae-5696-99a6-931b707ba8fa,db1
+487,Physiological computing,8b0eaab6-d825-5a11-ac69-2054dc2697e2,db1
+488,Semantic Models,c464f816-d623-5e9c-9f75-dea34396d974,db1
+489,Eye-tracking technologies,28a8f8d3-6bd9-502c-8cd0-5554f4db049b,db1
+490,Intelligent User Interfaces,9d535174-cf50-578c-b752-c5b01e0b3283,db1
+491,Semantic Acquisition Games (SAGs),25e8ac9f-fb97-5e65-ad16-1a9ddc9e405c,db1
+492,Metadata,90fd24c1-5615-5807-9e03-0435c7854ef2,db1
+493,Computation,5a93d6a2-33b6-59bb-bbd4-c5c6a814e74c,db1
+494,Facebook,8c9d7127-141d-5e27-b30d-cdac5d506c3e,db1
+495,Springer Series on Touch and Haptic Systems,215934f6-9d1b-568e-ad83-1ee5e75f8a11,db1
+496,Haptics,7b3cfcab-8287-574d-8fe7-4a1861f47474,db1
+497,Open Science,2ce14f9d-00ce-5e34-bc49-00b37c843f07,db1
+498,Entertainment,9f0e8b31-0138-5fff-aa84-4d2d9bcc8436,db1
+499,Hand Gesture Recognition,1fac30a1-6d0a-553e-81ef-e0f003767996,db1
+500,Simulation,a14f9b08-9d83-5bca-a958-d1d868d420c5,db1
+501,Springer Briefs in Digital Spaces,b1273e9b-16da-5d86-8e0d-0eb3aa95cf10,db1
+502,Springer Briefs in Education,c3c4ddf5-e7d2-5ffd-be6d-736f729826cf,db1
+503,Springer Briefs in Electrical and Computer Engineering,5cb88434-291a-5826-9abd-633d03576644,db1
+504,Springer Briefs in Applied Sciences and Technology - Polimi Springer Briefs,0859d52d-7907-59f7-b3b0-fc513c977241,db1
+505,Data Analysis,bf698647-ac11-51bb-b2ee-be7c5e4756d9,db1
+506,Twitter,018be4a9-c5e0-55c4-93eb-5e8891691791,db1
+507,Springer Briefs in Computer Science,35a7ffdd-77de-5015-bb2f-9b13170d60f7,db1
+508,Data Security,6571834b-441d-5eb1-8015-f4a5794563c8,db1
+509,Springer Briefs in Cybersecurity,e92c500e-1c9b-594f-8c8f-ab7b54925e40,db1
+510,Evakuation,82cc4160-8bf1-5e9e-a9e9-3695cc5629f1,db1
+511,Safety,6af20389-8fd4-5249-92a2-de03314b4adc,db1
+512,Risk Management,ddec8068-7067-5155-9a98-a64b6d534d6e,db1
+513,user engineering,82d4063b-ca8e-53e3-b30d-9c9a2091deac,db1
+514,Lecture Notes in Electrical Engineering,119c3f1c-97b8-5053-80e9-6a3fe0f601a6,db1
+515,teenagers,d2ed99fa-f09e-5d2f-859b-c0d5892ff232,db1
+516,Children,91945dd0-33b9-584f-aa1a-3f49fcf968a9,db1
+517,secularization,49bcffc0-d7c3-5014-b112-a660811e9d53,db1
+518,Art,939ff3df-7743-580a-8ab3-6cbd4426738b,db1
+519,smart learning,4a609314-2720-5c8d-a2d5-8eaf9b107f3f,db1
+520,smart cities,3d8098f5-e391-587a-b8c6-a424594b6b37,db1
+521,tablet technology,2ffb6905-ef9d-5ba3-ab69-bb01cd10109f,db1
+522,User centred design,5fbc12aa-7fa9-5657-8c4a-8ee223f2a1df,db1
+523,creativity,1a6835b7-f55d-5ff3-93a0-c57ea0a2865b,db1
+524,Automotive environments,cb5c43bb-5d0b-5486-9495-37b4e11b2241,db1
+525,Distributed systems,bab92dec-057b-5628-af4f-40c8cdee4c25,db1
+526,monitoring,f36ceae4-5e27-5f30-8044-e757111aa8a9,db1
+527,springer Briefs in Human-Computer Interaction,1e438c07-5b01-53ad-be91-59b2e60a73ac,db1
+528,Government,7b7f264b-3b6e-5fa4-9b05-56dfc6f0fcab,db1
+529,Springer Notes in Computer Science,c3658e45-4c0c-5d44-a349-1e1334c40a99,db1
+530,User Expeience,dbf2a13c-6b46-519c-8c18-8d5618472831,db1
+532,Undergraduate topics in Computer Science,1df840f0-4dd1-5ea5-aeb4-4b3e7fcd33aa,db1
+533,big data,cc662828-4fbb-5726-a655-3ab0d87dbae3,db1
 534,,,db1
-535,Questionnaire design,5a3948ed-0a39-4ea8-968b-e67012e9d4cf,db1
-536,User Experience,57b4a68d-d6ce-4e59-9788-cd5fbc077bb5,db1
-537,Digital technologies,075e5cca-ad2f-43ae-b515-7151de148802,db1
-538,Museums,1e1ccd2b-43fd-4b40-91c3-f8f06c3bde61,db1
-539,Transport,1057be57-1558-443f-950c-c343483bc2b0,db1
+535,Questionnaire design,a0685114-a250-5e02-8028-fad85a3dc2b6,db1
+536,User Experience,df2f6cf0-c21e-542e-b7f5-dafb14de9ed6,db1
+537,Digital technologies,491f9f3b-a60e-5f14-8a56-fd2b1489cffc,db1
+538,Museums,df9db785-f0b8-5025-9477-803da0716b97,db1
+539,Transport,f4665447-29e3-5218-98d1-e83006ea810e,db1
 540,,,db1
-541,virtual environments,5f271991-350c-46ed-8542-984d09fd0fba,db1
-542,Assistive Environments,6aac83e2-a871-4996-a3c6-669edc98880a,db1
-543,Cybersecurity,c0d53eef-b5f3-4d5d-81d8-8099f787b5e6,db1
-544,Cognitive Ergonomics,88c7caae-244d-4f40-8e12-05db193b56bb,db1
-545,well-being,1de075b9-1455-4533-90df-0ead447dda81,db1
-546,aging,0e0a04fe-b6ab-41ee-991e-4abab26601ba,db1
-547,ethics,bb4b5a20-9b9c-432f-a6f8-5a93a777c1b3,db1
-548,Sustainability,56ee5dfb-61bf-476e-89db-22d7dc656575,db1
-549,intelligent environments,73b45054-a52d-4071-b56f-4756fde98995,db1
-550,Automation,1153e872-31c7-4d3d-9287-7e870d18eb3a,db1
-551,e-services,c50743a4-3029-4a03-b356-6d61665de049,db1
-552,Deep Learning,d5885c38-376e-47a0-870d-a4f6d56825f4,db1
-553,Cognitive Technologies,9584aa79-39e4-47d3-8359-a69059ca20a1,db1
-554,Text-to-Speech (TTS) ,92c53eb3-47d0-4676-b8d0-125c97671e4f,db1
-555,Teaching Technology,4a896651-a2c0-49ab-b450-31712ef3b1ba,db1
-556,Information Science and Technology (IST),b960ae56-bd88-4d11-83aa-8367838c5794,db1
-557,extended reality,79c426e9-df08-4ff1-8c12-0bc9478575b4,db1
-558,biometrics,b40d6678-0912-4fee-8928-182197d70ed4,db1
-559,arts,e51d3540-a39a-4039-bf06-fe01f1815a64,db1
-560,Metaverse,fac17b45-c09b-4ea3-acbc-80c39ced95a3,db1
-561,UX,31a6a0bd-9128-493f-b2b8-1402d5c76d81,db1
-562,artificial psychology,964aa641-95b4-4935-bce8-357a04db7642,db1
-563,language models,1e440dbc-25b7-402e-a874-bac832b83f3b,db1
-564,autism,66cecf36-95b1-4cd8-aa1b-96961a5b3fee,db1
-565,Conceptual Models,952619b1-8a05-462f-aa0e-c39dc09be1bc,db1
-566,humanity,91f559d2-09f6-4e9e-aa6e-697e3a2d369c,db1
-567,sketching,bbe4e37b-f4a7-430a-8f75-2d8a52ce956a,db1
-568,Technology Acceptance Model (TAM),49165805-d16d-4d8c-bc88-146ac4ddca91,db1
-1,Equipment,b176a1d3-fbed-4b88-a636-1636218ebf7e,db2
-2,CD-ROMs,0a1fcfdf-9520-401c-9e81-4a87b573badb,db2
-3,Communications,29575ddd-c338-4ef2-bc32-7b2e7108b97d,db2
-5,Information Systems,2d08eb1b-8fa4-4afe-a3cb-2323b7dcbc81,db2
-6,Catalogs,5f81a30f-d1e3-45eb-8878-374178c4cf47,db2
-7,Human Factors,37305640-c53a-43cc-b981-311a4458d7e5,db2
-8,Ergonomics Course,dd7944df-5c6a-41a5-ae87-e7713de9f31e,db2
-9,General Purpose,76004974-ee84-444f-a7e4-75b08f531bd4,db2
-10,Human-Computer Interaction,f34b6a57-bb9a-4fb2-9f92-dd4a093de88d,db2
-12,Technical Aids,88121c0a-ff47-48b2-84fe-9809804f66ab,db2
-13,H/D Documentation,063ff618-6e6e-4bbe-94dd-fbb8cb9afd2d,db2
-14,Disability,6a1feb7d-a4c0-49ec-a9e9-a54b1b503204,db2
-15,User Interfaces,a802d058-cb4b-4416-8ea0-38cfbc80ca3d,db2
-16,CEC Programs,16770a84-81ed-4383-ba91-4378c9ed78c1,db2
-18,Occupational Therapy,0f7016d7-0137-47bf-8f4c-2665f14cb17e,db2
-19,Sociology,093a70fa-4e8e-424f-a1e9-5a7aa816d4a6,db2
-20,Sun Systems,cefb8ad2-921c-4892-89c2-42f120ad4ef2,db2
-21,Assistive Technology,a421a0ab-e418-499a-916c-64cff5995f5f,db2
-22,Educational Technology,14bfab4e-2664-49d0-9960-a4b6a6f00ef5,db2
-23,Computer Graphics,1607cb94-1dae-411e-9345-5f2e752e0ea1,db2
-24,Knowledge-Based Systems,31580daa-75b6-431a-a10c-4f137acff12d,db2
-25,Robotics,f1291ab1-a366-4618-a839-e5b4335d6c32,db2
-26,Computer Science,623fbbe9-e1f8-4938-b461-b140c53283ed,db2
-27,IBM PC,50c4efa8-88b7-498f-bfde-ce3fe543060b,db2
-28,Programming Language C,ff13bc89-75d8-4f28-9cb6-d40651dc5b1c,db2
-29,Expert Systems,9b1fa233-95b6-4a0e-94a6-210daf44780e,db2
-30,Innovation,a3dba7ff-ae7f-4a94-b0f2-89de33e8fff2,db2
-31,Object-Oriented Programming,386e8d50-f5a6-4e2b-a2aa-49f46f6717ac,db2
-33,Speech Recognition,87ca40b7-81aa-49be-bc09-f8b35a279623,db2
-34,Software Engineering,25219082-ddbc-4e9b-a073-585f4694e53b,db2
-36,Neural Computing,2b33d389-e198-46db-aecc-29cdd2e17ea6,db2
-37,TIDE COST,f608696a-4434-4d01-a0a3-353105533465,db2
-38,Natural Language,5d164e30-1ae0-4402-a3d1-becaf5f4009e,db2
-39,Microsoft Office,46cac23d-db5e-4b90-8b96-0333cf4a1127,db2
-40,Computational Linguistics,8494b32b-58b2-447d-9841-2612e8271fea,db2
-41,Multimedia Systems,1260271b-8034-4892-b810-49fb96940f58,db2
-42,Artificial Intelligence,4f6ea58b-2d5b-4267-87a9-740165ab7cd7,db2
-43,Directory,b6bd0335-b50c-470c-8403-c5c58c18aa55,db2
-46,ESPRIT,9fb04911-cd93-4e71-9531-fc5b4d93944c,db2
-47,Graphics Programming,37d8e144-37d8-4e0c-98db-d5c8176eabf1,db2
-48,RACE,53723db1-89e5-4572-a71b-6e1b8d6e4b70,db2
-49,Statistics,64027a72-0a4e-46a4-9154-55740733ca28,db2
-51,Internet/WEB Design,258d0a56-86a6-425d-b751-6fc21891e408,db2
-52,Apple PC,e12f1126-1a08-46ad-ba29-2238984ef9b2,db2
-53,Logic Programming,3788378e-d900-4bb1-9f1f-4c4d9120952c,db2
-54,Vocational Training,e29d4e65-7160-4daf-86ff-5538e2f34e25,db2
-56,Software Reengineering,4eeb72c2-a434-4b3e-8335-24df822932d4,db2
-57,X-Windows,17c93bdc-f185-4ae3-b9cc-45314e12d130,db2
-58,ERCIM,1ca6c3d2-d993-466c-9a3a-29e4ba6f4c16,db2
-59,Software Development,7f913ae9-4827-4278-86e8-90960885a93a,db2
-60,Testing,d2b70b41-0cd1-4943-9874-0a45439ce074,db2
-61,Psychology,5cea3c6f-b746-4ad5-b062-e686a1e230b5,db2
-63,Virtual Reality,b64ce197-1920-4004-9835-1f455eb424aa,db2
-64,AutoCAD,feb919e4-61dc-48d9-9063-118cb1c3c9cf,db2
-66,AutoVision,32039c26-d396-4917-a8fc-30e90fd8ea69,db2
-68,Multimedia,daf158ff-0a82-4964-a362-ee6678318e1c,db2
-70,Human Performance,db7924a7-483c-4e58-bda5-a545a0cca53e,db2
-71,Marketing,0c056c2e-d0cd-48ef-b381-f563addebe28,db2
-72,Rehabilitation Technology,67571a6c-d97a-4396-8a51-3a25e7f35e9b,db2
-73,TIDE,2f11b811-5e30-4011-84b2-b3ec7a6f7a1c,db2
-75,Databases,cfdcc06f-1025-4465-93ea-700b701536f8,db2
-76,Dictionaries,6cc8d3f2-e59c-49d6-b1f4-3e0bd737b92a,db2
-77,Hypermedia,bc7136f4-1a41-4067-a43b-e96c9cad94a9,db2
-78,Hypertext,980fbdb6-25a2-4dc3-aeb7-e490ac5d4be2,db2
-79,ESPRIT/HUFIT,31065dd8-9e22-4e8a-9adb-5426f904ce11,db2
-80,Usability,98e1e1a4-7134-4d04-9df9-25a0c8d53532,db2
-81,Modeling,05524711-63a0-4a8d-af7e-294336c1152e,db2
-82,AIM,39972ea3-ac9b-4ae4-9c25-188bf4b18657,db2
-83,Communication Aids,a1673e3a-b5ee-493b-b930-41dc5f97617f,db2
-85,Prolog,9ef7473a-055f-4d3d-9565-eb60e21f0445,db2
-86,Systems Analysis,825c84d4-db1c-4433-8145-f05ff413ebfc,db2
-89,Networks,0e7fbdad-07a7-4458-9d1d-05b547e82077,db2
-90,Information Technology,18a09227-f59a-4e0c-beb9-c78152b2c4ce,db2
-92,Lecture Notes in Computer Science,0d753647-d1e0-492e-85a3-5040ef653020,db2
-93,Borland C++,77e487e7-f146-4b12-b353-c8d1c103561d,db2
-94,Paradox for Windows,ce4759e6-8a51-4cbb-bf23-060b13703cbe,db2
-95,Borland Visual,63d31f98-3cb8-455b-9e04-a4cb162a4b2a,db2
-96,Turbo C,394d7aea-1f31-487e-be0f-4839e4f50c56,db2
-97,Paradox,d4676f37-743a-421c-b686-d3068f51d590,db2
-98,Borland C,96dcfafa-96ad-49e7-aba3-16ae953ee406,db2
-100,MS-Windows,ed01ce67-dfdc-4290-88c1-8d4e07025bb9,db2
-101,Pattern Recognition,7b129e90-7bc7-4627-a983-5eccabbd8171,db2
-103,Ergonomics,0f6b36a9-78f1-40c4-84c3-7c1f32fdc0de,db2
-104,Management,efc90fec-f132-44fa-9cbb-3271cd2b21f3,db2
-106,Visualization,4d3d1621-3e71-44e9-ab13-54f4e81187ba,db2
-107,Compilers,d2f6eb52-483d-4960-b9d9-603488b22500,db2
-108,Economics,20672395-ae0e-4ea6-8b91-aaf8d7d44261,db2
-110,DESQview/X,26f8cb1f-3796-4b80-9bca-653a244a5c39,db2
-112,H/W Documentation,585141b6-99bd-46f6-ad41-4092eb0b9a28,db2
-113,Microcomputers,b8aea49c-f983-4d5a-8e0b-c5b41ae92af3,db2
-114,Research Evaluation,6d53e953-d6f8-476b-af1f-60c5651ea964,db2
-115,Data Structures,517332ae-38f1-4e68-97c8-59b13ef87545,db2
-116,Telecommunications,fbb75286-6e0e-42dc-baa5-eca91f56d16f,db2
-117,PC Tools,1f55b595-04bf-41a3-a4a3-89db94dc73e7,db2
-119,BICEPS,4d259d16-bf76-4f5d-b9ec-b9b369894afc,db2
-121,TIDE/ACCESS,e57a63ca-f2f8-47ca-9478-c6210df551e2,db2
-122,Signal Processing,06c72f02-2776-459f-bb56-3a98c6afa4a7,db2
-123,DELTA,645570fb-1156-454c-bd55-b79a9d5df460,db2
-125,RISE,d3a5930a-e59f-442c-a92c-ca17743327fd,db2
-126,RACE/DRIVE/DELTA/AIM,13c63568-b8ad-49d5-9cea-643850d4c4aa,db2
-127,DRIVE,c97b9d17-e4ac-4c51-a0ea-7f8fb8230d17,db2
-128,MS-DOS,c42351f7-7f6b-49ba-b268-e0993253e28b,db2
-129,Corel Draw,a29cdd81-8f01-4da5-b973-019c316300ff,db2
-131,Mouse,e19eb4b1-161b-4241-b865-c605337a73eb,db2
-132,Sound Card,77813d78-a632-475a-9b55-0945a00bd800,db2
-134,Business,76783465-72c7-41e1-bd73-271395072e32,db2
-137,Rehabilitation Engineering,598a0b6b-bc3d-4572-91e2-4056a8ad2165,db2
-138,UNIX Operating System,033ead8b-2717-4b30-9413-d9071a9f54b7,db2
-139,TIDE/GUIB,f20b7775-11c5-4ed6-a0fb-21081bae9c34,db2
-140,Health Care,b1d5bbba-f117-400f-82ee-183060dcb1e2,db2
-141,Telematics,b84361ef-889c-4195-bcf6-3b2d32a86819,db2
-142,Cognitive Science,25825b98-2f18-4ead-ba69-d381180066d8,db2
-143,Windows Programming,d849b04c-b782-4a16-8585-171f5cbb60c3,db2
-146,Braille,388cab34-43f9-46c5-a8b9-333b9f609e34,db2
-147,Visual Languages,536a4c17-6d9c-45c8-97cd-f96ca694f830,db2
-148,Visual Systems,361969ff-1195-40b3-9771-540f8b7411ba,db2
-150,Image Processing,3b78f37c-f4e0-4422-9584-4bb7c5101b68,db2
-152,Systems Design,09ec18ea-274f-49b4-839c-a905b4dc1c6c,db2
-153,Serpent System,7c36f4fa-46a0-4bc0-87ab-7dcf92331786,db2
-155,Printers,b4ad9c7b-a6e8-48cf-b08b-c28d1dabc44f,db2
-157,ICAP Directory,8bd79666-3e71-443a-ae86-2e5c1cc591df,db2
-158,Software Management,8939e802-978e-4f79-993c-aefa19b3a6e2,db2
-159,Systems Engineering,26f768d3-5ea3-4ce9-805a-c0383a018fa5,db2
-161,Mathematics,1e01da97-c926-475f-8bf1-3e78b2ca41bf,db2
-164,Authorware,dc22e5ae-a0b3-42d1-83ec-87d7cfe964d1,db2
-165,Backup,73faa91b-46cd-4179-aaa4-fddeec0164a1,db2
-166,Digital Systems,baed4683-f8a2-47e3-b439-c2f3a0046be0,db2
-168,Modem,777c9fcf-36fd-4ef8-a6ff-f357762968ec,db2
-169,Microsoft Visual C,8b0cc7c4-f068-4f30-8d29-088846448487,db2
-170,Microsoft Windows,d7fbde4d-10f1-4e6d-857b-6692d1ea05e8,db2
-171,Microsoft MASM,c5be4792-e339-4d62-9cc4-3764369ef12d,db2
-173,Microsoft Visual C++,9409a318-bf41-4d67-9027-6a798c49b6b1,db2
-174,Microsoft Visual Basic,a899fa12-6ed6-4286-8c23-bca8d73123ab,db2
-175,Microsoft Windows NT,360b0f67-30e1-4e03-883d-6f8b9e4def7e,db2
-177,S/W Documentation,2fef47e6-3881-417c-b131-b2f31e944868,db2
-179,RTLink/Plus,39c1c805-337f-4c12-ac01-fd1bd3b0a432,db2
-181,Voice Processing,c33b755b-23e0-436d-8873-7f80f2f15d9d,db2
-182,TIDE/COST,0a153324-c9be-4a28-a8f9-5971e112b72c,db2
-184,SAS Software,439b35a0-e265-49e7-aa39-923591883991,db2
-185,WorldToolKit for Windows,2e9eb3ef-4c84-429b-96ec-9d92a6794f91,db2
-187,Speech Recognition Systems,9561c627-1ca8-4a52-8de3-09738ff2df46,db2
-189,XENIX,190b12be-7ac2-4e9a-a0fe-d2a0358418de,db2
-190,TIDE/HEART,adf9e0a9-9c7a-400d-b6d9-030af6051044,db2
-191,WordPerfect,4b92abda-a2af-46fa-bc0e-feb434b7d438,db2
-196,Programming Languages,07c5ffb9-46c3-497f-9a3d-f30dd91a015b,db2
-197,Knowledge Representation,f04382bd-b91c-4245-b26b-142a26eaf9ab,db2
-199,Focus Groups,1112fe4e-0183-4eb9-8e52-5851643d2710,db2
-201,Digital Libraries,971e24a7-8951-429c-bda8-b48328e36dd2,db2
-203,Software Evaluation,fe7bdf5d-871b-45ad-b343-916ff243418e,db2
-207,Computer Supported Cooperative Work,34ae6bf4-dc65-444d-938b-a908897142e5,db2
-208,Microprocessors,f1c83b1f-59ba-4766-8329-41626fa34d24,db2
-210,Electronic Commerce,7a484430-8f2e-4409-b287-cc30b2ff47a0,db2
-213,Software Reuse,fc638ac5-8886-4ec0-b871-19e11149784a,db2
-216,Internet,f04942d6-5f4b-4641-a955-412d33e5e385,db2
-218,Audio-Visual,2afc2422-4c90-4b08-aa37-86f9e1939025,db2
-221,Speech Reading,ba7b72db-1dd5-4263-a8d0-094bdc383d0e,db2
-226,Information Society,ba587ffb-92ea-4bc7-a6a7-f7b591ae3ac0,db2
-230,Software Quality Management,57b3e580-dc71-4fa2-82fb-0b15595e863b,db2
-237,Quality Control,58ee010b-eb9d-4ae0-a4ab-43a062c6001a,db2
-238,Standards,22391844-9c6b-4d95-8834-e46285ab4e25,db2
-240,Dynamical Systems,3e9643af-cb3a-43d2-aee9-e289a3f3e319,db2
-249,Basic,f89ad17c-ee29-4fe4-a32a-8e8fd99d983d,db2
-250,Multimedia Programming,d17c1a87-a090-4a09-9fc9-fe3e8451d4dd,db2
-251,Work Groups,a4dc9079-997f-4582-a735-0233e801d5e9,db2
-252,Scriptwriting,40b10218-930d-4891-9927-ac42d51d7199,db2
-253,Metaphors,20754803-d010-4904-a15d-1e35e232ec83,db2
-254,Groupware,e3a5324c-13ab-4cff-9c65-96aafc9c9b8e,db2
-255,Agents,47829365-f389-4471-b9b8-5735a0661c3e,db2
-257,Lecture Notes in Artificial Intelligence,968d437c-778d-4e18-a3d1-fb37de1f1f5d,db2
-258,Computer-Biographies,6b3a7f6c-b2eb-4dce-a7a5-4539a1c5d6a7,db2
-259,Geometry,fe535f93-53e2-470c-8e4d-7aeb218f9f84,db2
-261,UNIX Programming,e9a29b2c-d168-4cab-925b-f9f473ae2d4b,db2
-262,PowerChute Plus,0c94efdb-051f-48f0-a68c-2c1bbe21a63f,db2
-264,Norton Utilities,e37b2188-5c81-4ee6-b182-bf9776635cb9,db2
-265,Grammatik 5,52549b0a-f4c9-4798-a132-35a737372ae3,db2
-266,Autodesk 3D Studio,435cf59e-f0e5-4363-bce7-58551eb5fdac,db2
-267,Cyberscpace Developer Kit,d2fabedf-17b0-4c48-bf3e-9e0178a64c2e,db2
-268,Turbo Assembler,3eef042a-343a-4f75-b8db-c598d684e92a,db2
-269,Turbo Debugger,5e616af3-6618-4e91-86a9-d8babb843d8d,db2
-270,Turbo Profiler,8b931925-3c0f-4fa4-a2f3-b0eecb8b0ecb,db2
-271,Java,73c29463-5dec-408b-82b6-fe4aef0ee059,db2
-272,Internet Programming,eef5861f-654f-4654-88f8-ba0f507d9a42,db2
-273,Automated Reasoning,a2ca64e3-ee0c-4053-978d-e4067915f815,db2
-275,Business Re-engineering,18a2e7f8-fe83-45ea-978e-f0375e34e542,db2
-276,Interactive Systems,383f54d9-77a2-4d66-8a86-7fd1b2db3cff,db2
-277,Systems Development,2ae7559c-06d5-4e1c-8666-76b54f773d6c,db2
-278,Cryptography,6229e3d3-c666-4178-9682-da59a22ab13e,db2
-280,Semiotics,5a28aca3-ca8d-45b6-9b32-8a2632f43eeb,db2
-281,Research Reports ESPRIT,5b426e9b-b95b-4e93-87e4-f42227e129e1,db2
-282,Speech Technology,3d8b7ce8-7a48-4177-a677-bd6fb40e74b5,db2
-284,Document designing,b690c14c-8f9f-4378-bd84-95351df63e26,db2
-286,Programming,691650c2-31da-4ac4-856c-0d25497374b0,db2
-287,Computer Visualisation,06f28aee-df41-4967-87fb-f4295e76986d,db2
-292,Computer Documentation,f0dbe5cd-74d2-48ff-a69f-4fe0843c45d9,db2
-293,Algorithms,df0e6812-3323-498e-a1c5-86f97dfb99a7,db2
-294,Computers and Civilisation,763ed0e8-d99e-45fd-a387-d0b5e96428aa,db2
-295,Juvenile Literature,80369547-509d-4f1d-be3d-7e64a53914f4,db2
-296,Information Security,0e74827e-a02e-4907-a75a-5d0feb3b964d,db2
-297,Graphic design,1067e7df-7e05-4526-b966-afb1e9c6c888,db2
-299,Typography,1a3d1d4a-3404-4bd1-bb37-77f2f0da1f7c,db2
-300,Art & Science,da165c33-a293-4381-8d4f-0961fb5196e7,db2
-301,Ethical & Social Aspects,5d7d8922-4e9f-4bec-b4d0-e8f032ae1657,db2
-302,Information Theory,76adb0a3-ef99-42ae-97d4-7e4be28abde9,db2
-303,Data Processing,dbcb2679-57fe-44c4-961d-b14466dfca20,db2
-304,Law,0ad5b669-34c8-4ba3-9b4d-1a01fffd23da,db2
-305,Distance Learning,cb5997cc-b242-46c6-94d8-b937e1a9f612,db2
-306,Sign Language,4a8602f0-33f0-47b8-a58b-14037579107d,db2
-307,Computer Animation,f50029fa-feb4-40cf-931e-df58ebf62c4d,db2
-308,Bioethics,66b937c7-95af-4fea-97b8-1d2c965db445,db2
-309,Endophysics,595d763a-3320-46b0-9dc0-ee96a49189aa,db2
-310,Teaching and Learning,b88f9f41-1e40-402c-a134-14ce5fd0732e,db2
-311,Computers and Children,0ac58a65-2f92-4f08-ba79-eedac5069f69,db2
-312,Research Report,b2c25bea-1fbc-46b2-a374-0a1e3f43b2b2,db2
-313,Communication and Technology,2ebdcd4c-e109-45f2-967c-761542932f95,db2
-314,Desktop publishing,5dc3fe09-c68d-4114-aa9f-3d3ee36c5f61,db2
-315,Business Presentations,92d23a84-9af6-4af7-a206-ddc1fd5afff8,db2
-316,Technology,79fefe58-f107-41fc-b129-036322211068,db2
-317,Accessibility,1c02ae7b-d660-4c0d-aea0-166f020a4aa3,db2
-318,Telemedicine,9a267865-2c91-4cec-8c17-58c453ebdf20,db2
-319,Health,b452fd5b-d99f-4f51-aedd-f0b02bb12278,db2
-320,Computational Geometry,729622e2-4e1a-42ac-a57c-54c1cab23800,db2
-321,Design,af943445-4b27-464f-aa7f-c5cd6350b265,db2
-322,PowerPoint,5bedb175-a04d-4bb0-bf2d-29cae3aa9beb,db2
-323,Gerontechnology,93eb4fee-2765-4ad5-85ba-726a51b2a6d8,db2
-324,Smart Homes,13613549-4802-445b-b765-f6e4bd422f1a,db2
-325,Video Telephony,27adee9e-3ca1-4b47-bb3d-3b51ad9d7668,db2
-326,Text telephony,67276cf3-b728-4804-8a2b-aac7c12d700c,db2
-327,Media,f84e33e7-149f-459e-b0ba-e860688ee6e8,db2
-328,Information networks,b2bb7695-b5fb-4863-834d-0d4c6c84e5a1,db2
-329,Educational,2d45dfce-44e3-4fc4-ba92-666c439bba71,db2
-330,Children's Learning,b9d935c0-e721-42c5-92ff-ad24426f5526,db2
-331,Interactive Multimedia,ec9d55d6-1e03-4092-b6c2-f2c6e3783280,db2
-332,Art & Electronics,b43c6365-1271-41bb-b5c5-994d8d4c4542,db2
-333,Video Techniques,7341dce8-97bf-4121-9d08-b055d28cebdc,db2
-334,Activity theory,c9dda63d-c5dc-4c54-864f-05c8a2aca6bf,db2
-335,WWW,194faeba-2a46-44b7-a807-f82427d56ab1,db2
-336,Benchmarking,5333992f-9f41-4bcf-b921-b6e66a89bb72,db2
-337,Teleworking,09dcf92e-e030-446c-ac36-1bb14b96502f,db2
-338,Mathematical models,27e3d528-d99f-4a7d-904a-c2f286e34600,db2
-339,Guidelines,12ff7c84-8168-46d0-addc-14b214653e70,db2
-340,Computer Networks,0647c384-71d8-4234-878f-38a1ca61af6f,db2
-341,Graphical User Interfaces,5c5a6a0b-7ffe-459c-9b1c-9ac4774418a4,db2
-342,Web Design,fe7cb5d4-4439-43df-853e-82b866dcaec2,db2
-343,e-commerce,1fb1467f-56c5-4e7a-ad29-466d649aff09,db2
-344,Animation,c91fdceb-c354-4df0-86c6-19c582165009,db2
-345,Instructional Systems,de1efed6-a98a-4fe8-b818-9e88232de7d7,db2
-346,Decision Making,a03aaed5-70fb-491f-be8e-02311eab2a85,db2
-347,Computer-aided design,90f62147-4abb-49bd-a625-ae33a31b688d,db2
-348,Task Analysis,4fa36318-3712-48a5-ac30-bb34c9856574,db2
-349,Wearable Computers,7939b00a-968e-44b4-9a19-77b2ca6d9b9d,db2
-350,Markup Languages,4b88c583-ff2f-4a00-9901-794053fdacb4,db2
-351,International Studies,ac8d4ea9-1b45-49a0-b33e-fc9aa802f001,db2
-352,Collaboration,7fb137c4-a874-4634-888d-63afd85a19a9,db2
-353,Web ,8d526e45-590e-4f2b-a596-3b836461674b,db2
-354,XML,cc366422-6a8c-4ab1-b97e-1d0c25ccf101,db2
-355,SQL,7fd83fc3-38d8-4c14-99cc-51c9733bd9e5,db2
-356,Signs/Symbols,3192f6ff-2abe-4d11-b400-2f709e3b815f,db2
-357,Computing Systems,d2670214-4c9f-43d4-9c6f-1763b8d3ca4f,db2
-358,Pictorial Symbols,7432684d-fef4-43c1-af4a-f973e7705709,db2
-359,Machine Learning,52589d50-f7ee-4c50-8a9c-197e14962d08,db2
-360,Empirical Evaluation,0b70f449-d3bd-40f5-b0c8-9a5d5a8c26c8,db2
-361,Adaptive Systems,d226ffaf-6bfe-4a93-83a2-47165c375b26,db2
-362,Contracts,489fff03-dcf4-4a47-af22-263923ece0f3,db2
-363,Universal Access,30fbe910-a54b-4087-9ba1-736d2c48719d,db2
-364,Industrial Engineering,7a33c0ba-c633-4782-b177-b30a697187df,db2
-365,Medical Informatics,0a8409f5-3077-4880-924b-fba36d3a806f,db2
-366,Special Education,ca187b79-5da9-4474-8562-098800c7429f,db2
-367,Game-Based learning,a46e993c-698e-4285-997f-d3fa5a78882b,db2
-368,XSLT,3a0a1cbb-3424-4773-9868-1f25cdc19163,db2
-369,Human Communication,1bd619a2-9da7-47b3-aee3-456c170953d0,db2
-370,Cybernetics,cdd68962-dbca-4df4-81f6-d0f1ff832589,db2
-371,Presentation,083797a9-4c77-4267-83fd-9f887def7d74,db2
-372,Semantic Web,bb01b81f-9b2e-4429-bda6-a018fe4e04bf,db2
-373,Image Education,82eba79d-82cf-4f44-bd88-99746851db9e,db2
-374,Design for All,2b983dd2-3a5a-4713-9182-55fb1ad5de27,db2
-375,Software Design,79024920-53ab-4cae-9bd0-114192ab05f5,db2
-376,Support Systems,77dba204-2042-495b-b600-57331ce0f16a,db2
-377,ICT,c47c2569-a69f-4242-a558-cd52f6ba1b5d,db2
-378,Uniquitous Computing,ccd059a5-a997-428e-9543-24a5f130df45,db2
-379,Ubiquitous Computing,064afceb-8a40-4e63-bbd1-fa0a7bb88af7,db2
-380,Numerical simulation,28d9d539-151f-4eee-8d57-5d1d917c7912,db2
-381,Human Engineering,519846e3-d77f-410b-9ea0-bf1f3006a823,db2
-382,System Design,32d77591-75a9-4ff0-ab16-3c493e480773,db2
-383,Research,58f900b5-492c-437f-bb03-125673ff3ded,db2
-384,mobile communication,e88215ca-f9c1-4528-a90c-3ef3d99dee80,db2
-385,C++,f388c2ab-715e-4afd-a1ea-6c79955c4bc3,db2
-386,C#,c8deb412-e654-4fb1-a39e-772cdb65b530,db2
-388,Inclusive design,8864ffef-c119-49f1-9939-c5b3dbd72822,db2
-389,cross-media publishing,dcc77308-138a-4d98-b0e8-edcacaa4b643,db2
-390,service delivery,a7b08b46-c996-475a-98a5-0ebcb3ac6030,db2
-391,Socio-Ecocomic Issues,8467ca2b-3a09-44ed-bcc5-6f87b8d8e8b6,db2
-392,Information design,4427eb40-90c9-4af9-b74b-28037996739e,db2
-393,Environment,79d3293c-ea87-408d-b017-dfef9abf1c74,db2
-394,Assessment,01294746-83f6-4e8c-b4bb-cb52a92aae07,db2
-395,Mobile Devices and Services,b5cfcbdb-06ec-46f1-91c7-daa17c23cc19,db2
-396,Web Servers,d0bec3c7-ac6e-4503-a0e8-e1084a8c6d09,db2
-397,Networking,5f5dac9f-f39b-489e-b685-b309a25ddde7,db2
-398,Employment,cb118b45-4bbe-48d4-a8a3-09c6bcd9431f,db2
-399,eGovernment,0787b90f-bc52-4c10-964d-2fb5f44a29b0,db2
-400,Social Inclusion,3f2b2bfa-0663-476d-a91c-be611992a562,db2
-401,Culture,8f8ed4bb-70aa-443c-be34-d1b841d1a3f9,db2
-402,Social Exclusion,bfa3e784-d43f-43e9-bf5a-a2829183c385,db2
-403,Visualisation,233083b5-b0e7-4da3-97ef-0d094b1ddc1b,db2
-404,Reasoning,13cfd5f4-3e64-49ac-86cf-764a5bbf4e89,db2
-405,Disability and computers,4d75663a-f658-4c27-a6c7-e9758f207c21,db2
-406,eAccessibility,101464d9-988d-433b-a93d-7f03b68349e6,db2
-407,eInfrastructure,ec3c4b45-2269-46e3-bcb8-a5fc4a05600e,db2
-408,World Wide Web navigation,dcf678e7-b093-46cc-9fb4-21e9e10aae6d,db2
-409,User Support Tools,eeb1bb91-5177-4597-a0d4-42749bdffeef,db2
-410,Ambient Intelligence,92a384c4-255b-48ad-a149-202c55a06469,db2
-411,user experience,57b4a68d-d6ce-4e59-9788-cd5fbc077bb5,db2
-412,human interface,071c6be0-6c95-422e-8e2f-f94ae04c1037,db2
-413,information management,63b6bc46-1fb0-4f8b-a5e4-4d8a891252cd,db2
-414,engineering psychology,13661e87-922d-4c71-be47-cc658cbc3496,db2
-415,Augmented Reality,3bff9fc5-3d77-4b65-a29c-bbfb8b718ee5,db2
-416,social computing,100966a7-add2-43b1-8f1c-7134ebaa79a6,db2
-417,social media,9dd2f217-a9de-4c59-94e5-5d3b069ce6f4,db2
-418,augmented cognition,dcc502cc-8e42-401a-885e-4cf61111d6f4,db2
-419,Human Modeling,25a9930a-d092-4b17-982e-814ece91066e,db2
-420,Learning Technologies,6a271c96-fa7e-452c-867f-bc71e63530c2,db2
-421,Aged Population,51f9d6dd-821f-4d50-b326-316976f3976d,db2
-422,Security,4071c38d-f06f-40bd-9d40-dd94bb24b6a2,db2
-423,games,0bb00d55-a19f-4f58-ac65-22fc209ee644,db2
-424,mobility,5fbf55c2-da62-4ba0-875c-0fc20ae4e899,db2
-425,transport,1057be57-1558-443f-950c-c343483bc2b0,db2
-426,multimodality,c2fcb5ee-e885-4ede-a1f5-8334d1e5e1e9,db2
-427,pervasive interactions,5ac3d3e2-4f93-4420-b744-10f972d7f357,db2
-428,government,0d5cb5e8-2a2b-424b-aa7b-74cbd0a9377d,db2
-429,human aspects,a4dec12a-7aa6-4730-b869-505ef7c195a3,db2
-430,cybersecurity,c0d53eef-b5f3-4d5d-81d8-8099f787b5e6,db2
-431,cross-cultural design,9003dea8-c48f-493e-981d-a716cfffa7eb,db2
-432,Cognitive ergonomics,88c7caae-244d-4f40-8e12-05db193b56bb,db2
-433,Digital Human Modeling,17e50ab1-0d85-4501-833f-45f79f289e79,db2
-434,distributed interactions,89baccea-861e-46fd-929b-d7f050d597d5,db2
-435,privacy,862ecdc3-215c-4eed-bebc-e1ab9f947c70,db2
+541,virtual environments,850c767a-3795-595e-af44-841b68d8e97d,db1
+542,Assistive Environments,c25c2361-fb56-580e-822a-b67e94148458,db1
+543,Cybersecurity,5f6b3563-9aa4-5fce-bab9-938522d021c9,db1
+544,Cognitive Ergonomics,ce0b6e46-a3af-51f1-bfd8-bcd50b4c427a,db1
+545,well-being,1c2f254a-c375-5adc-85b4-c78029ac9a19,db1
+546,aging,e5ed0a5e-b076-5630-93d6-cc875822d719,db1
+547,ethics,fe18321e-6ed7-5abb-a7f7-c3ecf254cbe7,db1
+548,Sustainability,02a9c4ca-b149-51c7-a440-63389b498980,db1
+549,intelligent environments,241c1c1d-6c98-556d-9b61-fc1623335fee,db1
+550,Automation,a640455d-19b6-5c12-8178-25f3fdee1b68,db1
+551,e-services,d40aa7f1-a2a0-5287-a04f-5f7dcb394c85,db1
+552,Deep Learning,320c539f-7028-57b5-a59f-348d734b2028,db1
+553,Cognitive Technologies,80ebd192-3dc0-54a4-afda-ad1c7372ce88,db1
+554,Text-to-Speech (TTS) ,be3fd04b-beb6-5d24-8688-023a65427abf,db1
+555,Teaching Technology,40b7ab13-9f90-5c67-b055-540f49cf45ee,db1
+556,Information Science and Technology (IST),c4e4959b-ef2b-56e1-8641-6d376c13baca,db1
+557,extended reality,87557a8d-dffc-5a06-a5ac-a52a504b0247,db1
+558,biometrics,b5e35336-5226-5f45-b310-cccd0ca80bb6,db1
+559,arts,b0b2f859-fb59-5dcb-9ad2-dd093a497963,db1
+560,Metaverse,f893b9a7-efed-5a6c-8624-e27e63e086d4,db1
+561,UX,7cc23464-02a1-50f9-8a69-be7dabe5b9ca,db1
+562,artificial psychology,2ac5d2b6-c82c-5c10-9bd4-ad5347667dee,db1
+563,language models,28372092-1c86-5068-af8e-f6e12552125a,db1
+564,autism,210891de-64b3-542f-b3bf-feb02dd5e3b4,db1
+565,Conceptual Models,068783d2-010c-5698-afb1-384a7a1e5f90,db1
+566,humanity,39e06ca8-1202-5eb0-8c4d-dd345ed18230,db1
+567,sketching,d1de09d6-d6da-568c-a67c-980dfdff0b17,db1
+568,Technology Acceptance Model (TAM),69122e7b-55e5-51c9-88d5-375a5021d929,db1
+1,Equipment,6e4e83c0-d53c-5c14-948f-a05c2822761f,db2
+2,CD-ROMs,9321f8f9-046d-55f6-bbfd-6c9c029163c9,db2
+3,Communications,e9215128-f8a8-5aa3-a77b-4c936a815da1,db2
+5,Information Systems,ff1f9cdf-b854-5db8-b9dc-808a821f55e9,db2
+6,Catalogs,a9c936e2-43b3-59aa-8aab-c4fd8228e7cf,db2
+7,Human Factors,096f0524-c97b-5d53-8dec-28a28072ab26,db2
+8,Ergonomics Course,c4bceb3e-7bdc-5ffc-a3ac-ccf0ea22c434,db2
+9,General Purpose,a2f1e4a4-c14c-5259-b68f-45c8ad2758d5,db2
+10,Human-Computer Interaction,b57afbae-943a-550a-8557-c95ae7c8b981,db2
+12,Technical Aids,bbe79a14-9aa5-5464-8bf0-89ab8984f327,db2
+13,H/D Documentation,aa781b77-91be-51a7-bbc1-6e0c4e0fe2ab,db2
+14,Disability,41d318fa-559d-5d02-b80e-eb6dfb1738f1,db2
+15,User Interfaces,9c6feaaa-455b-51ae-89d1-93330b1aa6d4,db2
+16,CEC Programs,e5c501d3-b41d-59e0-9a26-b16d62ee45ca,db2
+18,Occupational Therapy,a1dbbbe5-749b-59ff-b7a9-5c73b10b54ec,db2
+19,Sociology,fb29b90e-e990-521b-82cd-59081950d709,db2
+20,Sun Systems,de92157c-9628-56d1-884b-ca0fd9f5b233,db2
+21,Assistive Technology,9440e82a-0ae5-57e2-97c7-fb182acc4554,db2
+22,Educational Technology,fe466eb3-4c66-5afa-a583-aeefdaa6ed65,db2
+23,Computer Graphics,362a4167-84a0-53b3-ac4b-f76cd628d648,db2
+24,Knowledge-Based Systems,9c285647-22ad-585d-8c1a-95492ec8f59e,db2
+25,Robotics,06811a15-5050-5496-a433-594c82e1dcb7,db2
+26,Computer Science,ee225a2b-06b8-5212-a376-7a1261875f18,db2
+27,IBM PC,eec3ee9d-de7d-5029-9cd5-74bab77d4edf,db2
+28,Programming Language C,b95625a6-5876-5c8b-a931-b6d37327330b,db2
+29,Expert Systems,3190ab31-ced6-504b-a4a1-e84c93c97add,db2
+30,Innovation,85d43148-707f-5a6a-8714-20bb50afbdf9,db2
+31,Object-Oriented Programming,826a5a02-5ade-5afb-b72c-84cc528fd07a,db2
+33,Speech Recognition,eef572a0-344b-5836-9d63-ad41b2792837,db2
+34,Software Engineering,4cae54a3-6da4-51f7-9505-0e95923885cc,db2
+36,Neural Computing,35d47058-f497-563e-ba47-123a4478e9ea,db2
+37,TIDE COST,2b793866-2516-5019-9c40-c8130861d104,db2
+38,Natural Language,5aab4d01-c0e9-5eef-9c4f-8f857073286d,db2
+39,Microsoft Office,ff8e3f79-90ea-58d3-b421-831c34e76fdf,db2
+40,Computational Linguistics,adfd3bfc-c578-50be-8750-e6afef8deea1,db2
+41,Multimedia Systems,28801988-7075-5eb2-bf79-3c6d3ce9d3e6,db2
+42,Artificial Intelligence,52670bfb-df65-550a-bba0-1ca2029eb874,db2
+43,Directory,3b49473c-9cd3-5365-8f85-e94f05500427,db2
+46,ESPRIT,73af87f6-1f0b-52e5-a7eb-fff2a5d81bc1,db2
+47,Graphics Programming,0feaab3d-bade-5084-8675-4297caa56eb3,db2
+48,RACE,8f5129c2-86cb-58f9-ab12-e9c1fd76fd72,db2
+49,Statistics,a8bd9afc-3cbb-5c96-81ff-04b2a4f09274,db2
+51,Internet/WEB Design,03fb2b57-66ad-552f-8aaa-7b42b7673148,db2
+52,Apple PC,007f87d3-c0d4-5442-a683-f04fb628a791,db2
+53,Logic Programming,aa306fe5-ed41-579a-adb6-5917ce37315d,db2
+54,Vocational Training,6d980a66-a7a9-5f89-a4bd-2996f89b58e3,db2
+56,Software Reengineering,500d816f-ce59-58e5-adc3-f5640face225,db2
+57,X-Windows,baa8c4f0-be18-56af-9e0e-552cf6e7c4a4,db2
+58,ERCIM,1eb3a5c1-eb2d-55e2-b2d4-ef1487e9909c,db2
+59,Software Development,13358fa5-6c92-5072-9b3b-1b71eeb2c59f,db2
+60,Testing,c5c313d3-e10a-57f5-9c96-3d0e100c7b4c,db2
+61,Psychology,7f5845cc-05b9-59e6-af97-09f86cc0db21,db2
+63,Virtual Reality,fa2bf652-9d05-5186-bf4c-2638516b31a5,db2
+64,AutoCAD,4e69351c-0a8d-5c6f-8b03-a6649a1c71e4,db2
+66,AutoVision,8132846e-14d2-5708-a7c6-b3dd81124c97,db2
+68,Multimedia,3207c17a-bf7c-53e5-a1c3-f2fb35be76ea,db2
+70,Human Performance,9a9e1880-bfe2-56bb-8366-cf1afd48e3d3,db2
+71,Marketing,1eed6274-496b-53ea-9650-92467161c915,db2
+72,Rehabilitation Technology,5b9ac638-4cb6-5bab-98b7-fd86ef38b61a,db2
+73,TIDE,ef17eeec-cdc4-50b1-9ca7-b81f5cb32ac3,db2
+75,Databases,8c904b55-1873-556d-8f6e-b3fd6d693799,db2
+76,Dictionaries,c58dcefa-07d1-590b-abc5-d7da2215c28a,db2
+77,Hypermedia,5b7ab9ef-270f-57ea-b2dd-177f52203410,db2
+78,Hypertext,ce2af93b-fc68-5fc9-9b5a-d91fe94e790f,db2
+79,ESPRIT/HUFIT,af235c84-722e-508d-b515-c9bcc739cf95,db2
+80,Usability,bc1d8384-e49e-5732-bf3b-59e628fabc73,db2
+81,Modeling,081b5a0f-f29b-578e-a5f2-f572d790279f,db2
+82,AIM,e6aa081b-861f-5407-bcfa-fff6661aeb45,db2
+83,Communication Aids,106b6647-c544-5907-ab1c-abd467710e8c,db2
+85,Prolog,76235060-3d1b-5b55-91f4-ffe26de9110f,db2
+86,Systems Analysis,c6fd1362-8435-5572-9f9b-15fdea0fd1e9,db2
+89,Networks,a4478e9e-98c2-5f5d-9b6f-197d2b2ae2ae,db2
+90,Information Technology,8e0efa41-892b-5044-a8b5-39ed67a6e228,db2
+92,Lecture Notes in Computer Science,39c0d4d0-7db4-5c67-a64a-fa7aa1bdcc2a,db2
+93,Borland C++,9c50ba4d-9a9d-5bf3-aef5-ff4b9d9de421,db2
+94,Paradox for Windows,afb52951-5def-5fa3-bdf3-83e36ca48fb2,db2
+95,Borland Visual,0f16228d-ae8c-597f-bafc-82f0900ad575,db2
+96,Turbo C,2cac203b-9e59-51bb-8af5-24d5e1534956,db2
+97,Paradox,c88eed66-51af-5c1e-9252-b277647d35e7,db2
+98,Borland C,04c15b0e-edaf-55ce-9e4a-0834926e83f0,db2
+100,MS-Windows,9cc0cc61-202b-5c49-b3b8-e38fa88acfca,db2
+101,Pattern Recognition,34770bbd-d859-5c56-8f42-5140a8852bd1,db2
+103,Ergonomics,e635d554-6232-5737-9a74-f61435990017,db2
+104,Management,678489d8-79de-5c23-91ea-cb46f06d4a79,db2
+106,Visualization,34c7ed27-e865-5281-84db-9fdae3f1648d,db2
+107,Compilers,74af61ec-f8cc-5027-b82a-ddd49db29fc6,db2
+108,Economics,187de0ae-0dcd-54d5-833c-436848c076bd,db2
+110,DESQview/X,3f222862-0c54-5caf-ac6c-b2ba30809a99,db2
+112,H/W Documentation,6c036b5d-2430-543c-9184-0c06d0114c86,db2
+113,Microcomputers,b12a2825-c0a7-591a-bfb4-e2b2a41b7a7a,db2
+114,Research Evaluation,b589b6fe-68e9-5f3e-9563-94627c4472c8,db2
+115,Data Structures,c77d1c73-bac0-5486-9404-3b70f080c8d3,db2
+116,Telecommunications,0161eca2-7528-550a-98a1-c1e786fca323,db2
+117,PC Tools,988e48df-b7e6-5f16-a9ea-e298d1274f06,db2
+119,BICEPS,6c692bab-023e-5933-81b3-c1d336cc52db,db2
+121,TIDE/ACCESS,85211233-d2c4-5954-abc0-ef738c0cc609,db2
+122,Signal Processing,f3c05b68-cd63-51a1-8c27-ddddd3134572,db2
+123,DELTA,ffd870db-11cd-5589-97db-78badd4c3cbe,db2
+125,RISE,56c464b6-40d8-5329-89d9-fec1b584983b,db2
+126,RACE/DRIVE/DELTA/AIM,43770e2b-aeb6-5843-9548-5caee3d62d97,db2
+127,DRIVE,70934ea4-00d4-5576-81c5-1dc41541ca1a,db2
+128,MS-DOS,1f99fdf6-886b-5da7-8aaf-88c55672d5c6,db2
+129,Corel Draw,73a0b376-b29b-540b-8eaa-a001bce4774e,db2
+131,Mouse,169a4230-6b4d-5514-924f-9d1af8ebf842,db2
+132,Sound Card,cbd34fa4-2784-5a3f-bfea-38247e176f1a,db2
+134,Business,0314b92b-fa23-58a6-8f30-01116bb832e7,db2
+137,Rehabilitation Engineering,1bc7c897-4b25-5adb-acb8-5a63e761a8d6,db2
+138,UNIX Operating System,89a3cbd7-fba6-5297-912d-a19daa638554,db2
+139,TIDE/GUIB,0dbd024b-060b-5446-942b-a8d6cdbf066f,db2
+140,Health Care,21be4c43-d365-571e-96a2-6caf251c086c,db2
+141,Telematics,ea1ef460-30b5-592b-a38b-ab39a26f6138,db2
+142,Cognitive Science,46af520c-973f-5429-8a13-5d142ae53257,db2
+143,Windows Programming,f7992b63-69f0-53e3-98a9-da07f81b4b4c,db2
+146,Braille,18cb8fd0-06d7-5cb1-a3bb-8e0e8bddaa66,db2
+147,Visual Languages,660032b0-8b9d-5ed4-949e-a4d3b2f65e25,db2
+148,Visual Systems,d0cb1826-7711-5e89-b689-eb3e20aad37a,db2
+150,Image Processing,73fd3a79-55ea-5b4e-8524-0718e6226636,db2
+152,Systems Design,29acf4d5-24ac-5aa0-b774-2bfdb77982f5,db2
+153,Serpent System,00dc00c4-0ffc-5941-8c2f-f37a7ca3658f,db2
+155,Printers,e55ee1b5-d950-579f-bdf2-1892ce328273,db2
+157,ICAP Directory,8417edff-c3a8-5fcd-9c52-d30aa9a2d196,db2
+158,Software Management,590254c0-8f81-5b27-a8c4-2219221c265a,db2
+159,Systems Engineering,10a9b7d4-afd3-5ed9-bd3d-abce0a8edd94,db2
+161,Mathematics,32120606-4aca-5b96-a7f9-5c7c86ec8d44,db2
+164,Authorware,84e9476a-6a90-54d6-a5b6-5c536d7950f0,db2
+165,Backup,86825b1e-c018-57c9-9559-dba7a3484744,db2
+166,Digital Systems,5054dc67-cba0-5c08-8770-86358f8946fe,db2
+168,Modem,75110fb6-d499-58d4-89cd-bf841904f807,db2
+169,Microsoft Visual C,92b6a8c0-e80a-55a9-82c0-c9c2fb23ec4a,db2
+170,Microsoft Windows,3e08805e-8e8e-5b22-9409-3e3e799c3fba,db2
+171,Microsoft MASM,e814686c-e126-5fd2-97d4-8da6312369dc,db2
+173,Microsoft Visual C++,8e97dd05-f635-53d4-882c-9cc469e0d76f,db2
+174,Microsoft Visual Basic,afa8f60f-7904-559f-8ad2-8a909b2e39f7,db2
+175,Microsoft Windows NT,41135a81-dee2-54c8-97da-afcf3e9a98c6,db2
+177,S/W Documentation,989b5f21-4e95-53cc-abd2-07f9bd529cc5,db2
+179,RTLink/Plus,68a372d2-1598-55a6-af1f-fc1518027a71,db2
+181,Voice Processing,11d41900-9c1d-56d8-aef0-0ffc1269b328,db2
+182,TIDE/COST,aa6e448d-1f84-5846-ab36-75d555b9869e,db2
+184,SAS Software,a7697693-c6b6-5576-98b1-5b1edfd28b02,db2
+185,WorldToolKit for Windows,eb62d801-9044-5285-9ca9-66edb88417ef,db2
+187,Speech Recognition Systems,d50d12c3-617d-5445-8415-480645f04671,db2
+189,XENIX,f2ebb930-7beb-5b39-8d90-8504a89cd41f,db2
+190,TIDE/HEART,5f28c240-d61c-5134-b848-e2780421a1f1,db2
+191,WordPerfect,3f9bbb6c-f51a-5f3b-b1ae-8dd762704ebb,db2
+196,Programming Languages,1a6f378a-a637-56f8-9de6-2d80d876f09f,db2
+197,Knowledge Representation,b05024bb-5251-542c-afdd-c2850afc6535,db2
+199,Focus Groups,3a00d95c-e5da-540f-87d2-151dd5b17d6d,db2
+201,Digital Libraries,8fe90597-f5c9-5fd5-8317-80f7c3eff4a8,db2
+203,Software Evaluation,0e3dec8d-3dbb-5b91-b871-5f968161135b,db2
+207,Computer Supported Cooperative Work,42aaf205-7826-56ae-8f79-d83cba64dc5d,db2
+208,Microprocessors,10cbfe1e-cc3d-52f4-a222-a922c9369891,db2
+210,Electronic Commerce,9c368d45-b82e-5874-bf5a-822397eb6a8d,db2
+213,Software Reuse,9a633ede-62a5-509f-9bd8-4f7f12ab4db4,db2
+216,Internet,eb7ab30b-36ee-530b-85fa-3c28ff275a4b,db2
+218,Audio-Visual,096363f3-6597-510c-a546-f972ab2e1ecb,db2
+221,Speech Reading,a44e4b8f-f2f1-53c1-86d7-0ff9acaa7069,db2
+226,Information Society,0f68cf46-661e-59f9-955f-509ec17ec2fc,db2
+230,Software Quality Management,8974f26f-318a-57e2-8a27-34531211ba3f,db2
+237,Quality Control,c9f5397d-8b51-5f96-8131-94f380ea2c2c,db2
+238,Standards,5faff9af-291c-5ad2-840d-a968cf6f8f1f,db2
+240,Dynamical Systems,d9bee4cf-bfc4-5634-b01d-f037753a5695,db2
+249,Basic,855f82c0-e1a0-55f5-a04a-166912bd8205,db2
+250,Multimedia Programming,40051908-f8b3-587a-878f-e961e386a67b,db2
+251,Work Groups,bf8b25da-3240-535f-980a-c903a666ad62,db2
+252,Scriptwriting,b1719d10-8cd2-5212-b49d-83abeac45056,db2
+253,Metaphors,0c2c0f80-0755-5f35-8ab2-02650b7932de,db2
+254,Groupware,46c8014c-ac52-55ed-9eb0-e6d4b861d608,db2
+255,Agents,50008cec-59d5-5c21-959d-59282139b761,db2
+257,Lecture Notes in Artificial Intelligence,36a461ba-b114-5ff9-8fc9-e86abac37fd6,db2
+258,Computer-Biographies,e0e2e70f-ea38-5498-9ad9-6f885f1b1d35,db2
+259,Geometry,b8d112b7-4bd5-5eec-a16e-c8bfc680c703,db2
+261,UNIX Programming,1c4b5022-97ae-5a5b-b2d4-6e75cf93e457,db2
+262,PowerChute Plus,d63f2afb-28ae-5a9d-9526-f962533eee5d,db2
+264,Norton Utilities,73cdd824-6ae0-5a77-9ebc-cbed2823958f,db2
+265,Grammatik 5,27ebc23f-2a7a-5686-b74f-d440f78a9e70,db2
+266,Autodesk 3D Studio,6335fbee-c7bf-5ec4-95fb-1d658047b21c,db2
+267,Cyberscpace Developer Kit,1d5437c6-9f75-57d9-b977-849799887e63,db2
+268,Turbo Assembler,ca622c5b-1b28-591f-b5de-18d7d1254a66,db2
+269,Turbo Debugger,4394ffad-91ce-5574-b8a5-7185c9c71b70,db2
+270,Turbo Profiler,e7b56441-6f75-5c37-b4a7-b77e29a781b3,db2
+271,Java,1a621742-1d69-56c9-be0c-8d04bc5721e9,db2
+272,Internet Programming,e3c25a4b-5f82-5199-ba5d-fb1091d5c1ae,db2
+273,Automated Reasoning,ba237e4b-a630-5705-b41d-873099260281,db2
+275,Business Re-engineering,7fc5d082-12bc-5c85-b137-373eb9b8fa50,db2
+276,Interactive Systems,eb761d9f-f4b1-5b2c-aa62-e201d0ed5a5d,db2
+277,Systems Development,221eeb5a-17f7-5ac0-9a22-f890837c8fd7,db2
+278,Cryptography,c4b662d8-d5f4-5b3f-8eba-5a2272e7fbb7,db2
+280,Semiotics,372fdd6d-5f22-5bff-bca8-88f2439a8884,db2
+281,Research Reports ESPRIT,7a22006a-9bbd-5d3e-b0e4-3d05e248cfda,db2
+282,Speech Technology,945fc630-c77d-57df-966b-03b618de60eb,db2
+284,Document designing,567ca04b-5f98-5eec-9ce7-071788db9af9,db2
+286,Programming,46cfe9a9-f86b-50c2-b2e0-0f13d7e3f7fb,db2
+287,Computer Visualisation,2ba5103c-78cf-5ce0-a71d-36fe64c0bbf3,db2
+292,Computer Documentation,cfa02237-35c1-5308-b8c5-0c0e731f25f5,db2
+293,Algorithms,94dd89cf-b9d8-5b8b-9cf0-20e1fa0b6a52,db2
+294,Computers and Civilisation,5d81dd09-de12-5b60-b079-538cb32c7585,db2
+295,Juvenile Literature,f46a684b-cfa4-594a-bd03-75791aab7269,db2
+296,Information Security,5ff2ebcf-51be-5697-9668-f4afa23b9c03,db2
+297,Graphic design,8cce6f53-d802-5368-95b7-31e79e75c378,db2
+299,Typography,629e1870-4093-52e1-9d16-a8b6e98b2f68,db2
+300,Art & Science,22995feb-543c-5be9-8f99-dd296d9c3230,db2
+301,Ethical & Social Aspects,d07060be-4ca6-5c2f-a299-fc19b9ff4039,db2
+302,Information Theory,ab20018b-c338-5b52-8293-0be7157bb8ee,db2
+303,Data Processing,11b11ed7-f41b-56c7-ab0b-ae3376129934,db2
+304,Law,8f3eec68-e648-52d3-8b63-bcc0a769ab67,db2
+305,Distance Learning,77b92d44-23bf-5f6b-b777-17d779da014f,db2
+306,Sign Language,0d090792-e3d5-5a2f-962e-dfdd3981ec17,db2
+307,Computer Animation,5641a177-47c6-51af-a39a-67d7c0555e54,db2
+308,Bioethics,dab03621-3822-5c86-91b0-73ff8c491cf0,db2
+309,Endophysics,1c4b2637-ccf9-5ef5-acc9-212b830ea596,db2
+310,Teaching and Learning,32f2c390-33c9-5d94-be36-b02d998436aa,db2
+311,Computers and Children,37fdb04d-b62e-57e4-835c-498d80839f7b,db2
+312,Research Report,3ac5ae5c-dbd3-5ce5-a549-9a4bb11ddeb9,db2
+313,Communication and Technology,47e814d4-a6c6-5075-9cd8-ae6b9f6ead04,db2
+314,Desktop publishing,9263a43c-c7e0-58e3-a161-e6b1a777d08e,db2
+315,Business Presentations,3ee68fe5-ba56-523c-9293-ba8d0165d7e5,db2
+316,Technology,36c43c87-639e-5765-ae84-72eed40b4823,db2
+317,Accessibility,28d2e92e-338e-5dd6-9c3a-a1c05b255d78,db2
+318,Telemedicine,4f3ed03e-000f-5deb-9f04-657038445181,db2
+319,Health,e07754a4-ef2c-5784-848e-b535612bab34,db2
+320,Computational Geometry,a2845e0e-25cd-5b07-85ba-b6486f0b93dd,db2
+321,Design,b80ed22a-40db-5bc7-85be-87957a479455,db2
+322,PowerPoint,ce63399e-6850-51fb-93ea-94f4d886bf57,db2
+323,Gerontechnology,7faafaf6-7269-5e69-9da9-74a07f54d1f2,db2
+324,Smart Homes,8f3ea10e-7305-5df9-8b79-02fdb8b20d62,db2
+325,Video Telephony,ec7fb4b9-57da-5046-ad02-d82631b7b92b,db2
+326,Text telephony,33c93c99-f16b-51e9-9d2c-13600617a3ab,db2
+327,Media,c7382d18-2261-53e6-ac42-098ff2022731,db2
+328,Information networks,f87a0938-6e23-5fb5-bac5-74f355a6ef03,db2
+329,Educational,47d69022-db7d-5842-8c57-8527cbb83493,db2
+330,Children's Learning,84900b1f-e018-5773-ab5e-a59ea268710d,db2
+331,Interactive Multimedia,db0159d9-1b59-5f85-9ff6-16e0e7f3f119,db2
+332,Art & Electronics,fe90729b-1f7b-5dd0-9b2d-8f1e03dff8e7,db2
+333,Video Techniques,b1b63402-ebb1-503c-be66-4458024ec06d,db2
+334,Activity theory,9ac69639-94c8-5d6b-9a14-dd1747ae7f60,db2
+335,WWW,d6cd7961-9a86-5c4e-aff0-69f630ad79f0,db2
+336,Benchmarking,9f350584-c5ed-5150-a59c-3fb1e0c29914,db2
+337,Teleworking,7527919a-32bf-5113-aa50-104d2c8cd572,db2
+338,Mathematical models,e87dfca3-c85a-5ff9-8a85-f02d608bc807,db2
+339,Guidelines,b065f523-aa1b-5b12-be2c-34c4b1313579,db2
+340,Computer Networks,9ab2e892-b932-5d03-9cdb-fc5ce8f32d81,db2
+341,Graphical User Interfaces,7b213f1d-6675-5804-a205-708e2712a1bb,db2
+342,Web Design,04802ba0-2be5-5e8c-97d0-97a15153769e,db2
+343,e-commerce,d05c0b39-d402-53b3-932b-62b3f5d82cb9,db2
+344,Animation,f267ddf7-c4d3-5200-a204-894afcc4de5b,db2
+345,Instructional Systems,5ff603c4-a6b0-5cdd-b4fa-a7c3d3ebd4f4,db2
+346,Decision Making,69c53d1f-9212-5f68-885d-0aa432319c8e,db2
+347,Computer-aided design,fbb3bdd3-0958-5c72-bb20-11f131bd05f3,db2
+348,Task Analysis,fcd5d64e-b903-57ce-bf64-80d83ecd160a,db2
+349,Wearable Computers,165d7f39-e8ca-5739-8fe4-7e6d83e2c71d,db2
+350,Markup Languages,b62f4b06-e896-59a6-9d3e-e61d72dfcf6e,db2
+351,International Studies,c4872a6b-9cc2-59aa-b0d4-41dbcaf7956e,db2
+352,Collaboration,137fa641-c57f-5039-bb60-1b9fd520cde2,db2
+353,Web ,1e9919fc-11a2-5b0e-b825-61ea935b7ad5,db2
+354,XML,4fd57a32-1b43-5a8f-af25-7e9ec44ddd5d,db2
+355,SQL,0ad33aeb-8c77-596c-b719-e73576ea5bcb,db2
+356,Signs/Symbols,a8a3094f-c8ea-5ea4-a5c9-7a46f1f99a28,db2
+357,Computing Systems,f03b59e9-c3ec-5fe8-90d4-3b57a6de1c80,db2
+358,Pictorial Symbols,376315e5-2c6d-5f0e-a642-77e1c3f1662d,db2
+359,Machine Learning,3deb657a-a241-5b25-9f10-b6a666190db7,db2
+360,Empirical Evaluation,f6e730cb-e6ec-5991-9c82-65a0bc25b4d1,db2
+361,Adaptive Systems,eef9f0d4-ca97-5d31-a8da-94b11eafea66,db2
+362,Contracts,c467bc5a-84e3-50ed-90a8-d45608f5b023,db2
+363,Universal Access,1e4deb7d-1e5a-5e59-a884-1c2070ad1652,db2
+364,Industrial Engineering,7482b461-c034-524a-aa4e-c7f8f4a28ce0,db2
+365,Medical Informatics,5d11290f-cca7-5d9b-9940-2b92238bd626,db2
+366,Special Education,5cc1c3e8-55d5-57ab-a3b8-d888f8ab85bd,db2
+367,Game-Based learning,84866137-8a7a-5e1e-b1bf-a8e468bd56d0,db2
+368,XSLT,068a5871-9c5c-56cf-ad7f-34f4023fe0da,db2
+369,Human Communication,c66f9bf3-087d-51dd-86d8-316032780046,db2
+370,Cybernetics,535ea99f-391d-5120-bbd6-28ec3629a7e7,db2
+371,Presentation,4bfe3362-1c04-5866-a7ea-bf664aee333f,db2
+372,Semantic Web,a14c474c-fec1-5dd4-a0f5-a852fa4bd6d0,db2
+373,Image Education,e4f6f0d3-0bc8-556a-ba22-8f54449e3908,db2
+374,Design for All,1b0012cf-a1c8-5e25-a2f5-a6ae5ef90f67,db2
+375,Software Design,feceaa67-9a3c-50ab-bb2c-b47da93eaafd,db2
+376,Support Systems,d4efa598-b10d-5a6c-9dde-ad588f415e8b,db2
+377,ICT,2070a6ee-949e-5db8-962f-d6f8bf673c03,db2
+378,Uniquitous Computing,eb0b77b7-7f86-5acf-be2f-91db95a3beb9,db2
+379,Ubiquitous Computing,0713729d-f441-51d5-86cb-c1887419df10,db2
+380,Numerical simulation,c9e87c3e-d363-5532-a6a8-cd06f4e64d1a,db2
+381,Human Engineering,37cb739e-19f9-5739-a94e-a1a127a628e5,db2
+382,System Design,684eab7f-2d4e-515c-a3a1-cfed25a83e6b,db2
+383,Research,6d96d2e2-0867-5908-930c-f478f9776157,db2
+384,mobile communication,501a5943-7d15-5c44-a72d-5092934c9e8f,db2
+385,C++,66e95511-40b2-540a-b377-1ed6a95d8d57,db2
+386,C#,f466706c-3744-5510-8e0c-52de8b16fbbf,db2
+388,Inclusive design,bfffc81b-3a11-51a6-8fff-853f5b27396f,db2
+389,cross-media publishing,c9635826-e5f4-5f77-824b-146a2a2b32c7,db2
+390,service delivery,0ae1d5a6-5dfc-5133-9c9b-734496502729,db2
+391,Socio-Ecocomic Issues,a3185cee-83d6-59e2-ad6d-64119f371e26,db2
+392,Information design,2b7b9b80-efb8-5c53-89a5-4f5674fbfabc,db2
+393,Environment,21e36a92-d8a7-584d-8c66-14b8e16d2721,db2
+394,Assessment,c637458a-7116-5afc-ab53-d4839fbb7495,db2
+395,Mobile Devices and Services,3fc6e0ba-d81f-5920-a114-78373c9774d0,db2
+396,Web Servers,b5784970-d083-5060-98a7-9646e2664008,db2
+397,Networking,e4820a6c-5d3d-5130-991d-f8f5d5b23bc2,db2
+398,Employment,9253ca44-1aa2-5521-96ca-6a1eb27ace99,db2
+399,eGovernment,0763578f-859d-511a-b7aa-00edbe0f3e0a,db2
+400,Social Inclusion,90217d9d-acba-5b41-aba3-2f453378505b,db2
+401,Culture,6ddeda13-753d-5c99-be97-94293b1ddbae,db2
+402,Social Exclusion,93225a37-4972-5f27-8cfa-908b3aed78de,db2
+403,Visualisation,faec0578-483e-5124-9022-1d93cb646665,db2
+404,Reasoning,7586d017-bd56-57a3-acc0-f29bd9102bc9,db2
+405,Disability and computers,df0a0f6a-94cc-5ed2-996e-7bd62bad58a2,db2
+406,eAccessibility,456a8ecd-d3ea-5704-a50c-db0301eb4d47,db2
+407,eInfrastructure,634500cb-0888-5a30-9f86-886d346f1c91,db2
+408,World Wide Web navigation,aa3528de-0991-5fd9-8748-ae60919c07f2,db2
+409,User Support Tools,27c35e14-2f75-5983-85af-7812bb868089,db2
+410,Ambient Intelligence,c672f628-2ddb-5b2a-b56d-fbc1042a6098,db2
+411,user experience,df2f6cf0-c21e-542e-b7f5-dafb14de9ed6,db2
+412,human interface,8d95962a-df90-528b-9413-faf2890f698b,db2
+413,information management,e8c48f99-f383-501c-9cfc-d4608b8755e3,db2
+414,engineering psychology,102ea66c-b9e7-576b-931c-00e652723e7d,db2
+415,Augmented Reality,f024686e-c19d-58a5-9d7e-f52c668da063,db2
+416,social computing,40f74e34-ae13-5d4c-b331-cd8f1f90a461,db2
+417,social media,28218695-10b4-5876-a376-90f41685e164,db2
+418,augmented cognition,7af2e68a-faae-5435-b0f3-0258f76c5dbf,db2
+419,Human Modeling,5a2ca56c-5d37-5abc-93b2-580ade0dfd09,db2
+420,Learning Technologies,f9d9f91e-d580-587c-bc8d-f131a90521ef,db2
+421,Aged Population,7cc63f99-af3f-5509-bf17-ec498e861dba,db2
+422,Security,7d5cbb5a-56e4-53b1-b601-c229c07b8623,db2
+423,games,02b0461d-368c-525c-821a-eae2262b408c,db2
+424,mobility,8bf04bb5-13c7-523c-b9d6-7305e9bd156a,db2
+425,transport,f4665447-29e3-5218-98d1-e83006ea810e,db2
+426,multimodality,0a4a5b62-af7c-5cc4-a0f4-58c559f8fac7,db2
+427,pervasive interactions,489eb53a-b5f0-55d5-a696-d9085c103935,db2
+428,government,7b7f264b-3b6e-5fa4-9b05-56dfc6f0fcab,db2
+429,human aspects,6ab0eaba-393d-5393-9a8c-98757609613e,db2
+430,cybersecurity,5f6b3563-9aa4-5fce-bab9-938522d021c9,db2
+431,cross-cultural design,7f1c008e-4a6f-598e-a7de-74760b0f9e23,db2
+432,Cognitive ergonomics,ce0b6e46-a3af-51f1-bfd8-bcd50b4c427a,db2
+433,Digital Human Modeling,9b96a040-9f5e-58d4-805c-56542553bd18,db2
+434,distributed interactions,0139fdb5-02e5-53c3-a272-16e91d1aa497,db2
+435,privacy,1af605bb-6ea2-5bfe-8797-03ccbd93183d,db2

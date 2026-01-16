@@ -10,6 +10,8 @@ import uuid
 import pandas as pd
 from pathlib import Path
 
+NS_BOOK_TOPICS = uuid.uuid5(uuid.NAMESPACE_DNS, "bookshelf.thesis.topics")
+
 
 def load_config():
     with open("config.json") as f:
@@ -43,6 +45,18 @@ def is_valid_id(val):
         return False
     s = str(val).strip()
     return s != "" and s.lower() != "nan"
+
+
+def generate_topic_uuid(row):
+    topic = str(row.get("Topic", "") or "").strip()
+
+    if topic:
+        key = f"topic:{topic.lower()}"
+    else:
+        # Fallback for empty topics - use original ID and source
+        key = f"fallback:{row.get('src', 'unknown')}:{row.get('TopicID', 'unknown')}"
+
+    return str(uuid.uuid5(NS_BOOK_TOPICS, key))
 
 
 def main():
@@ -91,7 +105,7 @@ def main():
     # Deduplicate by normalized name (db1 takes precedence)
     all_topics["norm_name"] = normalize(all_topics["Topic"])
     unique_topics = all_topics.drop_duplicates(subset="norm_name").copy()
-    unique_topics["new_id"] = [str(uuid.uuid4()) for _ in range(len(unique_topics))]
+    unique_topics["new_id"] = unique_topics.apply(generate_topic_uuid, axis=1)
 
     print(f"[INFO] Merged {len(all_topics)} topics -> {len(unique_topics)} unique")
 

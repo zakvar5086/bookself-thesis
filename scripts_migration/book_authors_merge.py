@@ -10,6 +10,8 @@ import uuid
 import pandas as pd
 from pathlib import Path
 
+NS_BOOK_AUTHORS = uuid.uuid5(uuid.NAMESPACE_DNS, "bookshelf.thesis.authors")
+
 
 def load_config():
     with open("config.json") as f:
@@ -62,6 +64,19 @@ def is_valid_id(val):
     return s != "" and s.lower() != "nan"
 
 
+def generate_author_uuid(row):
+    first = str(row.get("final_first_name", "") or "").strip()
+    last = str(row.get("final_last_name", "") or "").strip()
+
+    if last or first:
+        key = f"lastname:{last}:firstname:{first}"
+    else:
+        # Fallback for empty names - use original ID and source
+        key = f"fallback:{row.get('source_db', 'unknown')}:{row.get('AuthorID', 'unknown')}"
+
+    return str(uuid.uuid5(NS_BOOK_AUTHORS, key))
+
+
 def main():
     out_dir = Path("migration_output")
     out_dir.mkdir(exist_ok=True)
@@ -110,9 +125,9 @@ def main():
     # Merge and deduplicate
     all_authors = pd.concat([a1, a2], ignore_index=True)
     unique_authors = all_authors.drop_duplicates(subset="key").copy()
-    unique_authors["book_author_id"] = [
-        str(uuid.uuid4()) for _ in range(len(unique_authors))
-    ]
+    unique_authors["book_author_id"] = unique_authors.apply(
+        generate_author_uuid, axis=1
+    )
 
     print(f"[INFO] Merged {len(all_authors)} authors -> {len(unique_authors)} unique")
 
