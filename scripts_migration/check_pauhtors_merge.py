@@ -1,12 +1,12 @@
 """
-Validate the book authors migration output for data integrity.
+Validate the pauthors migration output for data integrity.
 
 Usage:
-    python -m scripts_migration.check_book_authors_merge
+    python -m scripts_migration.check_pauthors_merge
 
 Requires:
   - config.json with paths.db1 and paths.db2
-  - final_tables/ and metadata_new_tables/BOOK_AUTHORS/ with merge results
+  - final_tables/ and metadata_new_tables/PAUTHORS/ with merge results
 """
 
 import sys
@@ -26,73 +26,68 @@ def get_path(key):
 
 def get_norm_keys(df):
     f = df.get("FirstName", pd.Series(dtype=str)).fillna("").astype(str).str.strip()
-    m = df.get("MiddleName", pd.Series(dtype=str)).fillna("").astype(str).str.strip()
     l = df.get("LastName", pd.Series(dtype=str)).fillna("").astype(str).str.strip()
-
-    combined = (f + " " + m).str.strip().str.replace(r"\s+", " ", regex=True)
-    keys = combined.str.lower() + "|" + l.str.lower()
+    keys = f.str.lower() + "|" + l.str.lower()
     return set(keys[keys != "|"])
 
 
 def get_keys_series(df):
     f = df.get("FirstName", pd.Series(dtype=str)).fillna("").astype(str).str.strip()
-    m = df.get("MiddleName", pd.Series(dtype=str)).fillna("").astype(str).str.strip()
     l = df.get("LastName", pd.Series(dtype=str)).fillna("").astype(str).str.strip()
-    combined = (f + " " + m).str.strip().str.replace(r"\s+", " ", regex=True)
-    return combined.str.lower() + "|" + l.str.lower()
+    return f.str.lower() + "|" + l.str.lower()
 
 
 def main():
     print("=" * 60)
-    print("VALIDATING BOOK AUTHORS MIGRATION")
+    print("VALIDATING PAUTHORS MIGRATION")
     print("=" * 60)
 
     final_dir = get_path("final_tables")
-    meta_dir = get_path("metadata") / "BOOK_AUTHORS"
+    meta_dir = get_path("metadata") / "PAUTHORS"
 
     try:
-        new_authors = pd.read_csv(final_dir / "BOOK_AUTHORS.csv", dtype=str)
-        mapping = pd.read_csv(meta_dir / "author_id_mapping.csv", dtype=str)
+        new_pauthors = pd.read_csv(final_dir / "PAUTHORS.csv", dtype=str)
+        mapping = pd.read_csv(meta_dir / "pauthor_id_mapping.csv", dtype=str)
         enriched_db1 = pd.read_csv(
-            meta_dir / "book_authors_enriched_db1.csv", dtype=str
+            meta_dir / "papers_authors_enriched_db1.csv", dtype=str
         )
         enriched_db2 = pd.read_csv(
-            meta_dir / "book_authors_enriched_db2.csv", dtype=str
+            meta_dir / "papers_authors_enriched_db2.csv", dtype=str
         )
-        meta = pd.read_csv(meta_dir / "book_authors_migration_metadata.csv").iloc[0]
+        meta = pd.read_csv(meta_dir / "pauthors_migration_metadata.csv").iloc[0]
 
-        src1 = pd.read_csv(get_path("db1") / "Authors.csv", dtype=str)
-        src2 = pd.read_csv(get_path("db2") / "Authors.csv", dtype=str)
+        src1 = pd.read_csv(get_path("db1") / "PAuthors.csv", dtype=str)
+        src2 = pd.read_csv(get_path("db2") / "PAuthors.csv", dtype=str)
     except FileNotFoundError as e:
         print(f"[FAIL] Missing file: {e}")
         sys.exit(1)
 
     passed, failed = 0, 0
 
-    # Check 1: Author Preservation
-    print("\n[Check 1: Author Preservation]")
+    # Check 1: PAuthor Preservation
+    print("\n[Check 1: PAuthor Preservation]")
     s1_keys = get_norm_keys(src1)
     s2_keys = get_norm_keys(src2)
     all_source_keys = s1_keys.union(s2_keys)
 
-    nf = new_authors["first_name"].fillna("").str.strip()
-    nl = new_authors["last_name"].fillna("").str.strip()
+    nf = new_pauthors["first_name"].fillna("").str.strip()
+    nl = new_pauthors["last_name"].fillna("").str.strip()
     new_keys = set((nf.str.lower() + "|" + nl.str.lower()))
     new_keys.discard("|")
 
     missing = all_source_keys - new_keys
     if len(missing) == 0:
         print(
-            f"[PASS] All unique authors preserved (Source: {len(all_source_keys)}, New: {len(new_keys)})"
+            f"[PASS] All unique pauthors preserved (Source: {len(all_source_keys)}, New: {len(new_keys)})"
         )
         passed += 1
     else:
-        print(f"[FAIL] Missing {len(missing)} authors: {list(missing)[:5]}")
+        print(f"[FAIL] Missing {len(missing)} pauthors: {list(missing)[:5]}")
         failed += 1
 
     extra = new_keys - all_source_keys
     if extra:
-        print(f"[WARN] {len(extra)} unexpected authors in output")
+        print(f"[WARN] {len(extra)} unexpected pauthors in output")
 
     # Check 2: Mapping Completeness
     print("\n[Check 2: Mapping Completeness]")
@@ -124,14 +119,14 @@ def main():
 
     # Check 3: UUID Validity
     print("\n[Check 3: UUID Validity]")
-    valid_uuids = set(new_authors["book_author_id"])
-    mapped_uuids = set(mapping["new_book_author_id"].dropna())
+    valid_uuids = set(new_pauthors["author_id"])
+    mapped_uuids = set(mapping["new_author_id"].dropna())
     mapped_uuids.discard("")
     mapped_uuids.discard("nan")
 
     invalid = mapped_uuids - valid_uuids
     if len(invalid) == 0:
-        print(f"[PASS] All {len(mapped_uuids)} mapped UUIDs exist in BOOK_AUTHORS")
+        print(f"[PASS] All {len(mapped_uuids)} mapped UUIDs exist in PAUTHORS")
         passed += 1
     else:
         print(f"[FAIL] {len(invalid)} invalid UUIDs: {list(invalid)[:5]}")
@@ -139,7 +134,7 @@ def main():
 
     # Check 4: No Duplicates
     print("\n[Check 4: No Duplicates]")
-    if not new_authors["book_author_id"].duplicated().any():
+    if not new_pauthors["author_id"].duplicated().any():
         print("[PASS] No duplicate UUIDs")
         passed += 1
     else:
@@ -148,37 +143,37 @@ def main():
 
     new_keys_series = nf.str.lower() + "|" + nl.str.lower()
     if not new_keys_series.duplicated().any():
-        print("[PASS] No duplicate author names")
+        print("[PASS] No duplicate pauthor names")
         passed += 1
     else:
-        print("[FAIL] Duplicate author names found")
+        print("[FAIL] Duplicate pauthor names found")
         failed += 1
 
     # Check 5: Enriched Files
     print("\n[Check 5: Enriched Files Have Author IDs]")
-    db1_missing = enriched_db1["new_book_author_id"].isna() | (
-        enriched_db1["new_book_author_id"] == ""
+    db1_missing = enriched_db1["new_author_id"].isna() | (
+        enriched_db1["new_author_id"] == ""
     )
-    db2_missing = enriched_db2["new_book_author_id"].isna() | (
-        enriched_db2["new_book_author_id"] == ""
+    db2_missing = enriched_db2["new_author_id"].isna() | (
+        enriched_db2["new_author_id"] == ""
     )
 
     if db1_missing.sum() == 0:
         print(
-            f"[PASS] All enriched_db1 rows have new_book_author_id ({len(enriched_db1)} rows)"
+            f"[PASS] All enriched_db1 rows have new_author_id ({len(enriched_db1)} rows)"
         )
         passed += 1
     else:
-        print(f"[FAIL] {db1_missing.sum()} rows missing new_book_author_id")
+        print(f"[FAIL] {db1_missing.sum()} rows missing new_author_id")
         failed += 1
 
     if db2_missing.sum() == 0:
         print(
-            f"[PASS] All enriched_db2 rows have new_book_author_id ({len(enriched_db2)} rows)"
+            f"[PASS] All enriched_db2 rows have new_author_id ({len(enriched_db2)} rows)"
         )
         passed += 1
     else:
-        print(f"[FAIL] {db2_missing.sum()} rows missing new_book_author_id")
+        print(f"[FAIL] {db2_missing.sum()} rows missing new_author_id")
         failed += 1
 
     # Check 6: Row Count Verification
@@ -187,8 +182,8 @@ def main():
     skipped_db2 = int(meta["skipped_incomplete_db2"])
     orphaned_db1 = int(meta.get("orphaned_db1", 0))
     orphaned_db2 = int(meta.get("orphaned_db2", 0))
-    src_db1_count = int(meta["source_db1_book_authors"])
-    src_db2_count = int(meta["source_db2_book_authors"])
+    src_db1_count = int(meta["source_db1_papers_authors"])
+    src_db2_count = int(meta["source_db2_papers_authors"])
 
     expected_db1 = src_db1_count - skipped_db1 - orphaned_db1
     expected_db2 = src_db2_count - skipped_db2 - orphaned_db2
@@ -211,11 +206,11 @@ def main():
         print(f"[FAIL] DB2: got {len(enriched_db2)}, expected {expected_db2}")
         failed += 1
 
-    if len(new_authors) == len(all_source_keys):
-        print(f"[PASS] BOOK_AUTHORS count matches unique authors ({len(new_authors)})")
+    if len(new_pauthors) == len(all_source_keys):
+        print(f"[PASS] PAUTHORS count matches unique pauthors ({len(new_pauthors)})")
         passed += 1
     else:
-        print("[FAIL] BOOK_AUTHORS count mismatch")
+        print("[FAIL] PAUTHORS count mismatch")
         failed += 1
 
     # Check 7: Summary

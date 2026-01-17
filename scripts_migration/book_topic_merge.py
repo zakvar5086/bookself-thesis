@@ -60,8 +60,10 @@ def generate_topic_uuid(row):
 
 
 def main():
-    out_dir = Path("migration_output")
-    out_dir.mkdir(exist_ok=True)
+    final_dir = get_path("final_tables")
+    meta_dir = get_path("metadata") / "BOOK_TOPIC"
+    final_dir.mkdir(exist_ok=True)
+    meta_dir.mkdir(parents=True, exist_ok=True)
 
     print("=" * 60)
     print("BOOK TOPIC MERGE")
@@ -153,10 +155,10 @@ def main():
     final_topics = unique_topics[["new_id", "Topic"]].rename(
         columns={"new_id": "book_topic_id", "Topic": "topic_name"}
     )
-    final_topics.to_csv(out_dir / "BOOK_TOPIC.csv", index=False)
-    id_mapping.to_csv(out_dir / "topic_id_mapping.csv", index=False)
-    bt1.to_csv(out_dir / "book_topic_enriched_db1.csv", index=False)
-    bt2.to_csv(out_dir / "book_topic_enriched_db2.csv", index=False)
+    final_topics.to_csv(final_dir / "BOOK_TOPIC.csv", index=False)
+    id_mapping.to_csv(meta_dir / "topic_id_mapping.csv", index=False)
+    bt1.to_csv(meta_dir / "book_topic_enriched_db1.csv", index=False)
+    bt2.to_csv(meta_dir / "book_topic_enriched_db2.csv", index=False)
 
     # Metadata
     meta = {
@@ -172,7 +174,7 @@ def main():
         "id_mappings": len(id_mapping),
     }
     pd.DataFrame([meta]).to_csv(
-        out_dir / "book_topic_migration_metadata.csv", index=False
+        meta_dir / "book_topic_migration_metadata.csv", index=False
     )
 
     print("\n[PASS] Migration complete")

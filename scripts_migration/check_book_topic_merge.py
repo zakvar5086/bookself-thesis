@@ -6,7 +6,7 @@ Usage:
 
 Requires:
   - config.json with paths.db1 and paths.db2
-  - migration_output/ directory with merge results
+  - final_tables/ and metadata_new_tables/BOOK_TOPIC/ with merge results
 """
 
 import sys
@@ -29,14 +29,15 @@ def main():
     print("VALIDATING BOOK TOPIC MIGRATION")
     print("=" * 60)
 
-    out_dir = Path("migration_output")
+    final_dir = get_path("final_tables")
+    meta_dir = get_path("metadata") / "BOOK_TOPIC"
 
     try:
-        new_topics = pd.read_csv(out_dir / "BOOK_TOPIC.csv", dtype=str)
-        mapping = pd.read_csv(out_dir / "topic_id_mapping.csv", dtype=str)
-        enriched_db1 = pd.read_csv(out_dir / "book_topic_enriched_db1.csv", dtype=str)
-        enriched_db2 = pd.read_csv(out_dir / "book_topic_enriched_db2.csv", dtype=str)
-        meta = pd.read_csv(out_dir / "book_topic_migration_metadata.csv").iloc[0]
+        new_topics = pd.read_csv(final_dir / "BOOK_TOPIC.csv", dtype=str)
+        mapping = pd.read_csv(meta_dir / "topic_id_mapping.csv", dtype=str)
+        enriched_db1 = pd.read_csv(meta_dir / "book_topic_enriched_db1.csv", dtype=str)
+        enriched_db2 = pd.read_csv(meta_dir / "book_topic_enriched_db2.csv", dtype=str)
+        meta = pd.read_csv(meta_dir / "book_topic_migration_metadata.csv").iloc[0]
 
         src1 = pd.read_csv(get_path("db1") / "Topic.csv", dtype=str)
         src2 = pd.read_csv(get_path("db2") / "Topic.csv", dtype=str)

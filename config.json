@@ -4,7 +4,9 @@
     "db2": "export_booksCollection",
     "merged": "merged_csv",
     "duplicates": "duplicates",
-    "matched_results": "matched_results"
+    "matched_results": "matched_results",
+    "final_tables": "final_tables",
+    "metadata": "metadata_new_tables"
   },
 
   "clean_csv": {

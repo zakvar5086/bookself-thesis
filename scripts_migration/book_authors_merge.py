@@ -71,15 +71,16 @@ def generate_author_uuid(row):
     if last or first:
         key = f"lastname:{last}:firstname:{first}"
     else:
-        # Fallback for empty names - use original ID and source
         key = f"fallback:{row.get('source_db', 'unknown')}:{row.get('AuthorID', 'unknown')}"
 
     return str(uuid.uuid5(NS_BOOK_AUTHORS, key))
 
 
 def main():
-    out_dir = Path("migration_output")
-    out_dir.mkdir(exist_ok=True)
+    final_dir = get_path("final_tables")
+    meta_dir = get_path("metadata") / "BOOK_AUTHORS"
+    final_dir.mkdir(exist_ok=True)
+    meta_dir.mkdir(parents=True, exist_ok=True)
 
     print("=" * 60)
     print("BOOK AUTHORS MERGE")
@@ -150,7 +151,7 @@ def main():
         inplace=True,
     )
 
-    # 4. Enrich BookAuthors (Link Tables)
+    # Enrich BookAuthors (Link Tables)
     map_db1 = mapping[mapping["source_db"] == "db1"].set_index("old_author_id")
     ba1_enriched = ba1.merge(
         map_db1[["old_first_name", "old_last_name", "new_book_author_id"]],
@@ -187,10 +188,12 @@ def main():
     final_table = unique_authors[
         ["book_author_id", "final_first_name", "final_last_name"]
     ].rename(columns={"final_first_name": "first_name", "final_last_name": "last_name"})
-    final_table.to_csv(out_dir / "BOOK_AUTHORS.csv", index=False)
-    mapping.drop(columns=["key"]).to_csv(out_dir / "author_id_mapping.csv", index=False)
-    ba1_enriched.to_csv(out_dir / "book_authors_enriched_db1.csv", index=False)
-    ba2_enriched.to_csv(out_dir / "book_authors_enriched_db2.csv", index=False)
+    final_table.to_csv(final_dir / "BOOK_AUTHORS.csv", index=False)
+    mapping.drop(columns=["key"]).to_csv(
+        meta_dir / "author_id_mapping.csv", index=False
+    )
+    ba1_enriched.to_csv(meta_dir / "book_authors_enriched_db1.csv", index=False)
+    ba2_enriched.to_csv(meta_dir / "book_authors_enriched_db2.csv", index=False)
 
     # Metadata
     meta = {
@@ -208,7 +211,7 @@ def main():
         "id_mappings": len(mapping),
     }
     pd.DataFrame([meta]).to_csv(
-        out_dir / "book_authors_migration_metadata.csv", index=False
+        meta_dir / "book_authors_migration_metadata.csv", index=False
     )
 
     print("\n[PASS] Migration complete")

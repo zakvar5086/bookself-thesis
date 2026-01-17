@@ -1,0 +1,32 @@
+** Database Migration Project **
+This project handles the migration of two legacy databases into a single, unified database structure. The goal is to clean, merge, and standardize data (Books, Authors, Topics, etc.) from older exports into a new format.
+
+# Project Structure
+-- export_booksCollection/: Raw CSV exports from the first legacy database (DB1).
+
+-- export_books_2004/: Raw CSV exports from the second legacy database (DB2).
+
+--merged_csv/: The result of merging the two sources.
+
+-- final_tables/: Cleaned and finalized tables ready for the new database.
+
+-- scripts/: Python scripts used for cleaning, comparing, and merging the data.
+
+-- scripts_migration/: Specialized scripts for handling complex logic of the migration
+
+# How It Works
+The migration process is automated using Python scripts that:
+
+1. Read data from the legacy source folders.
+
+2. Clean & Standardize text (handling special characters, whitespace, etc.).
+
+3. Analyze unique identifiers (like ISBNs) to detect duplicates.
+
+4. Merge the datasets into the merged_csv folder.
+
+5. Generate final output files in final_tables.
+
+# Currently on
+
+-- Generating PAPERS, PAPER_AUTHORS

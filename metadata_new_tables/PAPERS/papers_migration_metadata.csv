@@ -1,0 +1,2 @@
+source_db1_papers,source_db2_papers,skipped_invalid_id_db1,skipped_invalid_id_db2,skipped_empty_title_db1,skipped_empty_title_db2,valid_db1_papers,valid_db2_papers,duplicates_merged,unique_papers,id_mappings
+625,427,0,0,0,0,625,427,425,627,1052
